@@ -1,0 +1,33 @@
+<project name="coms572">
+
+    <property name="src.dir" value="./src"/>
+    <property name="classes.dir" value="./out"/>
+    <!--property name="tomcat.base.dir" value="/home/jim/apache-tomcat-7.0.62"/-->
+    <!--loadproperties srcfile="${context.files.dir}/${context}/context.properties"/-->
+
+
+    <!--property name="tomcat.base.dir" value="C:\apache-tomcat-7.0.63"/-->
+    <!--property name="tomcat.home" value="${env.CATALINA_HOME}"/>
+    <property name="hudson.build.number" value="${env.BUILD_NUMBER}"/-->
+
+    <property name="deploy.dir" value="deploy"/>
+    <property name="lib.dir" value="WebContent/WEB-INF/lib"/>
+    <property name="src.dir" value="src"/>
+    <property name="classes.dir" value="out"/>
+
+    <path id="classpath">
+        <!--fileset dir="${lib.dir}" includes="**/*.jar"/>
+        <fileset dir="${tomcat.base.dir}/lib" includes="**/*.jar"/-->
+    </path>
+
+    <target name="compile">
+        <mkdir dir="${classes.dir}"/>
+        <javac srcdir="${src.dir}" destdir="${classes.dir}">
+            <classpath refid="classpath"/>
+        </javac>
+        <!--groovyc srcdir="${src.dir}" destdir="${classes.dir}">
+            <classpath refid="classpath"/>
+            <javac/>
+        </groovyc-->
+    </target>
+</project>
