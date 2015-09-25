@@ -6,26 +6,69 @@ import java.util.List;
 /**
  * Created by jtappe on 9/23/2015.
  */
-public class Node<N>
+public class Node<V, E>
 {
-    private N data;
+	private V data;
+	private Node<V, E> parent;
 
-    //Nodes that we connect to
-    protected List<Node<N>> neighbors;
+	//Nodes that we connect to
+	protected List<E> edges;
 
-    public Node(N data)
-    {
-        this.data = data;
-        neighbors = new ArrayList<Node<N>>();
-    }
+	public Node(V data, final List<E> edges)
+	{
+		initNode(data, edges, null);
+	}
 
-    public N getData()
-    {
-        return data;
-    }
+	public Node(V data, final List<E> edges, Node<V, E> parent)
+	{
+		initNode(data, edges, parent);
+	}
 
-    public final List<Node<N>> getNeighbors()
-    {
-        return neighbors;
-    }
+	private void initNode(V data, final List<E> edges, Node<V, E> parent)
+	{
+		this.data = data;
+
+		setEdges(edges);
+
+
+		this.parent = parent;
+	}
+
+	public V getData()
+	{
+		return data;
+	}
+
+	public final List<E> getEdges()
+	{
+		return edges;
+	}
+
+	public void setEdges(final List<E> edges)
+	{
+		this.edges = new ArrayList<E>();
+
+		if (edges != null)
+			for (E e : edges)
+				this.edges.add(e);
+
+	}
+
+
+	public Node<V, E> getParentNode()
+	{
+		return parent;
+	}
+
+	public int getDepth()
+	{
+		int ret = 0;
+		Node<V, E> curNode = this.parent;
+		while (curNode != null)
+		{
+			ret++;
+			curNode = curNode.parent;
+		}
+		return ret;
+	}
 }
