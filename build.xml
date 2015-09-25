@@ -1,7 +1,7 @@
 <project name="coms572">
 
     <property name="src.dir" value="./src"/>
-    <property name="classes.dir" value="./out"/>
+    <property name="classes.dir" value="./build/classes"/>
     <!--property name="tomcat.base.dir" value="/home/jim/apache-tomcat-7.0.62"/-->
     <!--loadproperties srcfile="${context.files.dir}/${context}/context.properties"/-->
 
@@ -50,8 +50,8 @@
 
     <target name="run" depends="jar">
         <echo message="${line.separator}${line.separator}${line.separator}${line.separator}${line.separator}${line.separator}${line.separator}${line.separator}"/>
-        <echo message="To run enter: java -jar ${build.jar.dir}${file.separator}${jar.name}.jar  [URL_START] [BREADTH | DEPTH | BEST | BEAM] {SEARCH_STRING} "/>
-        <!--java jar="${build.jar.dir}/UrlSearch.jar" fork="false" spawn="true"/-->
+        <echo message="To run enter: java -jar ${build.jar.dir}${file.separator}${jar.name}.jar  [URL_START] [BREADTH | DEPTH | BEST | BEAM] [ [true | false] [SEARCH_STRING] } "/>
+        <echo message="where [ [true | false] sets DEBUG"/>
     </target>
 
 

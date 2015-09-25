@@ -1,5 +1,7 @@
 package util;
 
+import ai.WebSearch;
+
 import java.io.*;
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -11,7 +13,7 @@ import java.util.List;
  */
 public class Utilities
 {
-	private static Boolean DEBUG = false;
+
 
 	public static synchronized void print(Object o)
 	{
@@ -41,18 +43,18 @@ public class Utilities
 
 	public static synchronized void debugf(String fmt, Object... args)
 	{
-		if(DEBUG)
+		if(WebSearch.DEBUG)
 			System.out.printf(fmt, args);
 	}
 	public static synchronized void debug(Object o)
 	{
-		if (DEBUG)
+		if (WebSearch.DEBUG)
 			System.out.println(o);
 	}
 
 	public static synchronized void debug()
 	{
-		if (DEBUG)
+		if (WebSearch.DEBUG)
 			System.out.println();
 	}
 
@@ -65,9 +67,9 @@ public class Utilities
 			is = (InputStream) url.getContent();
 			ret = inputStreamToString(is);
 		}
-		catch (IOException e)
+		catch (Exception e)
 		{
-			println("getURLContent: " + e);
+			error("getURLContent: " + e);
 		}
 		finally
 		{
@@ -76,13 +78,14 @@ public class Utilities
 				if (is != null)
 					is.close();
 			}
-			catch (IOException e)
+			catch (Exception e)
 			{
-				println("getURLContent: " + e);
+				error("getURLContent: " + e);
 			}
 		}
 		return ret;
 	}
+
 
 	public static synchronized String inputStreamToString(InputStream inputStream) throws IOException
 	{

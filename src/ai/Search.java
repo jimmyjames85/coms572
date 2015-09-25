@@ -91,17 +91,14 @@ public class Search
 		//TODO the order in which we add nodes to the frontier will
 		//affect the search
 		List<Link> linksToAdd = null;
-
-
-
-
+		explored.add(node.getData().getUrl());
 		switch (searchType)
 		{
-			case DEPTH:
+			case BREADTH:
 				linksToAdd = node.getData().extractLinks();
 				break;
-			case BREADTH:
-				linksToAdd = reverseList(node.getData().extractLinks());
+			case DEPTH:
+				linksToAdd = reverseList(node.getData().extractLinks());//because it's a stack
 				break;
 			case BEST:
 			case BEAM:
@@ -184,7 +181,7 @@ public class Search
 			}
 
 		}
-		explored.add(node.getData().getUrl());
+
 	}
 
 	private Boolean goalTest(Node<Page, Link> node)
