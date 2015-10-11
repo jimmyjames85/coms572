@@ -136,7 +136,7 @@ public class Search
                 {
                     debug("Skipping URL to JPEG: " + linkUrl);
                     linkUrl = null;
-                } else if (node.getData().getUrl().equals(linkUrl))
+                } else if (node.getData().getUrl().toExternalForm().equals(linkUrl.toExternalForm()))
                 {
                     debug("Skipping URL to self: " + linkUrl);
                     linkUrl = null;

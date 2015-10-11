@@ -18,7 +18,8 @@ public class WebSearch
 	{
         //String[] arr = { "https://www.cyhire.iastate.edu/students/index.php?mode=form&id=7f5b12eb95d56a3b5009568e9721ed97&s=event&ss=cf&__paging=0" , "BREADTH" , "true",  "SALARY LEVEL"};
         //String[] arr = {"https://www.cyhire.iastate.edu/students/index.php?s=employers&ss=employers&mode=profile&id=7c6183382fe3dc02a701eb488eaa6586&cf=cb3660340814e327cef4a877fcae6885&cfc=7f5b12eb95d56a3b5009568e9721ed97&sss=", "BREADTH" , "true",  "getTabContent"};
-        //args = arr;
+		String[] arr = {"https://cyhire.iastate.edu/students/index.php?mode=form&id=7f5b12eb95d56a3b5009568e9721ed97&s=event&ss=cf&__paging=0", "BREADTH" , "true",  "getTabContent('postings',"};
+        args = arr;
 		if (args.length < 2)
 		{
 			System.out.println("You must provide the directoryName and searchStrategyName.  Please try again.");
