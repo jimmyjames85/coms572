@@ -33,6 +33,7 @@ public class Point implements Comparable<Point>
 		return 0;
 	}
 
+	private static final double ERR = .000001;
 	@Override
 	public boolean equals(Object o)
 	{
@@ -42,7 +43,9 @@ public class Point implements Comparable<Point>
 			return false;
 
 		Point point = (Point) o;
-		return ((Point) o).compareTo(this) == 0;
+		return (Math.abs(point.x - x)< ERR) && (Math.abs(point.y - y)< ERR);
+
+
 	}
 
 	@Override

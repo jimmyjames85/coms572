@@ -1,5 +1,7 @@
 package project2;
 
+import static util.Utilities.*;
+
 /**
  * Created by jim on 10/10/15.
  */
@@ -25,14 +27,15 @@ public class Line
 		{
 			this.s = t;
 			this.t = s;
-		}
-		else if(cmp==0)
+		} else if (cmp == 0)
 		{
 			throw new IllegalArgumentException("The points do not create a line! ");
 		}
 
 
 		this.slope = calculateSlope(s, t);
+		calculateYIntercept();
+
 	}
 
 
@@ -51,32 +54,37 @@ public class Line
 		return slope;
 	}
 
-	public Double minX()
+	public Double getYIntercept()
+	{
+		return yIntercept;
+	}
+
+	public double minX()
 	{
 		return Math.min(s.x, t.x);
 	}
 
-	public Double maxX()
+	public double maxX()
 	{
 		return Math.max(s.x, t.x);
 	}
 
-	public Double minY()
+	public double minY()
 	{
 		return Math.min(s.y, t.y);
 	}
 
-	public Double maxY()
+	public double maxY()
 	{
 		return Math.max(s.y, t.y);
 	}
 
-	public Double getYIntercept()
+	private void calculateYIntercept()
 	{
 		if (slope == null)
-			return null;
+			return;
 
-		return s.y - slope * s.x;
+		this.yIntercept =  s.y - slope * s.x;
 	}
 
 	public Point calculateIntersection(Line o)
@@ -84,16 +92,38 @@ public class Line
 		if (o == null)
 			throw new IllegalArgumentException("Null point error!");
 
+
+		if(this.getEndPoint().equals(o.getEndPoint()))
+			return o.getEndPoint();
+
+		if(this.getStartPoint().equals(o.getStartPoint()))
+			return o.getStartPoint();
+
 		Double dm;
 		if (o.slope == null || this.slope == null || (dm = (this.slope - o.slope)) == 0)
-			return null;
+		{
+			if(o.slope == null)
+			{
+				if(this.slope == null)
+					return null;
 
-		Double yint = this.getYIntercept();
-		Double db = o.getYIntercept() - yint;
+				return new Point( o.s.x, (int)(this.slope*o.s.x + this.yIntercept));
+			}
+			else
+			{
+				return new Point( s.x, (int)(o.slope*s.x + o.yIntercept));
+			}
+		}
 
 
-		Double x = db / dm;
-		Double y = slope * x + yint;
+
+		Double yint = this.yIntercept;
+		Double db = o.yIntercept - yint;
+
+
+		double x = (db / dm);
+		double y = (slope * x + yint);
+
 
 		return new Point(x, y);
 	}
@@ -107,10 +137,25 @@ public class Line
 		if (intersection == null)
 			return false;
 
-		return (o.minX() <= intersection.x && intersection.x <= o.maxX()) &&
-				(minX() <= intersection.x && intersection.x <= maxX()) &&
-				(o.minY() <= intersection.y && intersection.y <= o.maxY()) &&
-				(minY() <= intersection.y && intersection.y <= maxY());
+		println (o);
+		println (this);
+
+		println(minX() +"<"+intersection.x+"<"+maxX());
+		println(o.minX() +"<"+intersection.x+"<"+o.maxX());
+
+		println(minY() +"<"+intersection.y+"<"+maxY());
+		println(o.minY() +"<"+intersection.y+"<"+o.maxY());
+
+
+		println((o.minX() < intersection.x && intersection.x < o.maxX()));
+		println(minX() < intersection.x && intersection.x < maxX());
+		println(o.minY() < intersection.y && intersection.y < o.maxY());
+		println(minY() < intersection.y && intersection.y < maxY());
+
+		return ( (o.minX() < intersection.x && intersection.x < o.maxX()) &&
+				(minX() < intersection.x && intersection.x < maxX()) &&
+				(o.minY() < intersection.y && intersection.y < o.maxY()) &&
+				 (minY() < intersection.y && intersection.y < maxY()));
 	}
 
 	public static Double calculateSlope(Point s, Point t)
@@ -134,6 +179,7 @@ public class Line
 
 		Line line = (Line) o;
 
+
 		if (s != null ? !s.equals(line.s) : line.s != null)
 			return false;
 		return !(t != null ? !t.equals(line.t) : line.t != null);
@@ -143,10 +189,14 @@ public class Line
 	@Override
 	public String toString()
 	{
+
+		String msg="y = " + getSlope() + "(x) + " + yIntercept;
+
+
 		return "Line{" +
 				"s=" + s +
 				", t=" + t +
-				'}';
+				'}' + msg;
 	}
 
 	@Override
@@ -155,6 +205,14 @@ public class Line
 		int result = s.hashCode();
 		result = 31 * result + t.hashCode();
 		return result;
+	}
+
+	public static void main(String args[])
+	{
+		Line l1 = new Line(new Point(6,13), new Point(11,26));
+		Line l2 = new Line(new Point(6,13), new Point(13,25));
+
+		System.out.println(l1.intersectsLine(l2));
 	}
 }
 

@@ -1,8 +1,10 @@
 package project2;
 
 import aima.core.search.csp.CSP;
+import aima.core.search.csp.Domain;
 import aima.core.search.csp.NotEqualConstraint;
 import aima.core.search.csp.Variable;
+import aima.gui.applications.search.csp.CSPView;
 
 import static util.Utilities.*;
 
@@ -35,8 +37,9 @@ public class UnitSquareMap extends CSP
 	 * @param nodeTotal
 	 * @param threeColors -true means 3-coloring -false means 4-coloring
 	 */
-	public UnitSquareMap(int nodeTotal, boolean threeColors, Rectangle mapDimensions)
+	public UnitSquareMap(int nodeTotal, boolean threeColors)//, Rectangle mapDimensions)
 	{
+		mapDimensions = new Rectangle(0, 0, 40, 40);
 
 		if (nodeTotal < 1)
 			throw new IllegalArgumentException("nodeTotal must be > 0");
@@ -50,7 +53,26 @@ public class UnitSquareMap extends CSP
 
 		createPoints(this.nodeTotal);
 		addVariables();
+
+
 		createLines();
+		addConstraints();
+	}
+
+	public void updateCSPView(CSPView view)
+	{
+		view.clearMappings();
+		for (Point p : points)
+			view.setPositionMapping(variables.get(p), (int) p.x, (int) p.y);
+
+		view.setColorMapping(RED, Color.RED);
+		view.setColorMapping(GREEN, Color.GREEN);
+		view.setColorMapping(BLUE, Color.BLUE);
+
+		Domain colors = new Domain(new Object[]{RED, GREEN, BLUE});
+
+		for (Variable var : getVariables())
+			setDomain(var, colors);
 	}
 
 	private void createPoints(int nodeTotal)
@@ -82,51 +104,67 @@ public class UnitSquareMap extends CSP
 	{
 		this.lines = new HashSet<Line>();
 
-
 		ArrayList<Point> selection = new ArrayList<Point>();
 		for (Point p : points)
 			selection.add(p);
 
+		boolean broke=false;
 
-		while (selection.size()>0)
+		while (selection.size() > 0)
 		{
 			Point select = selection.get(rand.nextInt(selection.size()));
+			println("Select: "+ select);
+
 			List<Point> distanceList = calcDistances(select);
 
 			int i = -1;
 			for (i = 0; i < distanceList.size(); i++)
 			{
 				Point p = distanceList.get(i);
-				if (!p.equals(select))
-				{
-					Line newLine = new Line(select, p);
-					boolean noIntersection = true;
+				println("\tconsidering: " + p);
 
-					if (!lines.contains(newLine))
+				Line newLine=null;
+				if (!p.equals(select) && !lines.contains(newLine = new Line(select, p)))
+				{
+					println("\t\tnewLine= " + newLine);
+					boolean intersection = false;
+					for (Line l : lines)
 					{
-						for (Line l : lines)
+						intersection |= l.intersectsLine(newLine);
+						if (intersection)
 						{
-							noIntersection &= l.intersectsLine(newLine);
-							if (noIntersection)
-								break;
+							println("\t\tintersection" + l + " and " + newLine   );
+							break;
 						}
 					}
 
-					if (noIntersection)
+					if (!intersection)
 					{
+
 						lines.add(newLine);
+						println("\t\taddingNewLine " + newLine);
+						broke=true;
 						break;
 					}
 				}
+				else
+				{
+					println("\tnot adding " +p + " " + newLine);
+				}
+
+
 			}
-			selection.remove(select);
+
+			if(i==distanceList.size())
+				selection.remove(select);
+
 		}
 	}
 
 	private void addConstraints()
 	{
-		for(Line l: lines)
-			addConstraint(new NotEqualConstraint(variables.get(l.getStartPoint()),variables.get(l.getEndPoint())));
+		for (Line l : lines)
+			addConstraint(new NotEqualConstraint(variables.get(l.getStartPoint()), variables.get(l.getEndPoint())));
 
 	}
 
@@ -188,6 +226,6 @@ public class UnitSquareMap extends CSP
 		println(l1.intersectsLine(l2));
 		println("y = " + l2.getSlope() + " X  +  " + l2.getYIntercept());
 
-		new UnitSquareMap(10, true, new Rectangle(0, 0, 10, 10));
+		new UnitSquareMap(10, true);//, new Rectangle(0, 0, 10, 10));
 	}
 }
