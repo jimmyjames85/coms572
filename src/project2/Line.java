@@ -107,11 +107,11 @@ public class Line
 				if(this.slope == null)
 					return null;
 
-				return new Point( o.s.x, (int)(this.slope*o.s.x + this.yIntercept));
+				return new Point( o.s.x, (this.slope*o.s.x + this.yIntercept));
 			}
 			else
 			{
-				return new Point( s.x, (int)(o.slope*s.x + o.yIntercept));
+				return new Point( s.x, (o.slope*s.x + o.yIntercept));
 			}
 		}
 
@@ -140,22 +140,16 @@ public class Line
 		println (o);
 		println (this);
 
-		println(minX() +"<"+intersection.x+"<"+maxX());
-		println(o.minX() +"<"+intersection.x+"<"+o.maxX());
+		println(o.minX() +"<"+intersection.x+"<"+o.maxX() + "= " + (((o.minX() < intersection.x) && (intersection.x < o.maxX()))));
+		println(minX() +"<"+intersection.x+"<"+maxX() + "= " + (minX() < intersection.x && intersection.x < maxX()));
+		println(o.minY() +"<"+intersection.y+"<"+o.maxY() + "= " + (o.minY() < intersection.y && intersection.y < o.maxY()));
+		println(minY() +"<"+intersection.y+"<"+maxY() + "= " + (minY() < intersection.y && intersection.y < maxY()));
 
-		println(minY() +"<"+intersection.y+"<"+maxY());
-		println(o.minY() +"<"+intersection.y+"<"+o.maxY());
 
-
-		println((o.minX() < intersection.x && intersection.x < o.maxX()));
-		println(minX() < intersection.x && intersection.x < maxX());
-		println(o.minY() < intersection.y && intersection.y < o.maxY());
-		println(minY() < intersection.y && intersection.y < maxY());
-
-		return ( (o.minX() < intersection.x && intersection.x < o.maxX()) &&
-				(minX() < intersection.x && intersection.x < maxX()) &&
-				(o.minY() < intersection.y && intersection.y < o.maxY()) &&
-				 (minY() < intersection.y && intersection.y < maxY()));
+		return ( ((o.minX() < intersection.x && intersection.x < o.maxX()) || (o.minX()==o.maxX() && o.minX()==intersection.x)) &&
+				((minX() < intersection.x && intersection.x < maxX()) || (minX()==maxX() && minX()==intersection.x)) &&
+                ((o.minY() < intersection.y && intersection.y < o.maxY()) || (o.minY()==o.maxY() && o.minY()==intersection.y) )&&
+                ((minY() < intersection.y && intersection.y < maxY())) || (minY()==maxY() && minY()==intersection.y));
 	}
 
 	public static Double calculateSlope(Point s, Point t)
@@ -209,8 +203,8 @@ public class Line
 
 	public static void main(String args[])
 	{
-		Line l1 = new Line(new Point(6,13), new Point(11,26));
-		Line l2 = new Line(new Point(6,13), new Point(13,25));
+		Line l1 = new Line(new Point(22,34), new Point(26,38));
+		Line l2 = new Line(new Point(6,31), new Point(10,31));
 
 		System.out.println(l1.intersectsLine(l2));
 	}

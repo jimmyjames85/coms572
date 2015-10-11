@@ -57,7 +57,14 @@ public class UnitSquareMap extends CSP
 
 		createLines();
 		addConstraints();
-	}
+
+
+        Domain colors = new Domain(new Object[]{RED, GREEN, BLUE});
+
+        for (Variable var : getVariables())
+            setDomain(var, colors);
+
+    }
 
 	public void updateCSPView(CSPView view)
 	{
@@ -68,11 +75,6 @@ public class UnitSquareMap extends CSP
 		view.setColorMapping(RED, Color.RED);
 		view.setColorMapping(GREEN, Color.GREEN);
 		view.setColorMapping(BLUE, Color.BLUE);
-
-		Domain colors = new Domain(new Object[]{RED, GREEN, BLUE});
-
-		for (Variable var : getVariables())
-			setDomain(var, colors);
 	}
 
 	private void createPoints(int nodeTotal)
@@ -223,9 +225,9 @@ public class UnitSquareMap extends CSP
 		Line l1 = new Line(new Point(6, 6), new Point(10, 10));
 		Line l2 = new Line(new Point(0, 10), new Point(10, 0));
 
-		println(l1.intersectsLine(l2));
-		println("y = " + l2.getSlope() + " X  +  " + l2.getYIntercept());
+		//println(l1.intersectsLine(l2));
+		//println("y = " + l2.getSlope() + " X  +  " + l2.getYIntercept());
 
-		new UnitSquareMap(10, true);//, new Rectangle(0, 0, 10, 10));
+		//new UnitSquareMap(10, true);//, new Rectangle(0, 0, 10, 10));
 	}
 }
