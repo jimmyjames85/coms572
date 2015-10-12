@@ -6,8 +6,6 @@ import aima.core.search.csp.NotEqualConstraint;
 import aima.core.search.csp.Variable;
 import aima.gui.applications.search.csp.CSPView;
 
-import static util.Utilities.*;
-
 import java.awt.*;
 import java.util.*;
 import java.util.List;
@@ -22,9 +20,10 @@ public class UnitSquareMap extends CSP
 	public static final String GREEN = "GREEN";
 	public static final String BLUE = "BLUE";
 	public static final String ORANGE = "ORANGE";
+	public static final String PURPLE = "PURPLE";
+	public static final String YELLOW = "YELLOW";
 
 	private Random rand;
-	private boolean threeColors;
 	private int nodeTotal;
 
 	private TreeSet<Point> points;
@@ -32,39 +31,50 @@ public class UnitSquareMap extends CSP
 	private Map<Point, Variable> variables;
 
 	private Rectangle mapDimensions;
+	private boolean threeColors= true;
 
 	/**
 	 * @param nodeTotal
 	 * @param threeColors -true means 3-coloring -false means 4-coloring
 	 */
-	public UnitSquareMap(int nodeTotal, boolean threeColors)//, Rectangle mapDimensions)
+	public UnitSquareMap(int nodeTotal, boolean threeColors, Rectangle mapDimensions)
 	{
-		mapDimensions = new Rectangle(0, 0, 40, 40);
+		this.mapDimensions = mapDimensions;
 
 		if (nodeTotal < 1)
 			throw new IllegalArgumentException("nodeTotal must be > 0");
 
 		this.nodeTotal = nodeTotal;
-		this.threeColors = threeColors;
-		this.mapDimensions = mapDimensions;
-
 		this.rand = new Random(System.currentTimeMillis());
 		this.variables = new HashMap<Point, Variable>();
 
 		createPoints(this.nodeTotal);
 		addVariables();
 
-
+		setThreeColors(threeColors);
 		createLines();
 		addConstraints();
 
-
-        Domain colors = new Domain(new Object[]{RED, GREEN, BLUE});
-
-        for (Variable var : getVariables())
-            setDomain(var, colors);
-
     }
+
+	public void setThreeColors(boolean threeColors)
+	{
+		this.threeColors = threeColors;
+		Domain colors = new Domain(new Object[]{RED, GREEN, BLUE});
+
+		if(!threeColors)
+			colors = new Domain(new Object[]{RED, GREEN, BLUE, PURPLE});
+
+		for (Variable var : getVariables())
+			setDomain(var, colors);
+
+	}
+
+	public boolean getThreeColors()
+	{
+		return threeColors;
+	}
+
 
 	public void updateCSPView(CSPView view)
 	{
@@ -75,6 +85,9 @@ public class UnitSquareMap extends CSP
 		view.setColorMapping(RED, Color.RED);
 		view.setColorMapping(GREEN, Color.GREEN);
 		view.setColorMapping(BLUE, Color.BLUE);
+		view.setColorMapping(ORANGE, Color.ORANGE);
+		view.setColorMapping(PURPLE, Color.MAGENTA);
+		view.setColorMapping(YELLOW, Color.YELLOW);
 	}
 
 	private void createPoints(int nodeTotal)
@@ -88,6 +101,11 @@ public class UnitSquareMap extends CSP
 			points.add(new Point(x, y));
 		}
 
+	}
+
+	public int getNodeTotal()
+	{
+		return nodeTotal;
 	}
 
 	private void addVariables()
@@ -110,12 +128,10 @@ public class UnitSquareMap extends CSP
 		for (Point p : points)
 			selection.add(p);
 
-		boolean broke=false;
-
 		while (selection.size() > 0)
 		{
 			Point select = selection.get(rand.nextInt(selection.size()));
-			println("Select: "+ select);
+			//println("Select: "+ select);
 
 			List<Point> distanceList = calcDistances(select);
 
@@ -123,19 +139,21 @@ public class UnitSquareMap extends CSP
 			for (i = 0; i < distanceList.size(); i++)
 			{
 				Point p = distanceList.get(i);
-				println("\tconsidering: " + p);
+				//println("\tconsidering: " + p);
 
 				Line newLine=null;
 				if (!p.equals(select) && !lines.contains(newLine = new Line(select, p)))
 				{
-					println("\t\tnewLine= " + newLine);
+					//println("\t\tnewLine= " + newLine);
 					boolean intersection = false;
 					for (Line l : lines)
 					{
+						//println("\t\t\tchecking " + l);
+						//println("\t\t\t\tintersect = " + l.intersectsLine(newLine));
 						intersection |= l.intersectsLine(newLine);
 						if (intersection)
 						{
-							println("\t\tintersection" + l + " and " + newLine   );
+							//println("\t\t\tintersection " + l + " and " + newLine   );
 							break;
 						}
 					}
@@ -144,14 +162,13 @@ public class UnitSquareMap extends CSP
 					{
 
 						lines.add(newLine);
-						println("\t\taddingNewLine " + newLine);
-						broke=true;
+						//println("\t\taddingNewLine " + newLine);
 						break;
 					}
 				}
 				else
 				{
-					println("\tnot adding " +p + " " + newLine);
+					//println("\tnot adding " +p + " " + newLine);
 				}
 
 

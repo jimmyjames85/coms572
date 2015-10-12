@@ -5,5 +5,5 @@ package project2;
  */
 public enum SearchStrategy
 {
-    BACKTRACKING, MRV_DEG, FC, MRV_FC, FC_LCV, AC3, MRV_DEG_AC3_LCV,  MIN_CONFLICTS
+    BACKTRACKING, MRV_DEG, FC, MRV_FC, FC_LCV, AC3, MRV_DEG_AC3_LCV,  MIN_CONFLICTS, MAC
 }

@@ -84,7 +84,7 @@ public class Line
 		if (slope == null)
 			return;
 
-		this.yIntercept =  s.y - slope * s.x;
+		this.yIntercept = s.y - slope * s.x;
 	}
 
 	public Point calculateIntersection(Line o)
@@ -93,28 +93,26 @@ public class Line
 			throw new IllegalArgumentException("Null point error!");
 
 
-		if(this.getEndPoint().equals(o.getEndPoint()))
+		if (this.getEndPoint().equals(o.getEndPoint()))
 			return o.getEndPoint();
 
-		if(this.getStartPoint().equals(o.getStartPoint()))
+		if (this.getStartPoint().equals(o.getStartPoint()))
 			return o.getStartPoint();
 
 		Double dm;
 		if (o.slope == null || this.slope == null || (dm = (this.slope - o.slope)) == 0)
 		{
-			if(o.slope == null)
+			if (o.slope == null)
 			{
-				if(this.slope == null)
+				if (this.slope == null)
 					return null;
 
-				return new Point( o.s.x, (this.slope*o.s.x + this.yIntercept));
-			}
-			else
+				return new Point(o.s.x, (this.slope * o.s.x + this.yIntercept));
+			} else
 			{
-				return new Point( s.x, (o.slope*s.x + o.yIntercept));
+				return new Point(s.x, (o.slope * s.x + o.yIntercept));
 			}
 		}
-
 
 
 		Double yint = this.yIntercept;
@@ -136,20 +134,29 @@ public class Line
 		Point intersection = calculateIntersection(o);
 		if (intersection == null)
 			return false;
-
+/*
 		println (o);
 		println (this);
 
 		println(o.minX() +"<"+intersection.x+"<"+o.maxX() + "= " + (((o.minX() < intersection.x) && (intersection.x < o.maxX()))));
+		println("o.minX = " + o.minX() + " o.maxX = " + o.maxX() + "  intersection.x = " + intersection.x + " equal? = " + ( o.minX()==o.maxX() && o.minX()==intersection.x));
+		println("");
 		println(minX() +"<"+intersection.x+"<"+maxX() + "= " + (minX() < intersection.x && intersection.x < maxX()));
-		println(o.minY() +"<"+intersection.y+"<"+o.maxY() + "= " + (o.minY() < intersection.y && intersection.y < o.maxY()));
+		println("  minX = " + minX() +   "   maxX = " +maxX() +   "  intersection.x = " + intersection.x + " equal? = " + (minX()==maxX() && minX() ==intersection.x));
+		println("");
+		println(o.minY() +"<" + intersection.y+"<"+o.maxY() + "= " + (o.minY() < intersection.y && intersection.y < o.maxY()));
+		println("o.minY = " + o.minY() + " o.maxY = " +o.maxY() + "  intersection.y = " + intersection.y + " equal? = " + ( o.minY()==o.maxY() && o.minY()==intersection.y));
+		println("");
 		println(minY() +"<"+intersection.y+"<"+maxY() + "= " + (minY() < intersection.y && intersection.y < maxY()));
+		println("  minY = " +   minY() + "   maxY = "  + maxY() + "  intersection.y = " + intersection.y + " equal? = " + (   minY()==  maxY() && minY()==intersection.y));
+		println("");
+*/
 
 
-		return ( ((o.minX() < intersection.x && intersection.x < o.maxX()) || (o.minX()==o.maxX() && o.minX()==intersection.x)) &&
-				((minX() < intersection.x && intersection.x < maxX()) || (minX()==maxX() && minX()==intersection.x)) &&
-                ((o.minY() < intersection.y && intersection.y < o.maxY()) || (o.minY()==o.maxY() && o.minY()==intersection.y) )&&
-                ((minY() < intersection.y && intersection.y < maxY())) || (minY()==maxY() && minY()==intersection.y));
+		return (((o.minX() < intersection.x && intersection.x < o.maxX()) || (o.minX() == o.maxX() && o.minX() == intersection.x)) &&
+				((minX() < intersection.x && intersection.x < maxX()) || (minX() == maxX() && minX() == intersection.x)) &&
+				((o.minY() < intersection.y && intersection.y < o.maxY()) || (o.minY() == o.maxY() && o.minY() == intersection.y)) &&
+				((minY() < intersection.y && intersection.y < maxY()) || (minY() == maxY() && minY() == intersection.y)));
 	}
 
 	public static Double calculateSlope(Point s, Point t)
@@ -184,7 +191,7 @@ public class Line
 	public String toString()
 	{
 
-		String msg="y = " + getSlope() + "(x) + " + yIntercept;
+		String msg = "y = " + getSlope() + "(x) + " + yIntercept;
 
 
 		return "Line{" +
@@ -203,10 +210,9 @@ public class Line
 
 	public static void main(String args[])
 	{
-		Line l1 = new Line(new Point(22,34), new Point(26,38));
-		Line l2 = new Line(new Point(6,31), new Point(10,31));
-
-		System.out.println(l1.intersectsLine(l2));
+		Line l1 = new Line(new Point(0, 17), new Point(8, 25));
+		Line l2 = new Line(new Point(2, 36), new Point(3, 36));
+		System.out.println(l2.intersectsLine(l1));
 	}
 }
 
