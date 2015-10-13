@@ -1,5 +1,69 @@
 # James Tappe coms572 
 
+######################## Project 2 ############################################################
+
+To build and run type
+
+
+	ant run2
+
+
+This will compile a jar and echo the command to run it which is:
+
+       java -jar build/jar/KColor.jar  [OPTION] [FROM] [TO] [ITR_COUNT] [GRAPH_DIR]
+
+
+
+
+KColor arguments
+
+       KColor [OPTION] [FROM] [TO] [ITR_COUNT] [GRAPH_DIR]
+
+              [OPTION] = create | color
+
+                          create - will create graph files in
+                                   GRAPH_DIR that can be loaded for
+                                   the color option File names have
+                                   the format:
+
+                                     <node_total>_nodes_<itr_count>.txt
+
+                                   Where each file has node_total
+                                   nodes in it's graph file and
+                                   itr_count starts at 0 and ends at
+                                   AVG_COUNT-1.
+
+                          color - reads in graphs from the GRAPHS_DIR
+                                  and attempts to find k-coloring's
+                                  using the strategies outlined in
+                                  this assignment.  Sends output to
+                                  stdout. File names must be that of
+                                  outputed format using the create
+                                  command.
+
+              [FROM]
+                          node_total start index (inclusive, must be
+                          greater than 2)
+
+              [TO]
+                          node_total end index (inclusive)
+
+              [ITR_COUNT]
+                          Number of iterations (itr_count) to
+                          create. When coloring, the algorith runs a
+                          strategy ITR_COUNT times and takes the
+                          average runtime.
+
+              [GRAPH_DIR]
+                          where to save or load graphs from
+
+
+
+
+
+
+
+######################## Project 1 ############################################################
 
 To build and run type 
 

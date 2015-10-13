@@ -18,7 +18,7 @@
     <property name="build.jar.dir" value="${build.dir}/jar"/>
     <property name="classes.dir" value="${build.dir}/classes"/>
     <property name="jar.name" value="UrlSearch"/>
-
+    <property name="jar2.name" value="KColor"/>
     <path id="classpath">
         <fileset dir="${lib.dir}" includes="**/*"/>
         <!--fileset dir="${tomcat.base.dir}/lib" includes="**/*.jar"/-->
@@ -48,12 +48,28 @@
     </target>
 
 
+    <target name="jar2" depends="compile">
+        <mkdir  dir="${build.jar.dir}"/>
+        <jar destfile="${build.jar.dir}/${jar2.name}.jar" basedir="${classes.dir}">
+            <zipgroupfileset dir="${lib.dir}" includes="**/*" />
+            <manifest>
+                <attribute name="${jar2.name}" value="main"/>
+                <attribute name="Main-Class" value="project2.KColor"/>
+            </manifest>
+        </jar>
+    </target>
+
+
     <target name="run" depends="jar">
         <echo message="${line.separator}${line.separator}${line.separator}${line.separator}${line.separator}${line.separator}${line.separator}${line.separator}"/>
-        <echo message="To run enter: java -jar ${build.jar.dir}${file.separator}${jar.name}.jar  [URL_START] [BREADTH | DEPTH | BEST | BEAM] [ [true | false] [SEARCH_STRING] } "/>
+        <echo message="To run enter: java -jar ${build.jar.dir}${file.separator}${jar.name}.jar  [URL_START] [BREADTH | DEPTH | BEST | BEAM] [ [true | false] [SEARCH_STRING] "/>
         <echo message="where [ [true | false] sets DEBUG"/>
     </target>
 
+    <target name="run2" depends="jar2">
+        <echo message="${line.separator}${line.separator}${line.separator}${line.separator}${line.separator}${line.separator}${line.separator}${line.separator}"/>
+        <echo message="To run enter: java -jar ${build.jar.dir}${file.separator}${jar2.name}.jar    [OPTION] [FROM] [TO] [ITR_COUNT] [GRAPH_DIR] "/>
+    </target>
 
 
 </project>

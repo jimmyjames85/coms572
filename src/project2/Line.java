@@ -7,8 +7,8 @@ import static util.Utilities.*;
  */
 public class Line
 {
-	private Point s;
-	private Point t;
+	protected Point s;
+	protected Point t;
 	private Double slope;
 	private Double yIntercept;
 

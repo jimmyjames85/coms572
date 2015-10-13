@@ -7,6 +7,7 @@ import aima.core.search.csp.Variable;
 import aima.gui.applications.search.csp.CSPView;
 
 import java.awt.*;
+import java.io.*;
 import java.util.*;
 import java.util.List;
 
@@ -24,14 +25,13 @@ public class UnitSquareMap extends CSP
 	public static final String YELLOW = "YELLOW";
 
 	private Random rand;
-	private int nodeTotal;
 
 	private TreeSet<Point> points;
 	private HashSet<Line> lines;
 	private Map<Point, Variable> variables;
 
-	private Rectangle mapDimensions;
-	private boolean threeColors= true;
+
+	private boolean threeColors = true;
 
 	/**
 	 * @param nodeTotal
@@ -39,30 +39,38 @@ public class UnitSquareMap extends CSP
 	 */
 	public UnitSquareMap(int nodeTotal, boolean threeColors, Rectangle mapDimensions)
 	{
-		this.mapDimensions = mapDimensions;
-
 		if (nodeTotal < 1)
 			throw new IllegalArgumentException("nodeTotal must be > 0");
 
-		this.nodeTotal = nodeTotal;
 		this.rand = new Random(System.currentTimeMillis());
 		this.variables = new HashMap<Point, Variable>();
 
-		createPoints(this.nodeTotal);
+		createPoints(nodeTotal, mapDimensions);
 		addVariables();
 
 		setThreeColors(threeColors);
 		createLines();
 		addConstraints();
 
-    }
+	}
+
+	public UnitSquareMap(File f, boolean threeColors)
+	{
+		this.rand = new Random(System.currentTimeMillis());
+		this.variables = new HashMap<Point, Variable>();
+
+		loadFromFile(f);
+		addVariables();
+		setThreeColors(threeColors);
+		addConstraints();
+	}
 
 	public void setThreeColors(boolean threeColors)
 	{
 		this.threeColors = threeColors;
 		Domain colors = new Domain(new Object[]{RED, GREEN, BLUE});
 
-		if(!threeColors)
+		if (!threeColors)
 			colors = new Domain(new Object[]{RED, GREEN, BLUE, PURPLE});
 
 		for (Variable var : getVariables())
@@ -90,7 +98,7 @@ public class UnitSquareMap extends CSP
 		view.setColorMapping(YELLOW, Color.YELLOW);
 	}
 
-	private void createPoints(int nodeTotal)
+	private void createPoints(int nodeTotal, Rectangle mapDimensions)
 	{
 		points = new TreeSet<Point>();
 
@@ -105,7 +113,7 @@ public class UnitSquareMap extends CSP
 
 	public int getNodeTotal()
 	{
-		return nodeTotal;
+		return points.size();
 	}
 
 	private void addVariables()
@@ -141,7 +149,7 @@ public class UnitSquareMap extends CSP
 				Point p = distanceList.get(i);
 				//println("\tconsidering: " + p);
 
-				Line newLine=null;
+				Line newLine = null;
 				if (!p.equals(select) && !lines.contains(newLine = new Line(select, p)))
 				{
 					//println("\t\tnewLine= " + newLine);
@@ -165,8 +173,7 @@ public class UnitSquareMap extends CSP
 						//println("\t\taddingNewLine " + newLine);
 						break;
 					}
-				}
-				else
+				} else
 				{
 					//println("\tnot adding " +p + " " + newLine);
 				}
@@ -174,7 +181,7 @@ public class UnitSquareMap extends CSP
 
 			}
 
-			if(i==distanceList.size())
+			if (i == distanceList.size())
 				selection.remove(select);
 
 		}
@@ -236,11 +243,138 @@ public class UnitSquareMap extends CSP
 		return sortedList;
 	}
 
+	public boolean storeToFile(File file)
+	{
+		PrintWriter pw = null;
+		try
+		{
+			pw = new PrintWriter(file, "UTF-8");
+
+			pw.println("POINTS");
+
+			for (Point p : this.points)
+				pw.printf("%f,%f\n", p.x, p.y);
+
+			pw.println("LINES");
+
+			for (Line l : this.lines)
+				pw.printf("%f,%f,%f,%f\n", l.s.x, l.s.y, l.t.x, l.t.y);
+
+			pw.close();
+			return true;
+		}
+		catch (Exception e)
+		{
+			return false;
+		}
+		finally
+		{
+			if (pw != null)
+				pw.close();
+		}
+	}
+
+	private Point readPoint(String str)
+	{
+		int c = str.indexOf(',');
+		if (c == -1)
+			return null;
+
+		double x = Double.parseDouble(str.substring(0, c));
+		double y = Double.parseDouble(str.substring(c + 1));
+
+
+		return new Point(x, y);
+	}
+
+	private Line readLine(String str)
+	{
+		int c = str.indexOf(',');
+		if(c==-1)
+			return null;
+
+		c = str.indexOf(',',c+1);
+		if(c==-1)
+			return null;
+
+		Point s = readPoint(str.substring(0, c));
+		if (s == null)
+			return null;
+
+		Point t = readPoint(str.substring(c + 1));
+
+		if (t == null)
+			return null;
+
+		return new Line(s, t);
+	}
+
+	private void loadFromFile(File file)
+	{
+		int mode = 0;
+		points = new TreeSet<Point>();
+		lines = new HashSet<Line>();
+
+		FileReader in = null;
+		try
+		{
+			in = new FileReader(file);
+
+			BufferedReader br = new BufferedReader(in);
+
+			String str;
+
+			while ((str = br.readLine()) != null)
+			{
+				if (str.equals("POINTS"))
+					mode = 1;
+				else if (mode == 1 && str.equals("LINES"))
+					mode = 2;
+				else if (mode == 1)
+				{
+					Point p = readPoint(str);
+					if (p != null)
+						points.add(p);
+				} else if (mode == 2)
+				{
+					Line l = readLine(str);
+					if (l != null)
+						lines.add(l);
+				}
+			}
+
+
+
+		}
+		catch (Exception e)
+		{
+			throw new IllegalArgumentException("Error parsing file<"+file+">: " + e.getMessage());
+		}
+		finally
+		{
+			if (in != null)
+				try
+				{
+					in.close();
+				}
+				catch (Exception ee)
+				{
+				}
+		}
+
+	}
 
 	public static void main(String args[])
 	{
-		Line l1 = new Line(new Point(6, 6), new Point(10, 10));
+		/*Line l1 = new Line(new Point(6, 6), new Point(10, 10));
 		Line l2 = new Line(new Point(0, 10), new Point(10, 0));
+
+		File f = new File("graph.txt");
+
+		//UnitSquareMap usm = new UnitSquareMap(10,true, new Rectangle(50,50));
+		//usm.storeToFile(f);
+		UnitSquareMap usm = new UnitSquareMap(f, true);
+*/
 
 		//println(l1.intersectsLine(l2));
 		//println("y = " + l2.getSlope() + " X  +  " + l2.getYIntercept());
