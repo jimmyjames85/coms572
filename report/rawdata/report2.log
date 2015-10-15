@@ -1,0 +1,1740 @@
+
+[Tue Oct 13 18:50:26 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/300_nodes_0.txt =========
+[Tue Oct 13 18:50:26 CDT 2015]	<300, 3, 100.00%, MIN_CONFLICTS, 114 ms>
+[Tue Oct 13 18:50:26 CDT 2015]	<300, 4, 100.00%, MIN_CONFLICTS, 38 ms>
+[Tue Oct 13 18:50:26 CDT 2015]	
+[Tue Oct 13 18:50:27 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/300_nodes_0.txt =========
+[Tue Oct 13 18:50:27 CDT 2015]	<300, 3, 5.67%, FC, 85 ms>
+[Tue Oct 13 18:50:36 CDT 2015]	<300, 4, 100.00%, FC, 9557 ms>
+[Tue Oct 13 18:50:36 CDT 2015]	
+[Tue Oct 13 18:50:37 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/300_nodes_0.txt =========
+[Tue Oct 13 18:50:37 CDT 2015]	<300, 3, 0.67%, AC3, 84 ms>
+[Tue Oct 13 18:50:37 CDT 2015]	<300, 4, 100.00%, AC3, 121 ms>
+[Tue Oct 13 18:50:37 CDT 2015]	
+[Tue Oct 13 18:50:37 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/300_nodes_0.txt =========
+[Tue Oct 13 18:50:37 CDT 2015]	<300, 3, 0.67%, MAC, 127 ms>
+[Tue Oct 13 18:50:38 CDT 2015]	<300, 4, 100.00%, MAC, 791 ms>
+[Tue Oct 13 18:50:38 CDT 2015]	
+[Tue Oct 13 18:50:38 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/300_nodes_1.txt =========
+[Tue Oct 13 18:50:39 CDT 2015]	<300, 3, 100.00%, MIN_CONFLICTS, 107 ms>
+[Tue Oct 13 18:50:39 CDT 2015]	<300, 4, 100.00%, MIN_CONFLICTS, 39 ms>
+[Tue Oct 13 18:50:39 CDT 2015]	
+[Tue Oct 13 18:50:39 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/300_nodes_1.txt =========
+[Tue Oct 13 18:50:39 CDT 2015]	<300, 3, 5.00%, FC, 49 ms>Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
+	at java.util.Arrays.copyOf(Arrays.java:2219)
+	at java.util.ArrayList.toArray(ArrayList.java:358)
+	at java.util.ArrayList.addAll(ArrayList.java:559)
+	at aima.core.search.csp.CSP.copyDomains(Unknown Source)
+	at aima.core.search.csp.SolutionStrategy.fireStateChanged(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+
+[Tue Oct 13 18:58:46 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/300_nodes_1.txt =========
+[Tue Oct 13 18:58:46 CDT 2015]	<300, 3, 0.67%, AC3, 76 ms>
+[Tue Oct 13 18:58:46 CDT 2015]	<300, 4, 100.00%, AC3, 127 ms>
+[Tue Oct 13 18:58:46 CDT 2015]	
+[Tue Oct 13 18:58:46 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/300_nodes_1.txt =========
+[Tue Oct 13 18:58:47 CDT 2015]	<300, 3, 0.67%, MAC, 139 ms>
+[Tue Oct 13 18:58:47 CDT 2015]	<300, 4, 100.00%, MAC, 594 ms>
+[Tue Oct 13 18:58:47 CDT 2015]	
+[Tue Oct 13 18:58:48 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/300_nodes_2.txt =========
+[Tue Oct 13 18:58:48 CDT 2015]	<300, 3, 100.00%, MIN_CONFLICTS, 125 ms>
+[Tue Oct 13 18:58:48 CDT 2015]	<300, 4, 100.00%, MIN_CONFLICTS, 39 ms>
+[Tue Oct 13 18:58:48 CDT 2015]	
+[Tue Oct 13 18:58:48 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/300_nodes_2.txt =========
+[Tue Oct 13 18:58:48 CDT 2015]	<300, 3, 2.00%, FC, 25 ms>Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
+	at java.util.Hashtable.rehash(Hashtable.java:471)
+	at java.util.Hashtable.put(Hashtable.java:532)
+	at aima.core.search.csp.Assignment.setAssignment(Unknown Source)
+	at aima.core.search.csp.Assignment.copy(Unknown Source)
+	at aima.core.search.csp.SolutionStrategy.fireStateChanged(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+
+[Tue Oct 13 19:04:56 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/300_nodes_2.txt =========
+[Tue Oct 13 19:04:56 CDT 2015]	<300, 3, 0.67%, AC3, 54 ms>
+[Tue Oct 13 19:04:56 CDT 2015]	<300, 4, 100.00%, AC3, 113 ms>
+[Tue Oct 13 19:04:56 CDT 2015]	
+[Tue Oct 13 19:04:56 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/300_nodes_2.txt =========
+[Tue Oct 13 19:04:57 CDT 2015]	<300, 3, 0.67%, MAC, 112 ms>
+[Tue Oct 13 19:04:57 CDT 2015]	<300, 4, 100.00%, MAC, 596 ms>
+[Tue Oct 13 19:04:57 CDT 2015]	
+[Tue Oct 13 19:04:57 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/300_nodes_3.txt =========
+[Tue Oct 13 19:04:58 CDT 2015]	<300, 3, 100.00%, MIN_CONFLICTS, 80 ms>
+[Tue Oct 13 19:04:58 CDT 2015]	<300, 4, 100.00%, MIN_CONFLICTS, 51 ms>
+[Tue Oct 13 19:04:58 CDT 2015]	
+[Tue Oct 13 19:04:58 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/300_nodes_3.txt =========
+[Tue Oct 13 19:04:58 CDT 2015]	<300, 3, 3.00%, FC, 50 ms>
+[Tue Oct 13 19:04:59 CDT 2015]	<300, 4, 100.00%, FC, 615 ms>
+[Tue Oct 13 19:04:59 CDT 2015]	
+[Tue Oct 13 19:04:59 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/300_nodes_3.txt =========
+[Tue Oct 13 19:04:59 CDT 2015]	<300, 3, 0.67%, AC3, 53 ms>
+[Tue Oct 13 19:04:59 CDT 2015]	<300, 4, 100.00%, AC3, 96 ms>
+[Tue Oct 13 19:04:59 CDT 2015]	
+[Tue Oct 13 19:04:59 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/300_nodes_3.txt =========
+[Tue Oct 13 19:04:59 CDT 2015]	<300, 3, 0.67%, MAC, 78 ms>
+[Tue Oct 13 19:05:00 CDT 2015]	<300, 4, 100.00%, MAC, 559 ms>
+[Tue Oct 13 19:05:00 CDT 2015]	
+[Tue Oct 13 19:05:00 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/300_nodes_4.txt =========
+[Tue Oct 13 19:05:00 CDT 2015]	<300, 3, 100.00%, MIN_CONFLICTS, 68 ms>
+[Tue Oct 13 19:05:00 CDT 2015]	<300, 4, 100.00%, MIN_CONFLICTS, 28 ms>
+[Tue Oct 13 19:05:00 CDT 2015]	
+[Tue Oct 13 19:05:00 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/300_nodes_4.txt =========
+[Tue Oct 13 19:05:01 CDT 2015]	<300, 3, 2.00%, FC, 41 ms>
+[Tue Oct 13 19:05:06 CDT 2015]	<300, 4, 100.00%, FC, 5089 ms>
+[Tue Oct 13 19:05:06 CDT 2015]	
+[Tue Oct 13 19:05:06 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/300_nodes_4.txt =========
+[Tue Oct 13 19:05:06 CDT 2015]	<300, 3, 0.67%, AC3, 73 ms>
+[Tue Oct 13 19:05:06 CDT 2015]	<300, 4, 100.00%, AC3, 128 ms>
+[Tue Oct 13 19:05:06 CDT 2015]	
+[Tue Oct 13 19:05:07 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/300_nodes_4.txt =========
+[Tue Oct 13 19:05:07 CDT 2015]	<300, 3, 0.67%, MAC, 128 ms>
+[Tue Oct 13 19:05:08 CDT 2015]	<300, 4, 100.00%, MAC, 680 ms>
+[Tue Oct 13 19:05:08 CDT 2015]	
+[Tue Oct 13 19:05:08 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/300_nodes_5.txt =========
+[Tue Oct 13 19:05:08 CDT 2015]	<300, 3, 100.00%, MIN_CONFLICTS, 79 ms>
+[Tue Oct 13 19:05:08 CDT 2015]	<300, 4, 100.00%, MIN_CONFLICTS, 25 ms>
+[Tue Oct 13 19:05:08 CDT 2015]	
+[Tue Oct 13 19:05:08 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/300_nodes_5.txt =========
+[Tue Oct 13 19:05:08 CDT 2015]	<300, 3, 1.67%, FC, 35 ms>
+[Tue Oct 13 19:05:13 CDT 2015]	<300, 4, 100.00%, FC, 5130 ms>
+[Tue Oct 13 19:05:13 CDT 2015]	
+[Tue Oct 13 19:05:14 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/300_nodes_5.txt =========
+[Tue Oct 13 19:05:14 CDT 2015]	<300, 3, 0.67%, AC3, 68 ms>
+[Tue Oct 13 19:05:14 CDT 2015]	<300, 4, 100.00%, AC3, 97 ms>
+[Tue Oct 13 19:05:14 CDT 2015]	
+[Tue Oct 13 19:05:14 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/300_nodes_5.txt =========
+[Tue Oct 13 19:05:14 CDT 2015]	<300, 3, 0.67%, MAC, 92 ms>
+[Tue Oct 13 19:05:15 CDT 2015]	<300, 4, 100.00%, MAC, 579 ms>
+[Tue Oct 13 19:05:15 CDT 2015]	
+[Tue Oct 13 19:05:15 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/300_nodes_6.txt =========
+[Tue Oct 13 19:05:15 CDT 2015]	<300, 3, 100.00%, MIN_CONFLICTS, 155 ms>
+[Tue Oct 13 19:05:15 CDT 2015]	<300, 4, 100.00%, MIN_CONFLICTS, 34 ms>
+[Tue Oct 13 19:05:15 CDT 2015]	
+[Tue Oct 13 19:05:16 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/300_nodes_6.txt =========
+[Tue Oct 13 19:05:16 CDT 2015]	<300, 3, 2.67%, FC, 67 ms>
+[Tue Oct 13 19:05:19 CDT 2015]	<300, 4, 100.00%, FC, 3333 ms>
+[Tue Oct 13 19:05:19 CDT 2015]	
+[Tue Oct 13 19:05:19 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/300_nodes_6.txt =========
+[Tue Oct 13 19:05:19 CDT 2015]	<300, 3, 0.67%, AC3, 62 ms>
+[Tue Oct 13 19:05:20 CDT 2015]	<300, 4, 100.00%, AC3, 90 ms>
+[Tue Oct 13 19:05:20 CDT 2015]	
+[Tue Oct 13 19:05:20 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/300_nodes_6.txt =========
+[Tue Oct 13 19:05:20 CDT 2015]	<300, 3, 0.67%, MAC, 103 ms>
+[Tue Oct 13 19:05:20 CDT 2015]	<300, 4, 100.00%, MAC, 483 ms>
+[Tue Oct 13 19:05:20 CDT 2015]	
+[Tue Oct 13 19:05:20 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/300_nodes_7.txt =========
+[Tue Oct 13 19:05:21 CDT 2015]	<300, 3, 100.00%, MIN_CONFLICTS, 89 ms>
+[Tue Oct 13 19:05:21 CDT 2015]	<300, 4, 100.00%, MIN_CONFLICTS, 35 ms>
+[Tue Oct 13 19:05:21 CDT 2015]	
+[Tue Oct 13 19:05:21 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/300_nodes_7.txt =========
+[Tue Oct 13 19:05:21 CDT 2015]	<300, 3, 2.67%, FC, 34 ms>
+[Tue Oct 13 19:05:26 CDT 2015]	<300, 4, 100.00%, FC, 5045 ms>
+[Tue Oct 13 19:05:26 CDT 2015]	
+[Tue Oct 13 19:05:26 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/300_nodes_7.txt =========
+[Tue Oct 13 19:05:26 CDT 2015]	<300, 3, 0.67%, AC3, 67 ms>
+[Tue Oct 13 19:05:27 CDT 2015]	<300, 4, 100.00%, AC3, 239 ms>
+[Tue Oct 13 19:05:27 CDT 2015]	
+[Tue Oct 13 19:05:27 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/300_nodes_7.txt =========
+[Tue Oct 13 19:05:27 CDT 2015]	<300, 3, 0.67%, MAC, 238 ms>
+[Tue Oct 13 19:05:29 CDT 2015]	<300, 4, 100.00%, MAC, 1314 ms>
+[Tue Oct 13 19:05:29 CDT 2015]	
+[Tue Oct 13 19:05:29 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/300_nodes_8.txt =========
+[Tue Oct 13 19:05:29 CDT 2015]	<300, 3, 100.00%, MIN_CONFLICTS, 118 ms>
+[Tue Oct 13 19:05:29 CDT 2015]	<300, 4, 100.00%, MIN_CONFLICTS, 38 ms>
+[Tue Oct 13 19:05:29 CDT 2015]	
+[Tue Oct 13 19:05:29 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/300_nodes_8.txt =========
+[Tue Oct 13 19:05:29 CDT 2015]	<300, 3, 1.33%, FC, 27 ms>
+[Tue Oct 13 19:05:33 CDT 2015]	<300, 4, 100.00%, FC, 3663 ms>
+[Tue Oct 13 19:05:33 CDT 2015]	
+[Tue Oct 13 19:05:33 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/300_nodes_8.txt =========
+[Tue Oct 13 19:05:33 CDT 2015]	<300, 3, 0.67%, AC3, 78 ms>
+[Tue Oct 13 19:05:34 CDT 2015]	<300, 4, 100.00%, AC3, 549 ms>
+[Tue Oct 13 19:05:34 CDT 2015]	
+[Tue Oct 13 19:05:34 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/300_nodes_8.txt =========
+[Tue Oct 13 19:05:34 CDT 2015]	<300, 3, 0.67%, MAC, 121 ms>
+[Tue Oct 13 19:05:38 CDT 2015]	<300, 4, 100.00%, MAC, 3894 ms>
+[Tue Oct 13 19:05:38 CDT 2015]	
+[Tue Oct 13 19:05:39 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/300_nodes_9.txt =========
+[Tue Oct 13 19:05:39 CDT 2015]	<300, 3, 100.00%, MIN_CONFLICTS, 96 ms>
+[Tue Oct 13 19:05:39 CDT 2015]	<300, 4, 100.00%, MIN_CONFLICTS, 31 ms>
+[Tue Oct 13 19:05:39 CDT 2015]	
+[Tue Oct 13 19:05:39 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/300_nodes_9.txt =========
+[Tue Oct 13 19:05:39 CDT 2015]	<300, 3, 3.33%, FC, 49 ms>
+[Tue Oct 13 19:05:39 CDT 2015]	<300, 4, 100.00%, FC, 139 ms>
+[Tue Oct 13 19:05:39 CDT 2015]	
+[Tue Oct 13 19:05:39 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/300_nodes_9.txt =========
+[Tue Oct 13 19:05:40 CDT 2015]	<300, 3, 0.67%, AC3, 66 ms>
+[Tue Oct 13 19:05:40 CDT 2015]	<300, 4, 100.00%, AC3, 118 ms>
+[Tue Oct 13 19:05:40 CDT 2015]	
+[Tue Oct 13 19:05:40 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/300_nodes_9.txt =========
+[Tue Oct 13 19:05:40 CDT 2015]	<300, 3, 0.67%, MAC, 142 ms>
+[Tue Oct 13 19:05:41 CDT 2015]	<300, 4, 100.00%, MAC, 738 ms>
+[Tue Oct 13 19:05:41 CDT 2015]	
+[Tue Oct 13 19:05:41 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/301_nodes_0.txt =========
+[Tue Oct 13 19:05:41 CDT 2015]	<301, 3, 100.00%, MIN_CONFLICTS, 101 ms>
+[Tue Oct 13 19:05:41 CDT 2015]	<301, 4, 100.00%, MIN_CONFLICTS, 35 ms>
+[Tue Oct 13 19:05:41 CDT 2015]	
+[Tue Oct 13 19:05:41 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/301_nodes_0.txt =========
+[Tue Oct 13 19:05:42 CDT 2015]	<301, 3, 2.99%, FC, 63 ms>
+[Tue Oct 13 19:05:42 CDT 2015]	<301, 4, 100.00%, FC, 107 ms>
+[Tue Oct 13 19:05:42 CDT 2015]	
+[Tue Oct 13 19:05:42 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/301_nodes_0.txt =========
+[Tue Oct 13 19:05:42 CDT 2015]	<301, 3, 0.66%, AC3, 66 ms>
+[Tue Oct 13 19:05:42 CDT 2015]	<301, 4, 100.00%, AC3, 124 ms>
+[Tue Oct 13 19:05:42 CDT 2015]	
+[Tue Oct 13 19:05:43 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/301_nodes_0.txt =========
+[Tue Oct 13 19:05:43 CDT 2015]	<301, 3, 0.66%, MAC, 203 ms>
+[Tue Oct 13 19:05:44 CDT 2015]	<301, 4, 100.00%, MAC, 748 ms>
+[Tue Oct 13 19:05:44 CDT 2015]	
+[Tue Oct 13 19:05:44 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/301_nodes_1.txt =========
+[Tue Oct 13 19:05:44 CDT 2015]	<301, 3, 100.00%, MIN_CONFLICTS, 94 ms>
+[Tue Oct 13 19:05:44 CDT 2015]	<301, 4, 100.00%, MIN_CONFLICTS, 31 ms>
+[Tue Oct 13 19:05:44 CDT 2015]	
+[Tue Oct 13 19:05:44 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/301_nodes_1.txt =========
+[Tue Oct 13 19:05:44 CDT 2015]	<301, 3, 3.32%, FC, 28 ms>
+[Tue Oct 13 19:05:45 CDT 2015]	<301, 4, 100.00%, FC, 804 ms>
+[Tue Oct 13 19:05:45 CDT 2015]	
+[Tue Oct 13 19:05:46 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/301_nodes_1.txt =========
+[Tue Oct 13 19:05:46 CDT 2015]	<301, 3, 0.66%, AC3, 73 ms>
+[Tue Oct 13 19:05:46 CDT 2015]	<301, 4, 100.00%, AC3, 143 ms>
+[Tue Oct 13 19:05:46 CDT 2015]	
+[Tue Oct 13 19:05:46 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/301_nodes_1.txt =========
+[Tue Oct 13 19:05:46 CDT 2015]	<301, 3, 0.66%, MAC, 94 ms>
+[Tue Oct 13 19:05:47 CDT 2015]	<301, 4, 100.00%, MAC, 698 ms>
+[Tue Oct 13 19:05:47 CDT 2015]	
+[Tue Oct 13 19:05:47 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/301_nodes_2.txt =========
+[Tue Oct 13 19:05:47 CDT 2015]	<301, 3, 100.00%, MIN_CONFLICTS, 98 ms>
+[Tue Oct 13 19:05:47 CDT 2015]	<301, 4, 100.00%, MIN_CONFLICTS, 29 ms>
+[Tue Oct 13 19:05:47 CDT 2015]	
+[Tue Oct 13 19:05:48 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/301_nodes_2.txt =========
+[Tue Oct 13 19:05:48 CDT 2015]	<301, 3, 1.99%, FC, 24 ms>
+[Tue Oct 13 19:06:08 CDT 2015]	<301, 4, 100.00%, FC, 19952 ms>
+[Tue Oct 13 19:06:08 CDT 2015]	
+[Tue Oct 13 19:06:08 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/301_nodes_2.txt =========
+[Tue Oct 13 19:06:08 CDT 2015]	<301, 3, 0.66%, AC3, 66 ms>
+[Tue Oct 13 19:06:08 CDT 2015]	<301, 4, 100.00%, AC3, 124 ms>
+[Tue Oct 13 19:06:08 CDT 2015]	
+[Tue Oct 13 19:06:08 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/301_nodes_2.txt =========
+[Tue Oct 13 19:06:09 CDT 2015]	<301, 3, 0.66%, MAC, 117 ms>
+[Tue Oct 13 19:06:09 CDT 2015]	<301, 4, 100.00%, MAC, 771 ms>
+[Tue Oct 13 19:06:09 CDT 2015]	
+[Tue Oct 13 19:06:10 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/301_nodes_3.txt =========
+[Tue Oct 13 19:06:10 CDT 2015]	<301, 3, 100.00%, MIN_CONFLICTS, 98 ms>
+[Tue Oct 13 19:06:10 CDT 2015]	<301, 4, 100.00%, MIN_CONFLICTS, 45 ms>
+[Tue Oct 13 19:06:10 CDT 2015]	
+[Tue Oct 13 19:06:10 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/301_nodes_3.txt =========
+[Tue Oct 13 19:06:10 CDT 2015]	<301, 3, 2.66%, FC, 80 ms>
+[Tue Oct 13 19:06:10 CDT 2015]	<301, 4, 100.00%, FC, 132 ms>
+[Tue Oct 13 19:06:10 CDT 2015]	
+[Tue Oct 13 19:06:11 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/301_nodes_3.txt =========
+[Tue Oct 13 19:06:11 CDT 2015]	<301, 3, 0.66%, AC3, 59 ms>
+[Tue Oct 13 19:06:11 CDT 2015]	<301, 4, 100.00%, AC3, 108 ms>
+[Tue Oct 13 19:06:11 CDT 2015]	
+[Tue Oct 13 19:06:11 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/301_nodes_3.txt =========
+[Tue Oct 13 19:06:11 CDT 2015]	<301, 3, 0.66%, MAC, 119 ms>
+[Tue Oct 13 19:06:12 CDT 2015]	<301, 4, 100.00%, MAC, 717 ms>
+[Tue Oct 13 19:06:12 CDT 2015]	
+[Tue Oct 13 19:06:12 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/301_nodes_4.txt =========
+[Tue Oct 13 19:06:13 CDT 2015]	<301, 3, 100.00%, MIN_CONFLICTS, 131 ms>
+[Tue Oct 13 19:06:13 CDT 2015]	<301, 4, 100.00%, MIN_CONFLICTS, 28 ms>
+[Tue Oct 13 19:06:13 CDT 2015]	
+[Tue Oct 13 19:06:13 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/301_nodes_4.txt =========
+[Tue Oct 13 19:06:13 CDT 2015]	<301, 3, 2.99%, FC, 54 ms>
+[Tue Oct 13 19:06:17 CDT 2015]	<301, 4, 100.00%, FC, 4299 ms>
+[Tue Oct 13 19:06:17 CDT 2015]	
+[Tue Oct 13 19:06:17 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/301_nodes_4.txt =========
+[Tue Oct 13 19:06:18 CDT 2015]	<301, 3, 0.66%, AC3, 53 ms>
+[Tue Oct 13 19:06:18 CDT 2015]	<301, 4, 100.00%, AC3, 103 ms>
+[Tue Oct 13 19:06:18 CDT 2015]	
+[Tue Oct 13 19:06:18 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/301_nodes_4.txt =========
+[Tue Oct 13 19:06:18 CDT 2015]	<301, 3, 0.66%, MAC, 92 ms>
+[Tue Oct 13 19:06:19 CDT 2015]	<301, 4, 100.00%, MAC, 603 ms>
+[Tue Oct 13 19:06:19 CDT 2015]	
+[Tue Oct 13 19:06:19 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/301_nodes_5.txt =========
+[Tue Oct 13 19:06:19 CDT 2015]	<301, 3, 100.00%, MIN_CONFLICTS, 92 ms>
+[Tue Oct 13 19:06:19 CDT 2015]	<301, 4, 100.00%, MIN_CONFLICTS, 37 ms>
+[Tue Oct 13 19:06:19 CDT 2015]	
+[Tue Oct 13 19:06:19 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/301_nodes_5.txt =========
+[Tue Oct 13 19:06:19 CDT 2015]	<301, 3, 2.66%, FC, 39 ms>
+[Tue Oct 13 19:06:19 CDT 2015]	<301, 4, 100.00%, FC, 107 ms>
+[Tue Oct 13 19:06:19 CDT 2015]	
+[Tue Oct 13 19:06:20 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/301_nodes_5.txt =========
+[Tue Oct 13 19:06:20 CDT 2015]	<301, 3, 0.66%, AC3, 65 ms>
+[Tue Oct 13 19:06:20 CDT 2015]	<301, 4, 100.00%, AC3, 95 ms>
+[Tue Oct 13 19:06:20 CDT 2015]	
+[Tue Oct 13 19:06:20 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/301_nodes_5.txt =========
+[Tue Oct 13 19:06:20 CDT 2015]	<301, 3, 0.66%, MAC, 103 ms>
+[Tue Oct 13 19:06:21 CDT 2015]	<301, 4, 100.00%, MAC, 722 ms>
+[Tue Oct 13 19:06:21 CDT 2015]	
+[Tue Oct 13 19:06:21 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/301_nodes_6.txt =========
+[Tue Oct 13 19:06:21 CDT 2015]	<301, 3, 100.00%, MIN_CONFLICTS, 93 ms>
+[Tue Oct 13 19:06:21 CDT 2015]	<301, 4, 100.00%, MIN_CONFLICTS, 27 ms>
+[Tue Oct 13 19:06:21 CDT 2015]	
+[Tue Oct 13 19:06:21 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/301_nodes_6.txt =========
+[Tue Oct 13 19:06:22 CDT 2015]	<301, 3, 1.33%, FC, 50 ms>Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
+	at java.util.Arrays.copyOf(Arrays.java:2219)
+	at java.util.ArrayList.toArray(ArrayList.java:358)
+	at java.util.ArrayList.addAll(ArrayList.java:559)
+	at aima.core.search.csp.CSP.copyDomains(Unknown Source)
+	at aima.core.search.csp.SolutionStrategy.fireStateChanged(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+
+[Tue Oct 13 19:11:49 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/301_nodes_6.txt =========
+[Tue Oct 13 19:11:49 CDT 2015]	<301, 3, 0.66%, AC3, 76 ms>
+[Tue Oct 13 19:11:49 CDT 2015]	<301, 4, 100.00%, AC3, 182 ms>
+[Tue Oct 13 19:11:49 CDT 2015]	
+[Tue Oct 13 19:11:49 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/301_nodes_6.txt =========
+[Tue Oct 13 19:11:49 CDT 2015]	<301, 3, 0.66%, MAC, 120 ms>
+[Tue Oct 13 19:11:51 CDT 2015]	<301, 4, 100.00%, MAC, 1169 ms>
+[Tue Oct 13 19:11:51 CDT 2015]	
+[Tue Oct 13 19:11:51 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/301_nodes_7.txt =========
+[Tue Oct 13 19:11:51 CDT 2015]	<301, 3, 100.00%, MIN_CONFLICTS, 100 ms>
+[Tue Oct 13 19:11:51 CDT 2015]	<301, 4, 100.00%, MIN_CONFLICTS, 38 ms>
+[Tue Oct 13 19:11:51 CDT 2015]	
+[Tue Oct 13 19:11:51 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/301_nodes_7.txt =========
+[Tue Oct 13 19:11:51 CDT 2015]	<301, 3, 2.66%, FC, 39 ms>
+[Tue Oct 13 19:11:54 CDT 2015]	<301, 4, 100.00%, FC, 3032 ms>
+[Tue Oct 13 19:11:54 CDT 2015]	
+[Tue Oct 13 19:11:54 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/301_nodes_7.txt =========
+[Tue Oct 13 19:11:55 CDT 2015]	<301, 3, 0.66%, AC3, 59 ms>
+[Tue Oct 13 19:11:55 CDT 2015]	<301, 4, 100.00%, AC3, 102 ms>
+[Tue Oct 13 19:11:55 CDT 2015]	
+[Tue Oct 13 19:11:55 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/301_nodes_7.txt =========
+[Tue Oct 13 19:11:55 CDT 2015]	<301, 3, 0.66%, MAC, 139 ms>
+[Tue Oct 13 19:11:56 CDT 2015]	<301, 4, 100.00%, MAC, 746 ms>
+[Tue Oct 13 19:11:56 CDT 2015]	
+[Tue Oct 13 19:11:56 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/301_nodes_8.txt =========
+[Tue Oct 13 19:11:56 CDT 2015]	<301, 3, 100.00%, MIN_CONFLICTS, 107 ms>
+[Tue Oct 13 19:11:57 CDT 2015]	<301, 4, 100.00%, MIN_CONFLICTS, 34 ms>
+[Tue Oct 13 19:11:57 CDT 2015]	
+[Tue Oct 13 19:11:57 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/301_nodes_8.txt =========
+[Tue Oct 13 19:11:57 CDT 2015]	<301, 3, 1.33%, FC, 16 ms>Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
+	at java.util.ArrayList.<init>(ArrayList.java:144)
+	at aima.core.search.csp.CSP.copyDomains(Unknown Source)
+	at aima.core.search.csp.SolutionStrategy.fireStateChanged(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+
+[Tue Oct 13 19:16:41 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/301_nodes_8.txt =========
+[Tue Oct 13 19:16:41 CDT 2015]	<301, 3, 0.66%, AC3, 70 ms>
+[Tue Oct 13 19:16:46 CDT 2015]	<301, 4, 100.00%, AC3, 4354 ms>
+[Tue Oct 13 19:16:46 CDT 2015]	
+[Tue Oct 13 19:16:46 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/301_nodes_8.txt =========
+[Tue Oct 13 19:16:46 CDT 2015]	<301, 3, 0.66%, MAC, 118 ms>
+[Tue Oct 13 19:16:59 CDT 2015]	<301, 4, 100.00%, MAC, 12912 ms>
+[Tue Oct 13 19:16:59 CDT 2015]	
+[Tue Oct 13 19:16:59 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/301_nodes_9.txt =========
+[Tue Oct 13 19:17:00 CDT 2015]	<301, 3, 100.00%, MIN_CONFLICTS, 145 ms>
+[Tue Oct 13 19:17:00 CDT 2015]	<301, 4, 100.00%, MIN_CONFLICTS, 39 ms>
+[Tue Oct 13 19:17:00 CDT 2015]	
+[Tue Oct 13 19:17:00 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/301_nodes_9.txt =========
+[Tue Oct 13 19:17:00 CDT 2015]	<301, 3, 3.32%, FC, 51 ms>
+[Tue Oct 13 19:17:17 CDT 2015]	<301, 4, 100.00%, FC, 16757 ms>
+[Tue Oct 13 19:17:17 CDT 2015]	
+[Tue Oct 13 19:17:17 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/301_nodes_9.txt =========
+[Tue Oct 13 19:17:17 CDT 2015]	<301, 3, 0.66%, AC3, 66 ms>
+[Tue Oct 13 19:17:17 CDT 2015]	<301, 4, 100.00%, AC3, 99 ms>
+[Tue Oct 13 19:17:17 CDT 2015]	
+[Tue Oct 13 19:17:17 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/301_nodes_9.txt =========
+[Tue Oct 13 19:17:18 CDT 2015]	<301, 3, 0.66%, MAC, 103 ms>
+[Tue Oct 13 19:17:18 CDT 2015]	<301, 4, 100.00%, MAC, 860 ms>
+[Tue Oct 13 19:17:18 CDT 2015]	
+[Tue Oct 13 19:17:19 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/302_nodes_0.txt =========
+[Tue Oct 13 19:17:19 CDT 2015]	<302, 3, 100.00%, MIN_CONFLICTS, 172 ms>
+[Tue Oct 13 19:17:19 CDT 2015]	<302, 4, 100.00%, MIN_CONFLICTS, 31 ms>
+[Tue Oct 13 19:17:19 CDT 2015]	
+[Tue Oct 13 19:17:19 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/302_nodes_0.txt =========
+[Tue Oct 13 19:17:19 CDT 2015]	<302, 3, 1.66%, FC, 44 ms>
+[Tue Oct 13 19:17:20 CDT 2015]	<302, 4, 100.00%, FC, 433 ms>
+[Tue Oct 13 19:17:20 CDT 2015]	
+[Tue Oct 13 19:17:20 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/302_nodes_0.txt =========
+[Tue Oct 13 19:17:20 CDT 2015]	<302, 3, 0.66%, AC3, 65 ms>
+[Tue Oct 13 19:17:20 CDT 2015]	<302, 4, 100.00%, AC3, 109 ms>
+[Tue Oct 13 19:17:20 CDT 2015]	
+[Tue Oct 13 19:17:20 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/302_nodes_0.txt =========
+[Tue Oct 13 19:17:21 CDT 2015]	<302, 3, 0.66%, MAC, 102 ms>
+[Tue Oct 13 19:17:21 CDT 2015]	<302, 4, 100.00%, MAC, 660 ms>
+[Tue Oct 13 19:17:21 CDT 2015]	
+[Tue Oct 13 19:17:22 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/302_nodes_1.txt =========
+[Tue Oct 13 19:17:22 CDT 2015]	<302, 3, 100.00%, MIN_CONFLICTS, 123 ms>
+[Tue Oct 13 19:17:22 CDT 2015]	<302, 4, 100.00%, MIN_CONFLICTS, 39 ms>
+[Tue Oct 13 19:17:22 CDT 2015]	
+[Tue Oct 13 19:17:22 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/302_nodes_1.txt =========
+[Tue Oct 13 19:17:22 CDT 2015]	<302, 3, 1.99%, FC, 34 ms>
+[Tue Oct 13 19:17:26 CDT 2015]	<302, 4, 100.00%, FC, 3663 ms>
+[Tue Oct 13 19:17:26 CDT 2015]	
+[Tue Oct 13 19:17:26 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/302_nodes_1.txt =========
+[Tue Oct 13 19:17:26 CDT 2015]	<302, 3, 0.66%, AC3, 62 ms>
+[Tue Oct 13 19:17:26 CDT 2015]	<302, 4, 100.00%, AC3, 117 ms>
+[Tue Oct 13 19:17:26 CDT 2015]	
+[Tue Oct 13 19:17:27 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/302_nodes_1.txt =========
+[Tue Oct 13 19:17:27 CDT 2015]	<302, 3, 0.66%, MAC, 102 ms>
+[Tue Oct 13 19:17:27 CDT 2015]	<302, 4, 100.00%, MAC, 567 ms>
+[Tue Oct 13 19:17:27 CDT 2015]	
+[Tue Oct 13 19:17:28 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/302_nodes_2.txt =========
+[Tue Oct 13 19:17:28 CDT 2015]	<302, 3, 100.00%, MIN_CONFLICTS, 91 ms>
+[Tue Oct 13 19:17:28 CDT 2015]	<302, 4, 100.00%, MIN_CONFLICTS, 36 ms>
+[Tue Oct 13 19:17:28 CDT 2015]	
+[Tue Oct 13 19:17:28 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/302_nodes_2.txt =========
+[Tue Oct 13 19:17:28 CDT 2015]	<302, 3, 1.66%, FC, 34 ms>Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
+	at java.util.Hashtable.put(Hashtable.java:541)
+	at aima.core.search.csp.Assignment.setAssignment(Unknown Source)
+	at aima.core.search.csp.Assignment.copy(Unknown Source)
+	at aima.core.search.csp.SolutionStrategy.fireStateChanged(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+
+[Tue Oct 13 19:22:19 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/302_nodes_2.txt =========
+[Tue Oct 13 19:22:19 CDT 2015]	<302, 3, 0.66%, AC3, 59 ms>
+[Tue Oct 13 19:22:19 CDT 2015]	<302, 4, 100.00%, AC3, 103 ms>
+[Tue Oct 13 19:22:19 CDT 2015]	
+[Tue Oct 13 19:22:19 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/302_nodes_2.txt =========
+[Tue Oct 13 19:22:19 CDT 2015]	<302, 3, 0.66%, MAC, 96 ms>
+[Tue Oct 13 19:22:20 CDT 2015]	<302, 4, 100.00%, MAC, 563 ms>
+[Tue Oct 13 19:22:20 CDT 2015]	
+[Tue Oct 13 19:22:20 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/302_nodes_3.txt =========
+[Tue Oct 13 19:22:20 CDT 2015]	<302, 3, 100.00%, MIN_CONFLICTS, 89 ms>
+[Tue Oct 13 19:22:20 CDT 2015]	<302, 4, 100.00%, MIN_CONFLICTS, 34 ms>
+[Tue Oct 13 19:22:20 CDT 2015]	
+[Tue Oct 13 19:22:20 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/302_nodes_3.txt =========
+[Tue Oct 13 19:22:21 CDT 2015]	<302, 3, 1.99%, FC, 17 ms>
+[Tue Oct 13 19:22:23 CDT 2015]	<302, 4, 100.00%, FC, 2717 ms>
+[Tue Oct 13 19:22:23 CDT 2015]	
+[Tue Oct 13 19:22:23 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/302_nodes_3.txt =========
+[Tue Oct 13 19:22:24 CDT 2015]	<302, 3, 0.66%, AC3, 106 ms>
+[Tue Oct 13 19:22:24 CDT 2015]	<302, 4, 100.00%, AC3, 114 ms>
+[Tue Oct 13 19:22:24 CDT 2015]	
+[Tue Oct 13 19:22:24 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/302_nodes_3.txt =========
+[Tue Oct 13 19:22:24 CDT 2015]	<302, 3, 0.66%, MAC, 104 ms>
+[Tue Oct 13 19:22:25 CDT 2015]	<302, 4, 100.00%, MAC, 562 ms>
+[Tue Oct 13 19:22:25 CDT 2015]	
+[Tue Oct 13 19:22:25 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/302_nodes_4.txt =========
+[Tue Oct 13 19:22:25 CDT 2015]	<302, 3, 100.00%, MIN_CONFLICTS, 149 ms>
+[Tue Oct 13 19:22:25 CDT 2015]	<302, 4, 100.00%, MIN_CONFLICTS, 40 ms>
+[Tue Oct 13 19:22:25 CDT 2015]	
+[Tue Oct 13 19:22:25 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/302_nodes_4.txt =========
+[Tue Oct 13 19:22:26 CDT 2015]	<302, 3, 2.32%, FC, 26 ms>
+[Tue Oct 13 19:22:26 CDT 2015]	<302, 4, 100.00%, FC, 600 ms>
+[Tue Oct 13 19:22:26 CDT 2015]	
+[Tue Oct 13 19:22:26 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/302_nodes_4.txt =========
+[Tue Oct 13 19:22:27 CDT 2015]	<302, 3, 0.66%, AC3, 109 ms>
+[Tue Oct 13 19:22:27 CDT 2015]	<302, 4, 100.00%, AC3, 129 ms>
+[Tue Oct 13 19:22:27 CDT 2015]	
+[Tue Oct 13 19:22:27 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/302_nodes_4.txt =========
+[Tue Oct 13 19:22:27 CDT 2015]	<302, 3, 0.66%, MAC, 123 ms>
+[Tue Oct 13 19:22:28 CDT 2015]	<302, 4, 100.00%, MAC, 747 ms>
+[Tue Oct 13 19:22:28 CDT 2015]	
+[Tue Oct 13 19:22:28 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/302_nodes_5.txt =========
+[Tue Oct 13 19:22:29 CDT 2015]	<302, 3, 100.00%, MIN_CONFLICTS, 107 ms>
+[Tue Oct 13 19:22:29 CDT 2015]	<302, 4, 100.00%, MIN_CONFLICTS, 44 ms>
+[Tue Oct 13 19:22:29 CDT 2015]	
+[Tue Oct 13 19:22:29 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/302_nodes_5.txt =========
+[Tue Oct 13 19:22:29 CDT 2015]	<302, 3, 3.31%, FC, 51 ms>
+[Tue Oct 13 19:22:32 CDT 2015]	<302, 4, 100.00%, FC, 2979 ms>
+[Tue Oct 13 19:22:32 CDT 2015]	
+[Tue Oct 13 19:22:32 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/302_nodes_5.txt =========
+[Tue Oct 13 19:22:32 CDT 2015]	<302, 3, 0.66%, AC3, 72 ms>
+[Tue Oct 13 19:22:33 CDT 2015]	<302, 4, 100.00%, AC3, 130 ms>
+[Tue Oct 13 19:22:33 CDT 2015]	
+[Tue Oct 13 19:22:33 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/302_nodes_5.txt =========
+[Tue Oct 13 19:22:33 CDT 2015]	<302, 3, 0.66%, MAC, 126 ms>
+[Tue Oct 13 19:22:34 CDT 2015]	<302, 4, 100.00%, MAC, 890 ms>
+[Tue Oct 13 19:22:34 CDT 2015]	
+[Tue Oct 13 19:22:34 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/302_nodes_6.txt =========
+[Tue Oct 13 19:22:34 CDT 2015]	<302, 3, 100.00%, MIN_CONFLICTS, 105 ms>
+[Tue Oct 13 19:22:35 CDT 2015]	<302, 4, 100.00%, MIN_CONFLICTS, 39 ms>
+[Tue Oct 13 19:22:35 CDT 2015]	
+[Tue Oct 13 19:22:35 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/302_nodes_6.txt =========
+[Tue Oct 13 19:22:35 CDT 2015]	<302, 3, 3.64%, FC, 67 ms>
+[Tue Oct 13 19:22:36 CDT 2015]	<302, 4, 100.00%, FC, 940 ms>
+[Tue Oct 13 19:22:36 CDT 2015]	
+[Tue Oct 13 19:22:36 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/302_nodes_6.txt =========
+[Tue Oct 13 19:22:36 CDT 2015]	<302, 3, 0.66%, AC3, 61 ms>
+[Tue Oct 13 19:22:36 CDT 2015]	<302, 4, 100.00%, AC3, 139 ms>
+[Tue Oct 13 19:22:36 CDT 2015]	
+[Tue Oct 13 19:22:37 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/302_nodes_6.txt =========
+[Tue Oct 13 19:22:37 CDT 2015]	<302, 3, 0.66%, MAC, 115 ms>
+[Tue Oct 13 19:22:38 CDT 2015]	<302, 4, 100.00%, MAC, 719 ms>
+[Tue Oct 13 19:22:38 CDT 2015]	
+[Tue Oct 13 19:22:38 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/302_nodes_7.txt =========
+[Tue Oct 13 19:22:38 CDT 2015]	<302, 3, 100.00%, MIN_CONFLICTS, 115 ms>
+[Tue Oct 13 19:22:38 CDT 2015]	<302, 4, 100.00%, MIN_CONFLICTS, 42 ms>
+[Tue Oct 13 19:22:38 CDT 2015]	
+[Tue Oct 13 19:22:38 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/302_nodes_7.txt =========
+[Tue Oct 13 19:22:39 CDT 2015]	<302, 3, 4.97%, FC, 101 ms>
+[Tue Oct 13 19:22:39 CDT 2015]	<302, 4, 100.00%, FC, 268 ms>
+[Tue Oct 13 19:22:39 CDT 2015]	
+[Tue Oct 13 19:22:39 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/302_nodes_7.txt =========
+[Tue Oct 13 19:22:39 CDT 2015]	<302, 3, 0.66%, AC3, 67 ms>
+[Tue Oct 13 19:22:39 CDT 2015]	<302, 4, 100.00%, AC3, 124 ms>
+[Tue Oct 13 19:22:39 CDT 2015]	
+[Tue Oct 13 19:22:40 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/302_nodes_7.txt =========
+[Tue Oct 13 19:22:40 CDT 2015]	<302, 3, 0.66%, MAC, 141 ms>
+[Tue Oct 13 19:22:41 CDT 2015]	<302, 4, 100.00%, MAC, 855 ms>
+[Tue Oct 13 19:22:41 CDT 2015]	
+[Tue Oct 13 19:22:41 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/302_nodes_8.txt =========
+[Tue Oct 13 19:22:41 CDT 2015]	<302, 3, 100.00%, MIN_CONFLICTS, 166 ms>
+[Tue Oct 13 19:22:42 CDT 2015]	<302, 4, 100.00%, MIN_CONFLICTS, 35 ms>
+[Tue Oct 13 19:22:42 CDT 2015]	
+[Tue Oct 13 19:22:42 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/302_nodes_8.txt =========
+[Tue Oct 13 19:22:42 CDT 2015]	<302, 3, 4.64%, FC, 49 ms>
+[Tue Oct 13 19:22:42 CDT 2015]	<302, 4, 100.00%, FC, 399 ms>
+[Tue Oct 13 19:22:42 CDT 2015]	
+[Tue Oct 13 19:22:42 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/302_nodes_8.txt =========
+[Tue Oct 13 19:22:43 CDT 2015]	<302, 3, 0.66%, AC3, 62 ms>
+[Tue Oct 13 19:22:43 CDT 2015]	<302, 4, 100.00%, AC3, 121 ms>
+[Tue Oct 13 19:22:43 CDT 2015]	
+[Tue Oct 13 19:22:43 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/302_nodes_8.txt =========
+[Tue Oct 13 19:22:43 CDT 2015]	<302, 3, 0.66%, MAC, 139 ms>
+[Tue Oct 13 19:22:44 CDT 2015]	<302, 4, 100.00%, MAC, 722 ms>
+[Tue Oct 13 19:22:44 CDT 2015]	
+[Tue Oct 13 19:22:44 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/302_nodes_9.txt =========
+[Tue Oct 13 19:22:44 CDT 2015]	<302, 3, 100.00%, MIN_CONFLICTS, 139 ms>
+[Tue Oct 13 19:22:45 CDT 2015]	<302, 4, 100.00%, MIN_CONFLICTS, 39 ms>
+[Tue Oct 13 19:22:45 CDT 2015]	
+[Tue Oct 13 19:22:45 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/302_nodes_9.txt =========
+[Tue Oct 13 19:22:45 CDT 2015]	<302, 3, 2.65%, FC, 40 ms>Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
+	at java.util.Hashtable.put(Hashtable.java:541)
+	at aima.core.search.csp.Assignment.setAssignment(Unknown Source)
+	at aima.core.search.csp.Assignment.copy(Unknown Source)
+	at aima.core.search.csp.SolutionStrategy.fireStateChanged(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+
+[Tue Oct 13 19:26:14 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/302_nodes_9.txt =========
+[Tue Oct 13 19:26:14 CDT 2015]	<302, 3, 0.66%, AC3, 61 ms>
+[Tue Oct 13 19:26:15 CDT 2015]	<302, 4, 100.00%, AC3, 593 ms>
+[Tue Oct 13 19:26:15 CDT 2015]	
+[Tue Oct 13 19:26:15 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/302_nodes_9.txt =========
+[Tue Oct 13 19:26:15 CDT 2015]	<302, 3, 0.66%, MAC, 137 ms>
+[Tue Oct 13 19:26:18 CDT 2015]	<302, 4, 100.00%, MAC, 2472 ms>
+[Tue Oct 13 19:26:18 CDT 2015]	
+[Tue Oct 13 19:26:18 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/303_nodes_0.txt =========
+[Tue Oct 13 19:26:18 CDT 2015]	<303, 3, 100.00%, MIN_CONFLICTS, 75 ms>
+[Tue Oct 13 19:26:18 CDT 2015]	<303, 4, 100.00%, MIN_CONFLICTS, 25 ms>
+[Tue Oct 13 19:26:18 CDT 2015]	
+[Tue Oct 13 19:26:18 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/303_nodes_0.txt =========
+[Tue Oct 13 19:26:18 CDT 2015]	<303, 3, 2.31%, FC, 25 ms>
+[Tue Oct 13 19:26:24 CDT 2015]	<303, 4, 100.00%, FC, 5286 ms>
+[Tue Oct 13 19:26:24 CDT 2015]	
+[Tue Oct 13 19:26:24 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/303_nodes_0.txt =========
+[Tue Oct 13 19:26:24 CDT 2015]	<303, 3, 0.66%, AC3, 47 ms>
+[Tue Oct 13 19:26:24 CDT 2015]	<303, 4, 100.00%, AC3, 237 ms>
+[Tue Oct 13 19:26:24 CDT 2015]	
+[Tue Oct 13 19:26:24 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/303_nodes_0.txt =========
+[Tue Oct 13 19:26:25 CDT 2015]	<303, 3, 0.66%, MAC, 79 ms>
+[Tue Oct 13 19:26:26 CDT 2015]	<303, 4, 100.00%, MAC, 951 ms>
+[Tue Oct 13 19:26:26 CDT 2015]	
+[Tue Oct 13 19:26:26 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/303_nodes_1.txt =========
+[Tue Oct 13 19:26:26 CDT 2015]	<303, 3, 100.00%, MIN_CONFLICTS, 94 ms>
+[Tue Oct 13 19:26:26 CDT 2015]	<303, 4, 100.00%, MIN_CONFLICTS, 37 ms>
+[Tue Oct 13 19:26:26 CDT 2015]	
+[Tue Oct 13 19:26:26 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/303_nodes_1.txt =========
+[Tue Oct 13 19:26:26 CDT 2015]	<303, 3, 4.95%, FC, 76 ms>
+[Tue Oct 13 19:26:29 CDT 2015]	<303, 4, 100.00%, FC, 3135 ms>
+[Tue Oct 13 19:26:29 CDT 2015]	
+[Tue Oct 13 19:26:30 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/303_nodes_1.txt =========
+[Tue Oct 13 19:26:30 CDT 2015]	<303, 3, 0.66%, AC3, 46 ms>
+[Tue Oct 13 19:26:30 CDT 2015]	<303, 4, 100.00%, AC3, 76 ms>
+[Tue Oct 13 19:26:30 CDT 2015]	
+[Tue Oct 13 19:26:30 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/303_nodes_1.txt =========
+[Tue Oct 13 19:26:30 CDT 2015]	<303, 3, 0.66%, MAC, 78 ms>
+[Tue Oct 13 19:26:31 CDT 2015]	<303, 4, 100.00%, MAC, 810 ms>
+[Tue Oct 13 19:26:31 CDT 2015]	
+[Tue Oct 13 19:26:31 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/303_nodes_2.txt =========
+[Tue Oct 13 19:26:32 CDT 2015]	<303, 3, 100.00%, MIN_CONFLICTS, 106 ms>
+[Tue Oct 13 19:26:32 CDT 2015]	<303, 4, 100.00%, MIN_CONFLICTS, 35 ms>
+[Tue Oct 13 19:26:32 CDT 2015]	
+[Tue Oct 13 19:26:32 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/303_nodes_2.txt =========
+[Tue Oct 13 19:26:32 CDT 2015]	<303, 3, 5.61%, FC, 101 ms>
+[Tue Oct 13 19:26:35 CDT 2015]	<303, 4, 100.00%, FC, 2755 ms>
+[Tue Oct 13 19:26:35 CDT 2015]	
+[Tue Oct 13 19:26:35 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/303_nodes_2.txt =========
+[Tue Oct 13 19:26:35 CDT 2015]	<303, 3, 0.66%, AC3, 104 ms>
+[Tue Oct 13 19:26:35 CDT 2015]	<303, 4, 100.00%, AC3, 98 ms>
+[Tue Oct 13 19:26:35 CDT 2015]	
+[Tue Oct 13 19:26:36 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/303_nodes_2.txt =========
+[Tue Oct 13 19:26:36 CDT 2015]	<303, 3, 0.66%, MAC, 86 ms>
+[Tue Oct 13 19:26:36 CDT 2015]	<303, 4, 100.00%, MAC, 573 ms>
+[Tue Oct 13 19:26:36 CDT 2015]	
+[Tue Oct 13 19:26:37 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/303_nodes_3.txt =========
+[Tue Oct 13 19:26:37 CDT 2015]	<303, 3, 100.00%, MIN_CONFLICTS, 71 ms>
+[Tue Oct 13 19:26:37 CDT 2015]	<303, 4, 100.00%, MIN_CONFLICTS, 27 ms>
+[Tue Oct 13 19:26:37 CDT 2015]	
+[Tue Oct 13 19:26:37 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/303_nodes_3.txt =========
+[Tue Oct 13 19:26:37 CDT 2015]	<303, 3, 3.30%, FC, 29 ms>
+[Tue Oct 13 19:26:37 CDT 2015]	<303, 4, 100.00%, FC, 405 ms>
+[Tue Oct 13 19:26:37 CDT 2015]	
+[Tue Oct 13 19:26:38 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/303_nodes_3.txt =========
+[Tue Oct 13 19:26:38 CDT 2015]	<303, 3, 0.66%, AC3, 67 ms>
+[Tue Oct 13 19:26:38 CDT 2015]	<303, 4, 100.00%, AC3, 130 ms>
+[Tue Oct 13 19:26:38 CDT 2015]	
+[Tue Oct 13 19:26:38 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/303_nodes_3.txt =========
+[Tue Oct 13 19:26:38 CDT 2015]	<303, 3, 0.66%, MAC, 120 ms>
+[Tue Oct 13 19:26:39 CDT 2015]	<303, 4, 100.00%, MAC, 635 ms>
+[Tue Oct 13 19:26:39 CDT 2015]	
+[Tue Oct 13 19:26:39 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/303_nodes_4.txt =========
+[Tue Oct 13 19:26:39 CDT 2015]	<303, 3, 100.00%, MIN_CONFLICTS, 87 ms>
+[Tue Oct 13 19:26:39 CDT 2015]	<303, 4, 100.00%, MIN_CONFLICTS, 27 ms>
+[Tue Oct 13 19:26:39 CDT 2015]	
+[Tue Oct 13 19:26:39 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/303_nodes_4.txt =========
+[Tue Oct 13 19:26:40 CDT 2015]	<303, 3, 3.63%, FC, 71 ms>
+[Tue Oct 13 19:26:40 CDT 2015]	<303, 4, 100.00%, FC, 602 ms>
+[Tue Oct 13 19:26:40 CDT 2015]	
+[Tue Oct 13 19:26:40 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/303_nodes_4.txt =========
+[Tue Oct 13 19:26:41 CDT 2015]	<303, 3, 0.66%, AC3, 61 ms>
+[Tue Oct 13 19:26:41 CDT 2015]	<303, 4, 100.00%, AC3, 106 ms>
+[Tue Oct 13 19:26:41 CDT 2015]	
+[Tue Oct 13 19:26:41 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/303_nodes_4.txt =========
+[Tue Oct 13 19:26:41 CDT 2015]	<303, 3, 0.66%, MAC, 118 ms>
+[Tue Oct 13 19:26:42 CDT 2015]	<303, 4, 100.00%, MAC, 615 ms>
+[Tue Oct 13 19:26:42 CDT 2015]	
+[Tue Oct 13 19:26:42 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/303_nodes_5.txt =========
+[Tue Oct 13 19:26:42 CDT 2015]	<303, 3, 100.00%, MIN_CONFLICTS, 106 ms>
+[Tue Oct 13 19:26:42 CDT 2015]	<303, 4, 100.00%, MIN_CONFLICTS, 40 ms>
+[Tue Oct 13 19:26:42 CDT 2015]	
+[Tue Oct 13 19:26:42 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/303_nodes_5.txt =========
+[Tue Oct 13 19:26:42 CDT 2015]	<303, 3, 1.32%, FC, 24 ms>
+[Tue Oct 13 19:26:43 CDT 2015]	<303, 4, 100.00%, FC, 369 ms>
+[Tue Oct 13 19:26:43 CDT 2015]	
+[Tue Oct 13 19:26:43 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/303_nodes_5.txt =========
+[Tue Oct 13 19:26:43 CDT 2015]	<303, 3, 0.66%, AC3, 58 ms>
+[Tue Oct 13 19:26:43 CDT 2015]	<303, 4, 100.00%, AC3, 133 ms>
+[Tue Oct 13 19:26:43 CDT 2015]	
+[Tue Oct 13 19:26:43 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/303_nodes_5.txt =========
+[Tue Oct 13 19:26:44 CDT 2015]	<303, 3, 0.66%, MAC, 106 ms>
+[Tue Oct 13 19:26:44 CDT 2015]	<303, 4, 100.00%, MAC, 757 ms>
+[Tue Oct 13 19:26:44 CDT 2015]	
+[Tue Oct 13 19:26:45 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/303_nodes_6.txt =========
+[Tue Oct 13 19:26:45 CDT 2015]	<303, 3, 100.00%, MIN_CONFLICTS, 95 ms>
+[Tue Oct 13 19:26:45 CDT 2015]	<303, 4, 100.00%, MIN_CONFLICTS, 34 ms>
+[Tue Oct 13 19:26:45 CDT 2015]	
+[Tue Oct 13 19:26:45 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/303_nodes_6.txt =========
+[Tue Oct 13 19:26:45 CDT 2015]	<303, 3, 2.31%, FC, 16 ms>
+[Tue Oct 13 19:26:48 CDT 2015]	<303, 4, 100.00%, FC, 3225 ms>
+[Tue Oct 13 19:26:48 CDT 2015]	
+[Tue Oct 13 19:26:49 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/303_nodes_6.txt =========
+[Tue Oct 13 19:26:49 CDT 2015]	<303, 3, 0.66%, AC3, 67 ms>
+[Tue Oct 13 19:26:49 CDT 2015]	<303, 4, 100.00%, AC3, 93 ms>
+[Tue Oct 13 19:26:49 CDT 2015]	
+[Tue Oct 13 19:26:49 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/303_nodes_6.txt =========
+[Tue Oct 13 19:26:49 CDT 2015]	<303, 3, 0.66%, MAC, 114 ms>
+[Tue Oct 13 19:26:50 CDT 2015]	<303, 4, 100.00%, MAC, 785 ms>
+[Tue Oct 13 19:26:50 CDT 2015]	
+[Tue Oct 13 19:26:50 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/303_nodes_7.txt =========
+[Tue Oct 13 19:26:51 CDT 2015]	<303, 3, 100.00%, MIN_CONFLICTS, 142 ms>
+[Tue Oct 13 19:26:51 CDT 2015]	<303, 4, 100.00%, MIN_CONFLICTS, 42 ms>
+[Tue Oct 13 19:26:51 CDT 2015]	
+[Tue Oct 13 19:26:51 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/303_nodes_7.txt =========
+[Tue Oct 13 19:26:51 CDT 2015]	<303, 3, 1.32%, FC, 34 ms>
+[Tue Oct 13 19:27:03 CDT 2015]	<303, 4, 100.00%, FC, 12314 ms>
+[Tue Oct 13 19:27:03 CDT 2015]	
+[Tue Oct 13 19:27:04 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/303_nodes_7.txt =========
+[Tue Oct 13 19:27:04 CDT 2015]	<303, 3, 0.66%, AC3, 91 ms>
+[Tue Oct 13 19:27:04 CDT 2015]	<303, 4, 100.00%, AC3, 129 ms>
+[Tue Oct 13 19:27:04 CDT 2015]	
+[Tue Oct 13 19:27:04 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/303_nodes_7.txt =========
+[Tue Oct 13 19:27:05 CDT 2015]	<303, 3, 0.66%, MAC, 146 ms>
+[Tue Oct 13 19:27:06 CDT 2015]	<303, 4, 100.00%, MAC, 1054 ms>
+[Tue Oct 13 19:27:06 CDT 2015]	
+[Tue Oct 13 19:27:06 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/303_nodes_8.txt =========
+[Tue Oct 13 19:27:06 CDT 2015]	<303, 3, 100.00%, MIN_CONFLICTS, 102 ms>
+[Tue Oct 13 19:27:06 CDT 2015]	<303, 4, 100.00%, MIN_CONFLICTS, 40 ms>
+[Tue Oct 13 19:27:06 CDT 2015]	
+[Tue Oct 13 19:27:06 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/303_nodes_8.txt =========
+[Tue Oct 13 19:27:07 CDT 2015]	<303, 3, 3.63%, FC, 34 ms>
+[Tue Oct 13 19:27:18 CDT 2015]	<303, 4, 100.00%, FC, 11481 ms>
+[Tue Oct 13 19:27:18 CDT 2015]	
+[Tue Oct 13 19:27:18 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/303_nodes_8.txt =========
+[Tue Oct 13 19:27:18 CDT 2015]	<303, 3, 0.66%, AC3, 62 ms>
+[Tue Oct 13 19:27:19 CDT 2015]	<303, 4, 100.00%, AC3, 235 ms>
+[Tue Oct 13 19:27:19 CDT 2015]	
+[Tue Oct 13 19:27:19 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/303_nodes_8.txt =========
+[Tue Oct 13 19:27:19 CDT 2015]	<303, 3, 0.66%, MAC, 115 ms>
+[Tue Oct 13 19:27:21 CDT 2015]	<303, 4, 100.00%, MAC, 2042 ms>
+[Tue Oct 13 19:27:21 CDT 2015]	
+[Tue Oct 13 19:27:21 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/303_nodes_9.txt =========
+[Tue Oct 13 19:27:22 CDT 2015]	<303, 3, 100.00%, MIN_CONFLICTS, 87 ms>
+[Tue Oct 13 19:27:22 CDT 2015]	<303, 4, 100.00%, MIN_CONFLICTS, 38 ms>
+[Tue Oct 13 19:27:22 CDT 2015]	
+[Tue Oct 13 19:27:22 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/303_nodes_9.txt =========
+[Tue Oct 13 19:27:22 CDT 2015]	<303, 3, 2.64%, FC, 28 ms>
+[Tue Oct 13 19:27:26 CDT 2015]	<303, 4, 100.00%, FC, 3681 ms>
+[Tue Oct 13 19:27:26 CDT 2015]	
+[Tue Oct 13 19:27:26 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/303_nodes_9.txt =========
+[Tue Oct 13 19:27:26 CDT 2015]	<303, 3, 0.66%, AC3, 88 ms>
+[Tue Oct 13 19:27:26 CDT 2015]	<303, 4, 100.00%, AC3, 122 ms>
+[Tue Oct 13 19:27:26 CDT 2015]	
+[Tue Oct 13 19:27:27 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/303_nodes_9.txt =========
+[Tue Oct 13 19:27:27 CDT 2015]	<303, 3, 0.66%, MAC, 135 ms>
+[Tue Oct 13 19:27:28 CDT 2015]	<303, 4, 100.00%, MAC, 1112 ms>
+[Tue Oct 13 19:27:28 CDT 2015]	
+[Tue Oct 13 19:27:28 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/304_nodes_0.txt =========
+[Tue Oct 13 19:27:28 CDT 2015]	<304, 3, 100.00%, MIN_CONFLICTS, 96 ms>
+[Tue Oct 13 19:27:28 CDT 2015]	<304, 4, 100.00%, MIN_CONFLICTS, 43 ms>
+[Tue Oct 13 19:27:28 CDT 2015]	
+[Tue Oct 13 19:27:29 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/304_nodes_0.txt =========
+[Tue Oct 13 19:27:29 CDT 2015]	<304, 3, 2.63%, FC, 75 ms>
+[Tue Oct 13 19:27:29 CDT 2015]	<304, 4, 100.00%, FC, 526 ms>
+[Tue Oct 13 19:27:29 CDT 2015]	
+[Tue Oct 13 19:27:30 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/304_nodes_0.txt =========
+[Tue Oct 13 19:27:30 CDT 2015]	<304, 3, 0.66%, AC3, 67 ms>
+[Tue Oct 13 19:27:30 CDT 2015]	<304, 4, 100.00%, AC3, 132 ms>
+[Tue Oct 13 19:27:30 CDT 2015]	
+[Tue Oct 13 19:27:30 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/304_nodes_0.txt =========
+[Tue Oct 13 19:27:30 CDT 2015]	<304, 3, 0.66%, MAC, 142 ms>
+[Tue Oct 13 19:27:31 CDT 2015]	<304, 4, 100.00%, MAC, 649 ms>
+[Tue Oct 13 19:27:31 CDT 2015]	
+[Tue Oct 13 19:27:31 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/304_nodes_1.txt =========
+[Tue Oct 13 19:27:32 CDT 2015]	<304, 3, 100.00%, MIN_CONFLICTS, 124 ms>
+[Tue Oct 13 19:27:32 CDT 2015]	<304, 4, 100.00%, MIN_CONFLICTS, 44 ms>
+[Tue Oct 13 19:27:32 CDT 2015]	
+[Tue Oct 13 19:27:32 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/304_nodes_1.txt =========
+[Tue Oct 13 19:27:32 CDT 2015]	<304, 3, 1.64%, FC, 32 ms>
+[Tue Oct 13 19:27:51 CDT 2015]	<304, 4, 100.00%, FC, 18454 ms>
+[Tue Oct 13 19:27:51 CDT 2015]	
+[Tue Oct 13 19:27:51 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/304_nodes_1.txt =========
+[Tue Oct 13 19:27:51 CDT 2015]	<304, 3, 0.66%, AC3, 61 ms>
+[Tue Oct 13 19:27:51 CDT 2015]	<304, 4, 100.00%, AC3, 128 ms>
+[Tue Oct 13 19:27:51 CDT 2015]	
+[Tue Oct 13 19:27:51 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/304_nodes_1.txt =========
+[Tue Oct 13 19:27:52 CDT 2015]	<304, 3, 0.66%, MAC, 145 ms>
+[Tue Oct 13 19:27:53 CDT 2015]	<304, 4, 100.00%, MAC, 740 ms>
+[Tue Oct 13 19:27:53 CDT 2015]	
+[Tue Oct 13 19:27:53 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/304_nodes_2.txt =========
+[Tue Oct 13 19:27:53 CDT 2015]	<304, 3, 100.00%, MIN_CONFLICTS, 98 ms>
+[Tue Oct 13 19:27:53 CDT 2015]	<304, 4, 100.00%, MIN_CONFLICTS, 33 ms>
+[Tue Oct 13 19:27:53 CDT 2015]	
+[Tue Oct 13 19:27:53 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/304_nodes_2.txt =========
+[Tue Oct 13 19:27:53 CDT 2015]	<304, 3, 1.32%, FC, 12 ms>
+[Tue Oct 13 19:28:03 CDT 2015]	<304, 4, 100.00%, FC, 9353 ms>
+[Tue Oct 13 19:28:03 CDT 2015]	
+[Tue Oct 13 19:28:03 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/304_nodes_2.txt =========
+[Tue Oct 13 19:28:03 CDT 2015]	<304, 3, 0.66%, AC3, 58 ms>
+[Tue Oct 13 19:28:03 CDT 2015]	<304, 4, 100.00%, AC3, 120 ms>
+[Tue Oct 13 19:28:03 CDT 2015]	
+[Tue Oct 13 19:28:04 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/304_nodes_2.txt =========
+[Tue Oct 13 19:28:04 CDT 2015]	<304, 3, 0.66%, MAC, 116 ms>
+[Tue Oct 13 19:28:05 CDT 2015]	<304, 4, 100.00%, MAC, 748 ms>
+[Tue Oct 13 19:28:05 CDT 2015]	
+[Tue Oct 13 19:28:05 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/304_nodes_3.txt =========
+[Tue Oct 13 19:28:05 CDT 2015]	<304, 3, 100.00%, MIN_CONFLICTS, 143 ms>
+[Tue Oct 13 19:28:05 CDT 2015]	<304, 4, 100.00%, MIN_CONFLICTS, 35 ms>
+[Tue Oct 13 19:28:05 CDT 2015]	
+[Tue Oct 13 19:28:05 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/304_nodes_3.txt =========
+[Tue Oct 13 19:28:06 CDT 2015]	<304, 3, 1.64%, FC, 20 ms>Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
+	at java.util.Arrays.copyOf(Arrays.java:2219)
+	at java.util.ArrayList.toArray(ArrayList.java:358)
+	at java.util.ArrayList.addAll(ArrayList.java:559)
+	at aima.core.search.csp.CSP.copyDomains(Unknown Source)
+	at aima.core.search.csp.SolutionStrategy.fireStateChanged(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+
+[Tue Oct 13 19:36:10 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/304_nodes_3.txt =========
+[Tue Oct 13 19:36:10 CDT 2015]	<304, 3, 0.66%, AC3, 59 ms>
+[Tue Oct 13 19:36:10 CDT 2015]	<304, 4, 100.00%, AC3, 128 ms>
+[Tue Oct 13 19:36:10 CDT 2015]	
+[Tue Oct 13 19:36:11 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/304_nodes_3.txt =========
+[Tue Oct 13 19:36:11 CDT 2015]	<304, 3, 0.66%, MAC, 110 ms>
+[Tue Oct 13 19:36:12 CDT 2015]	<304, 4, 100.00%, MAC, 771 ms>
+[Tue Oct 13 19:36:12 CDT 2015]	
+[Tue Oct 13 19:36:12 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/304_nodes_4.txt =========
+[Tue Oct 13 19:36:12 CDT 2015]	<304, 3, 100.00%, MIN_CONFLICTS, 101 ms>
+[Tue Oct 13 19:36:12 CDT 2015]	<304, 4, 100.00%, MIN_CONFLICTS, 38 ms>
+[Tue Oct 13 19:36:12 CDT 2015]	
+[Tue Oct 13 19:36:12 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/304_nodes_4.txt =========
+[Tue Oct 13 19:36:12 CDT 2015]	<304, 3, 2.63%, FC, 62 ms>Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
+	at java.util.Arrays.copyOf(Arrays.java:2219)
+	at java.util.ArrayList.grow(ArrayList.java:242)
+	at java.util.ArrayList.ensureExplicitCapacity(ArrayList.java:216)
+	at java.util.ArrayList.ensureCapacityInternal(ArrayList.java:208)
+	at java.util.ArrayList.add(ArrayList.java:440)
+	at aima.core.search.csp.Assignment.setAssignment(Unknown Source)
+	at aima.core.search.csp.Assignment.copy(Unknown Source)
+	at aima.core.search.csp.SolutionStrategy.fireStateChanged(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+
+[Tue Oct 13 19:40:45 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/304_nodes_4.txt =========
+[Tue Oct 13 19:40:46 CDT 2015]	<304, 3, 0.66%, AC3, 45 ms>
+[Tue Oct 13 19:40:46 CDT 2015]	<304, 4, 100.00%, AC3, 106 ms>
+[Tue Oct 13 19:40:46 CDT 2015]	
+[Tue Oct 13 19:40:46 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/304_nodes_4.txt =========
+[Tue Oct 13 19:40:46 CDT 2015]	<304, 3, 0.66%, MAC, 78 ms>
+[Tue Oct 13 19:40:47 CDT 2015]	<304, 4, 100.00%, MAC, 741 ms>
+[Tue Oct 13 19:40:47 CDT 2015]	
+[Tue Oct 13 19:40:47 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/304_nodes_5.txt =========
+[Tue Oct 13 19:40:47 CDT 2015]	<304, 3, 100.00%, MIN_CONFLICTS, 113 ms>
+[Tue Oct 13 19:40:47 CDT 2015]	<304, 4, 100.00%, MIN_CONFLICTS, 41 ms>
+[Tue Oct 13 19:40:47 CDT 2015]	
+[Tue Oct 13 19:40:47 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/304_nodes_5.txt =========
+[Tue Oct 13 19:40:48 CDT 2015]	<304, 3, 0.99%, FC, 10 ms>
+[Tue Oct 13 19:40:54 CDT 2015]	<304, 4, 100.00%, FC, 6643 ms>
+[Tue Oct 13 19:40:54 CDT 2015]	
+[Tue Oct 13 19:40:54 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/304_nodes_5.txt =========
+[Tue Oct 13 19:40:55 CDT 2015]	<304, 3, 0.66%, AC3, 63 ms>
+[Tue Oct 13 19:40:55 CDT 2015]	<304, 4, 100.00%, AC3, 127 ms>
+[Tue Oct 13 19:40:55 CDT 2015]	
+[Tue Oct 13 19:40:55 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/304_nodes_5.txt =========
+[Tue Oct 13 19:40:55 CDT 2015]	<304, 3, 0.66%, MAC, 101 ms>
+[Tue Oct 13 19:40:56 CDT 2015]	<304, 4, 100.00%, MAC, 542 ms>
+[Tue Oct 13 19:40:56 CDT 2015]	
+[Tue Oct 13 19:40:56 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/304_nodes_6.txt =========
+[Tue Oct 13 19:40:56 CDT 2015]	<304, 3, 100.00%, MIN_CONFLICTS, 90 ms>
+[Tue Oct 13 19:40:56 CDT 2015]	<304, 4, 100.00%, MIN_CONFLICTS, 32 ms>
+[Tue Oct 13 19:40:56 CDT 2015]	
+[Tue Oct 13 19:40:56 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/304_nodes_6.txt =========
+[Tue Oct 13 19:40:56 CDT 2015]	<304, 3, 1.64%, FC, 15 ms>
+[Tue Oct 13 19:40:57 CDT 2015]	<304, 4, 100.00%, FC, 573 ms>
+[Tue Oct 13 19:40:57 CDT 2015]	
+[Tue Oct 13 19:40:57 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/304_nodes_6.txt =========
+[Tue Oct 13 19:40:57 CDT 2015]	<304, 3, 0.66%, AC3, 43 ms>
+[Tue Oct 13 19:40:57 CDT 2015]	<304, 4, 100.00%, AC3, 75 ms>
+[Tue Oct 13 19:40:57 CDT 2015]	
+[Tue Oct 13 19:40:58 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/304_nodes_6.txt =========
+[Tue Oct 13 19:40:58 CDT 2015]	<304, 3, 0.66%, MAC, 77 ms>
+[Tue Oct 13 19:40:58 CDT 2015]	<304, 4, 100.00%, MAC, 588 ms>
+[Tue Oct 13 19:40:58 CDT 2015]	
+[Tue Oct 13 19:40:58 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/304_nodes_7.txt =========
+[Tue Oct 13 19:40:59 CDT 2015]	<304, 3, 100.00%, MIN_CONFLICTS, 149 ms>
+[Tue Oct 13 19:40:59 CDT 2015]	<304, 4, 100.00%, MIN_CONFLICTS, 60 ms>
+[Tue Oct 13 19:40:59 CDT 2015]	
+[Tue Oct 13 19:40:59 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/304_nodes_7.txt =========
+[Tue Oct 13 19:40:59 CDT 2015]	<304, 3, 3.29%, FC, 65 ms>
+[Tue Oct 13 19:41:00 CDT 2015]	<304, 4, 100.00%, FC, 580 ms>
+[Tue Oct 13 19:41:00 CDT 2015]	
+[Tue Oct 13 19:41:00 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/304_nodes_7.txt =========
+[Tue Oct 13 19:41:00 CDT 2015]	<304, 3, 0.66%, AC3, 66 ms>
+[Tue Oct 13 19:41:00 CDT 2015]	<304, 4, 100.00%, AC3, 103 ms>
+[Tue Oct 13 19:41:00 CDT 2015]	
+[Tue Oct 13 19:41:01 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/304_nodes_7.txt =========
+[Tue Oct 13 19:41:01 CDT 2015]	<304, 3, 0.66%, MAC, 79 ms>
+[Tue Oct 13 19:41:01 CDT 2015]	<304, 4, 100.00%, MAC, 481 ms>
+[Tue Oct 13 19:41:01 CDT 2015]	
+[Tue Oct 13 19:41:01 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/304_nodes_8.txt =========
+[Tue Oct 13 19:41:02 CDT 2015]	<304, 3, 100.00%, MIN_CONFLICTS, 90 ms>
+[Tue Oct 13 19:41:02 CDT 2015]	<304, 4, 100.00%, MIN_CONFLICTS, 33 ms>
+[Tue Oct 13 19:41:02 CDT 2015]	
+[Tue Oct 13 19:41:02 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/304_nodes_8.txt =========
+[Tue Oct 13 19:41:02 CDT 2015]	<304, 3, 4.93%, FC, 60 ms>Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
+	at java.util.Arrays.copyOf(Arrays.java:2219)
+	at java.util.ArrayList.grow(ArrayList.java:242)
+	at java.util.ArrayList.ensureExplicitCapacity(ArrayList.java:216)
+	at java.util.ArrayList.ensureCapacityInternal(ArrayList.java:208)
+	at java.util.ArrayList.add(ArrayList.java:440)
+	at aima.core.search.csp.Assignment.setAssignment(Unknown Source)
+	at aima.core.search.csp.Assignment.copy(Unknown Source)
+	at aima.core.search.csp.SolutionStrategy.fireStateChanged(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+
+[Tue Oct 13 19:48:17 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/304_nodes_8.txt =========
+[Tue Oct 13 19:48:17 CDT 2015]	<304, 3, 0.66%, AC3, 66 ms>
+[Tue Oct 13 19:48:18 CDT 2015]	<304, 4, 100.00%, AC3, 425 ms>
+[Tue Oct 13 19:48:18 CDT 2015]	
+[Tue Oct 13 19:48:18 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/304_nodes_8.txt =========
+[Tue Oct 13 19:48:18 CDT 2015]	<304, 3, 0.66%, MAC, 223 ms>
+[Tue Oct 13 19:48:20 CDT 2015]	<304, 4, 100.00%, MAC, 2065 ms>
+[Tue Oct 13 19:48:20 CDT 2015]	
+[Tue Oct 13 19:48:20 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/304_nodes_9.txt =========
+[Tue Oct 13 19:48:21 CDT 2015]	<304, 3, 100.00%, MIN_CONFLICTS, 91 ms>
+[Tue Oct 13 19:48:21 CDT 2015]	<304, 4, 100.00%, MIN_CONFLICTS, 32 ms>
+[Tue Oct 13 19:48:21 CDT 2015]	
+[Tue Oct 13 19:48:21 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/304_nodes_9.txt =========
+[Tue Oct 13 19:48:21 CDT 2015]	<304, 3, 1.97%, FC, 23 ms>
+[Tue Oct 13 19:48:27 CDT 2015]	<304, 4, 100.00%, FC, 6581 ms>
+[Tue Oct 13 19:48:27 CDT 2015]	
+[Tue Oct 13 19:48:28 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/304_nodes_9.txt =========
+[Tue Oct 13 19:48:28 CDT 2015]	<304, 3, 0.66%, AC3, 74 ms>
+[Tue Oct 13 19:48:28 CDT 2015]	<304, 4, 100.00%, AC3, 128 ms>
+[Tue Oct 13 19:48:28 CDT 2015]	
+[Tue Oct 13 19:48:28 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/304_nodes_9.txt =========
+[Tue Oct 13 19:48:28 CDT 2015]	<304, 3, 0.66%, MAC, 104 ms>
+[Tue Oct 13 19:48:29 CDT 2015]	<304, 4, 100.00%, MAC, 778 ms>
+[Tue Oct 13 19:48:29 CDT 2015]	
+[Tue Oct 13 19:48:29 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/305_nodes_0.txt =========
+[Tue Oct 13 19:48:30 CDT 2015]	<305, 3, 100.00%, MIN_CONFLICTS, 105 ms>
+[Tue Oct 13 19:48:30 CDT 2015]	<305, 4, 100.00%, MIN_CONFLICTS, 33 ms>
+[Tue Oct 13 19:48:30 CDT 2015]	
+[Tue Oct 13 19:48:30 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/305_nodes_0.txt =========
+[Tue Oct 13 19:48:30 CDT 2015]	<305, 3, 1.64%, FC, 17 ms>
+[Tue Oct 13 19:49:26 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/305_nodes_0.txt =========
+[Tue Oct 13 19:49:26 CDT 2015]	<305, 3, 0.66%, AC3, 66 ms>
+[Tue Oct 13 19:49:26 CDT 2015]	<305, 4, 100.00%, AC3, 162 ms>
+[Tue Oct 13 19:49:26 CDT 2015]	
+[Tue Oct 13 19:49:26 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/305_nodes_0.txt =========
+[Tue Oct 13 19:49:27 CDT 2015]	<305, 3, 0.66%, MAC, 130 ms>
+[Tue Oct 13 19:49:27 CDT 2015]	<305, 4, 100.00%, MAC, 748 ms>
+[Tue Oct 13 19:49:27 CDT 2015]	
+[Tue Oct 13 19:49:28 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/305_nodes_1.txt =========
+[Tue Oct 13 19:49:28 CDT 2015]	<305, 3, 100.00%, MIN_CONFLICTS, 119 ms>
+[Tue Oct 13 19:49:28 CDT 2015]	<305, 4, 100.00%, MIN_CONFLICTS, 43 ms>
+[Tue Oct 13 19:49:28 CDT 2015]	
+[Tue Oct 13 19:49:28 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/305_nodes_1.txt =========
+[Tue Oct 13 19:49:28 CDT 2015]	<305, 3, 2.95%, FC, 69 ms>
+[Tue Oct 13 19:51:09 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/350_nodes_0.txt =========
+[Tue Oct 13 19:51:10 CDT 2015]	<350, 3, 100.00%, MIN_CONFLICTS, 104 ms>
+[Tue Oct 13 19:51:10 CDT 2015]	<350, 4, 100.00%, MIN_CONFLICTS, 42 ms>
+[Tue Oct 13 19:51:10 CDT 2015]	
+[Tue Oct 13 19:51:10 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/350_nodes_0.txt =========
+[Tue Oct 13 19:51:10 CDT 2015]	<350, 3, 0.57%, BACKTRACKING, 53 ms>Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
+	at java.util.ArrayList.<init>(ArrayList.java:144)
+	at aima.core.search.csp.CSP.copyDomains(Unknown Source)
+	at aima.core.search.csp.SolutionStrategy.fireStateChanged(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+
+[Tue Oct 13 19:56:23 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/350_nodes_0.txt =========
+[Tue Oct 13 19:56:23 CDT 2015]	<350, 3, 2.57%, FC, 30 ms>
+[Tue Oct 13 19:56:28 CDT 2015]	<350, 4, 100.00%, FC, 4802 ms>
+[Tue Oct 13 19:56:28 CDT 2015]	
+[Tue Oct 13 19:56:28 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/350_nodes_0.txt =========
+[Tue Oct 13 19:56:29 CDT 2015]	<350, 3, 0.57%, AC3, 78 ms>
+[Tue Oct 13 19:56:29 CDT 2015]	<350, 4, 100.00%, AC3, 136 ms>
+[Tue Oct 13 19:56:29 CDT 2015]	
+[Tue Oct 13 19:56:29 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/350_nodes_0.txt =========
+[Tue Oct 13 19:56:29 CDT 2015]	<350, 3, 0.57%, MAC, 129 ms>
+[Tue Oct 13 19:56:31 CDT 2015]	<350, 4, 100.00%, MAC, 1263 ms>
+[Tue Oct 13 19:56:31 CDT 2015]	
+[Tue Oct 13 19:56:31 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/350_nodes_1.txt =========
+[Tue Oct 13 19:56:31 CDT 2015]	<350, 3, 100.00%, MIN_CONFLICTS, 121 ms>
+[Tue Oct 13 19:56:31 CDT 2015]	<350, 4, 100.00%, MIN_CONFLICTS, 51 ms>
+[Tue Oct 13 19:56:31 CDT 2015]	
+[Tue Oct 13 19:56:31 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/350_nodes_1.txt =========
+[Tue Oct 13 19:56:32 CDT 2015]	<350, 3, 0.57%, BACKTRACKING, 72 ms>Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
+	at java.util.Arrays.copyOf(Arrays.java:2219)
+	at java.util.ArrayList.toArray(ArrayList.java:358)
+	at java.util.ArrayList.addAll(ArrayList.java:559)
+	at aima.core.search.csp.CSP.copyDomains(Unknown Source)
+	at aima.core.search.csp.SolutionStrategy.fireStateChanged(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+
+[Tue Oct 13 19:59:01 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/350_nodes_1.txt =========
+[Tue Oct 13 19:59:02 CDT 2015]	<350, 3, 2.29%, FC, 39 ms>
+[Tue Oct 13 19:59:33 CDT 2015]	<350, 4, 100.00%, FC, 31732 ms>
+[Tue Oct 13 19:59:33 CDT 2015]	
+[Tue Oct 13 19:59:34 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/350_nodes_1.txt =========
+[Tue Oct 13 19:59:34 CDT 2015]	<350, 3, 0.57%, AC3, 67 ms>
+[Tue Oct 13 19:59:34 CDT 2015]	<350, 4, 100.00%, AC3, 530 ms>
+[Tue Oct 13 19:59:34 CDT 2015]	
+[Tue Oct 13 19:59:34 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/350_nodes_1.txt =========
+[Tue Oct 13 19:59:35 CDT 2015]	<350, 3, 0.57%, MAC, 144 ms>
+[Tue Oct 13 19:59:40 CDT 2015]	<350, 4, 100.00%, MAC, 5640 ms>
+[Tue Oct 13 19:59:40 CDT 2015]	
+[Tue Oct 13 19:59:41 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/350_nodes_2.txt =========
+[Tue Oct 13 19:59:41 CDT 2015]	<350, 3, 100.00%, MIN_CONFLICTS, 193 ms>
+[Tue Oct 13 19:59:41 CDT 2015]	<350, 4, 100.00%, MIN_CONFLICTS, 59 ms>
+[Tue Oct 13 19:59:41 CDT 2015]	
+[Tue Oct 13 19:59:41 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/350_nodes_2.txt =========
+[Tue Oct 13 19:59:42 CDT 2015]	<350, 3, 0.57%, BACKTRACKING, 141 ms>Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
+	at java.util.Arrays.copyOf(Arrays.java:2219)
+	at java.util.ArrayList.toArray(ArrayList.java:358)
+	at java.util.ArrayList.addAll(ArrayList.java:559)
+	at aima.core.search.csp.CSP.copyDomains(Unknown Source)
+	at aima.core.search.csp.SolutionStrategy.fireStateChanged(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+
+[Tue Oct 13 20:02:32 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/350_nodes_2.txt =========
+[Tue Oct 13 20:02:33 CDT 2015]	<350, 3, 2.86%, FC, 39 ms>
+[Tue Oct 13 20:02:38 CDT 2015]	<350, 4, 100.00%, FC, 5435 ms>
+[Tue Oct 13 20:02:38 CDT 2015]	
+[Tue Oct 13 20:02:38 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/350_nodes_2.txt =========
+[Tue Oct 13 20:02:38 CDT 2015]	<350, 3, 0.57%, AC3, 73 ms>
+[Tue Oct 13 20:02:39 CDT 2015]	<350, 4, 100.00%, AC3, 139 ms>
+[Tue Oct 13 20:02:39 CDT 2015]	
+[Tue Oct 13 20:02:39 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/350_nodes_2.txt =========
+[Tue Oct 13 20:02:39 CDT 2015]	<350, 3, 0.57%, MAC, 179 ms>
+[Tue Oct 13 20:02:41 CDT 2015]	<350, 4, 100.00%, MAC, 1206 ms>
+[Tue Oct 13 20:02:41 CDT 2015]	
+[Tue Oct 13 20:02:41 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/350_nodes_3.txt =========
+[Tue Oct 13 20:02:41 CDT 2015]	<350, 3, 100.00%, MIN_CONFLICTS, 181 ms>
+[Tue Oct 13 20:02:41 CDT 2015]	<350, 4, 100.00%, MIN_CONFLICTS, 43 ms>
+[Tue Oct 13 20:02:41 CDT 2015]	
+[Tue Oct 13 20:02:41 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/350_nodes_3.txt =========
+[Tue Oct 13 20:02:42 CDT 2015]	<350, 3, 0.57%, BACKTRACKING, 186 ms>Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
+	at java.util.Arrays.copyOf(Arrays.java:2219)
+	at java.util.ArrayList.toArray(ArrayList.java:358)
+	at java.util.ArrayList.addAll(ArrayList.java:559)
+	at aima.core.search.csp.CSP.copyDomains(Unknown Source)
+	at aima.core.search.csp.SolutionStrategy.fireStateChanged(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+
+[Tue Oct 13 20:10:09 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/350_nodes_3.txt =========
+[Tue Oct 13 20:10:09 CDT 2015]	<350, 3, 3.14%, FC, 69 ms>
+[Tue Oct 13 20:10:13 CDT 2015]	<350, 4, 100.00%, FC, 4136 ms>
+[Tue Oct 13 20:10:13 CDT 2015]	
+[Tue Oct 13 20:10:14 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/350_nodes_3.txt =========
+[Tue Oct 13 20:10:14 CDT 2015]	<350, 3, 0.57%, AC3, 68 ms>
+[Tue Oct 13 20:10:14 CDT 2015]	<350, 4, 100.00%, AC3, 108 ms>
+[Tue Oct 13 20:10:14 CDT 2015]	
+[Tue Oct 13 20:10:14 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/350_nodes_3.txt =========
+[Tue Oct 13 20:10:14 CDT 2015]	<350, 3, 0.57%, MAC, 99 ms>
+[Tue Oct 13 20:10:15 CDT 2015]	<350, 4, 100.00%, MAC, 742 ms>
+[Tue Oct 13 20:10:15 CDT 2015]	
+[Tue Oct 13 20:10:15 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/350_nodes_4.txt =========
+[Tue Oct 13 20:10:15 CDT 2015]	<350, 3, 100.00%, MIN_CONFLICTS, 104 ms>
+[Tue Oct 13 20:10:15 CDT 2015]	<350, 4, 100.00%, MIN_CONFLICTS, 37 ms>
+[Tue Oct 13 20:10:15 CDT 2015]	
+[Tue Oct 13 20:10:15 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/350_nodes_4.txt =========
+[Tue Oct 13 20:10:16 CDT 2015]	<350, 3, 0.57%, BACKTRACKING, 140 ms>Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
+	at java.util.ArrayList.<init>(ArrayList.java:144)
+	at aima.core.search.csp.CSP.copyDomains(Unknown Source)
+	at aima.core.search.csp.SolutionStrategy.fireStateChanged(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+
+[Tue Oct 13 20:15:11 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/350_nodes_4.txt =========
+[Tue Oct 13 20:15:11 CDT 2015]	<350, 3, 1.43%, FC, 27 ms>
+[Tue Oct 13 20:15:15 CDT 2015]	<350, 4, 100.00%, FC, 3309 ms>
+[Tue Oct 13 20:15:15 CDT 2015]	
+[Tue Oct 13 20:15:15 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/350_nodes_4.txt =========
+[Tue Oct 13 20:15:15 CDT 2015]	<350, 3, 0.57%, AC3, 68 ms>
+[Tue Oct 13 20:15:15 CDT 2015]	<350, 4, 100.00%, AC3, 195 ms>
+[Tue Oct 13 20:15:15 CDT 2015]	
+[Tue Oct 13 20:15:16 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/350_nodes_4.txt =========
+[Tue Oct 13 20:15:16 CDT 2015]	<350, 3, 0.57%, MAC, 121 ms>
+[Tue Oct 13 20:15:18 CDT 2015]	<350, 4, 100.00%, MAC, 1561 ms>
+[Tue Oct 13 20:15:18 CDT 2015]	
+[Tue Oct 13 20:15:18 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/350_nodes_5.txt =========
+[Tue Oct 13 20:15:18 CDT 2015]	<350, 3, 100.00%, MIN_CONFLICTS, 141 ms>
+[Tue Oct 13 20:15:18 CDT 2015]	<350, 4, 100.00%, MIN_CONFLICTS, 45 ms>
+[Tue Oct 13 20:15:18 CDT 2015]	
+[Tue Oct 13 20:15:18 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/350_nodes_5.txt =========
+[Tue Oct 13 20:15:19 CDT 2015]	<350, 3, 0.57%, BACKTRACKING, 188 ms>Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
+	at java.util.Arrays.copyOf(Arrays.java:2219)
+	at java.util.ArrayList.toArray(ArrayList.java:358)
+	at java.util.ArrayList.addAll(ArrayList.java:559)
+	at aima.core.search.csp.CSP.copyDomains(Unknown Source)
+	at aima.core.search.csp.SolutionStrategy.fireStateChanged(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+
+[Tue Oct 13 20:22:03 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/350_nodes_5.txt =========
+[Tue Oct 13 20:22:03 CDT 2015]	<350, 3, 2.00%, FC, 66 ms>Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
+	at java.util.Arrays.copyOf(Arrays.java:2219)
+	at java.util.ArrayList.grow(ArrayList.java:242)
+	at java.util.ArrayList.ensureExplicitCapacity(ArrayList.java:216)
+	at java.util.ArrayList.ensureCapacityInternal(ArrayList.java:208)
+	at java.util.ArrayList.add(ArrayList.java:440)
+	at aima.core.search.csp.Assignment.setAssignment(Unknown Source)
+	at aima.core.search.csp.Assignment.copy(Unknown Source)
+	at aima.core.search.csp.SolutionStrategy.fireStateChanged(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+
+[Tue Oct 13 20:30:49 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/350_nodes_5.txt =========
+[Tue Oct 13 20:30:49 CDT 2015]	<350, 3, 0.57%, AC3, 62 ms>
+[Tue Oct 13 20:30:49 CDT 2015]	<350, 4, 100.00%, AC3, 99 ms>
+[Tue Oct 13 20:30:49 CDT 2015]	
+[Tue Oct 13 20:30:49 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/350_nodes_5.txt =========
+[Tue Oct 13 20:30:49 CDT 2015]	<350, 3, 0.57%, MAC, 174 ms>
+[Tue Oct 13 20:30:50 CDT 2015]	<350, 4, 100.00%, MAC, 761 ms>
+[Tue Oct 13 20:30:50 CDT 2015]	
+[Tue Oct 13 20:30:50 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/350_nodes_6.txt =========
+[Tue Oct 13 20:30:50 CDT 2015]	<350, 3, 100.00%, MIN_CONFLICTS, 105 ms>
+[Tue Oct 13 20:30:50 CDT 2015]	<350, 4, 100.00%, MIN_CONFLICTS, 44 ms>
+[Tue Oct 13 20:30:50 CDT 2015]	
+[Tue Oct 13 20:30:51 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/350_nodes_6.txt =========
+[Tue Oct 13 20:30:51 CDT 2015]	<350, 3, 0.57%, BACKTRACKING, 99 ms>Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
+	at java.util.Hashtable.put(Hashtable.java:541)
+	at aima.core.search.csp.Assignment.setAssignment(Unknown Source)
+	at aima.core.search.csp.Assignment.copy(Unknown Source)
+	at aima.core.search.csp.SolutionStrategy.fireStateChanged(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+
+[Tue Oct 13 20:34:08 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/350_nodes_6.txt =========
+[Tue Oct 13 20:34:08 CDT 2015]	<350, 3, 2.57%, FC, 49 ms>
+[Tue Oct 13 20:34:12 CDT 2015]	<350, 4, 100.00%, FC, 3624 ms>
+[Tue Oct 13 20:34:12 CDT 2015]	
+[Tue Oct 13 20:34:12 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/350_nodes_6.txt =========
+[Tue Oct 13 20:34:12 CDT 2015]	<350, 3, 0.57%, AC3, 88 ms>
+[Tue Oct 13 20:34:12 CDT 2015]	<350, 4, 100.00%, AC3, 109 ms>
+[Tue Oct 13 20:34:12 CDT 2015]	
+[Tue Oct 13 20:34:12 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/350_nodes_6.txt =========
+[Tue Oct 13 20:34:13 CDT 2015]	<350, 3, 0.57%, MAC, 138 ms>
+[Tue Oct 13 20:34:14 CDT 2015]	<350, 4, 100.00%, MAC, 976 ms>
+[Tue Oct 13 20:34:14 CDT 2015]	
+[Tue Oct 13 20:34:14 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/350_nodes_7.txt =========
+[Tue Oct 13 20:34:14 CDT 2015]	<350, 3, 100.00%, MIN_CONFLICTS, 117 ms>
+[Tue Oct 13 20:34:14 CDT 2015]	<350, 4, 100.00%, MIN_CONFLICTS, 46 ms>
+[Tue Oct 13 20:34:14 CDT 2015]	
+[Tue Oct 13 20:34:14 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/350_nodes_7.txt =========
+[Tue Oct 13 20:34:15 CDT 2015]	<350, 3, 0.57%, BACKTRACKING, 73 ms>Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
+	at java.util.Arrays.copyOf(Arrays.java:2219)
+	at java.util.ArrayList.grow(ArrayList.java:242)
+	at java.util.ArrayList.ensureExplicitCapacity(ArrayList.java:216)
+	at java.util.ArrayList.ensureCapacityInternal(ArrayList.java:208)
+	at java.util.ArrayList.add(ArrayList.java:440)
+	at aima.core.search.csp.Assignment.setAssignment(Unknown Source)
+	at aima.core.search.csp.Assignment.copy(Unknown Source)
+	at aima.core.search.csp.SolutionStrategy.fireStateChanged(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+
+[Tue Oct 13 20:39:04 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/350_nodes_7.txt =========
+[Tue Oct 13 20:39:04 CDT 2015]	<350, 3, 1.14%, FC, 61 ms>Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
+	at java.util.Arrays.copyOf(Arrays.java:2219)
+	at java.util.ArrayList.grow(ArrayList.java:242)
+	at java.util.ArrayList.ensureExplicitCapacity(ArrayList.java:216)
+	at java.util.ArrayList.ensureCapacityInternal(ArrayList.java:208)
+	at java.util.ArrayList.add(ArrayList.java:440)
+	at aima.core.search.csp.Assignment.setAssignment(Unknown Source)
+	at aima.core.search.csp.Assignment.copy(Unknown Source)
+	at aima.core.search.csp.SolutionStrategy.fireStateChanged(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+
+[Tue Oct 13 20:46:57 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/350_nodes_7.txt =========
+[Tue Oct 13 20:46:57 CDT 2015]	<350, 3, 0.57%, AC3, 64 ms>
+[Tue Oct 13 20:46:57 CDT 2015]	<350, 4, 100.00%, AC3, 202 ms>
+[Tue Oct 13 20:46:57 CDT 2015]	
+[Tue Oct 13 20:46:58 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/350_nodes_7.txt =========
+[Tue Oct 13 20:46:58 CDT 2015]	<350, 3, 0.57%, MAC, 66 ms>
+[Tue Oct 13 20:46:59 CDT 2015]	<350, 4, 100.00%, MAC, 1418 ms>
+[Tue Oct 13 20:46:59 CDT 2015]	
+[Tue Oct 13 20:46:59 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/350_nodes_8.txt =========
+[Tue Oct 13 20:46:59 CDT 2015]	<350, 3, 100.00%, MIN_CONFLICTS, 79 ms>
+[Tue Oct 13 20:46:59 CDT 2015]	<350, 4, 100.00%, MIN_CONFLICTS, 32 ms>
+[Tue Oct 13 20:46:59 CDT 2015]	
+[Tue Oct 13 20:47:00 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/350_nodes_8.txt =========
+[Tue Oct 13 20:47:00 CDT 2015]	<350, 3, 0.57%, BACKTRACKING, 355 ms>Exception in thread "main" java.lang.OutOfMemoryError: GC overhead limit exceeded
+	at java.util.Hashtable.put(Hashtable.java:541)
+	at aima.core.search.csp.Assignment.setAssignment(Unknown Source)
+	at aima.core.search.csp.Assignment.copy(Unknown Source)
+	at aima.core.search.csp.SolutionStrategy.fireStateChanged(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+
+[Tue Oct 13 20:48:56 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/350_nodes_8.txt =========
+[Tue Oct 13 20:48:57 CDT 2015]	<350, 3, 2.29%, FC, 49 ms>Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
+	at java.util.Arrays.copyOf(Arrays.java:2219)
+	at java.util.ArrayList.toArray(ArrayList.java:358)
+	at java.util.ArrayList.addAll(ArrayList.java:559)
+	at aima.core.search.csp.CSP.copyDomains(Unknown Source)
+	at aima.core.search.csp.SolutionStrategy.fireStateChanged(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+
+[Tue Oct 13 20:56:50 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/350_nodes_8.txt =========
+[Tue Oct 13 20:56:50 CDT 2015]	<350, 3, 0.57%, AC3, 68 ms>
+[Tue Oct 13 20:56:51 CDT 2015]	<350, 4, 100.00%, AC3, 112 ms>
+[Tue Oct 13 20:56:51 CDT 2015]	
+[Tue Oct 13 20:56:51 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/350_nodes_8.txt =========
+[Tue Oct 13 20:56:51 CDT 2015]	<350, 3, 0.57%, MAC, 193 ms>
+[Tue Oct 13 20:56:52 CDT 2015]	<350, 4, 100.00%, MAC, 874 ms>
+[Tue Oct 13 20:56:52 CDT 2015]	
+[Tue Oct 13 20:56:52 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/350_nodes_9.txt =========
+[Tue Oct 13 20:56:52 CDT 2015]	<350, 3, 100.00%, MIN_CONFLICTS, 111 ms>
+[Tue Oct 13 20:56:53 CDT 2015]	<350, 4, 100.00%, MIN_CONFLICTS, 39 ms>
+[Tue Oct 13 20:56:53 CDT 2015]	
+[Tue Oct 13 20:56:53 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/350_nodes_9.txt =========
+[Tue Oct 13 20:56:53 CDT 2015]	<350, 3, 0.57%, BACKTRACKING, 60 ms>Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
+	at java.util.ArrayList.<init>(ArrayList.java:144)
+	at aima.core.search.csp.CSP.copyDomains(Unknown Source)
+	at aima.core.search.csp.SolutionStrategy.fireStateChanged(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+
+[Tue Oct 13 21:02:40 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/350_nodes_9.txt =========
+[Tue Oct 13 21:02:40 CDT 2015]	<350, 3, 3.14%, FC, 47 ms>Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
+	at java.util.Hashtable.rehash(Hashtable.java:471)
+	at java.util.Hashtable.put(Hashtable.java:532)
+	at aima.core.search.csp.Assignment.setAssignment(Unknown Source)
+	at aima.core.search.csp.Assignment.copy(Unknown Source)
+	at aima.core.search.csp.SolutionStrategy.fireStateChanged(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+	at aima.core.search.csp.BacktrackingStrategy.recursiveBackTrackingSearch(Unknown Source)
+
+[Tue Oct 13 21:07:31 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/350_nodes_9.txt =========
+[Tue Oct 13 21:07:32 CDT 2015]	<350, 3, 0.57%, AC3, 61 ms>
+[Tue Oct 13 21:07:32 CDT 2015]	<350, 4, 100.00%, AC3, 107 ms>
+[Tue Oct 13 21:07:32 CDT 2015]	
+[Tue Oct 13 21:07:32 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/350_nodes_9.txt =========
+[Tue Oct 13 21:07:32 CDT 2015]	<350, 3, 0.57%, MAC, 110 ms>
+[Tue Oct 13 21:07:33 CDT 2015]	<350, 4, 100.00%, MAC, 781 ms>
+[Tue Oct 13 21:07:33 CDT 2015]	
+[Tue Oct 13 21:07:33 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/351_nodes_0.txt =========
+[Tue Oct 13 21:07:33 CDT 2015]	<351, 3, 100.00%, MIN_CONFLICTS, 108 ms>
+[Tue Oct 13 21:07:33 CDT 2015]	<351, 4, 100.00%, MIN_CONFLICTS, 36 ms>
+[Tue Oct 13 21:07:33 CDT 2015]	
+[Tue Oct 13 21:07:33 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/351_nodes_0.txt =========
+[Tue Oct 13 21:07:34 CDT 2015]	<351, 3, 0.57%, BACKTRACKING, 36 ms>

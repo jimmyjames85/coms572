@@ -2,6 +2,23 @@
 
 ######################## Project 2 ############################################################
 
+     THE WRITEUP FOR PROJECT 2 IS IN THE FILE "./report/report.pdf"
+     THE WRITEUP FOR PROJECT 2 IS IN THE FILE "./report/report.pdf"
+     THE WRITEUP FOR PROJECT 2 IS IN THE FILE "./report/report.pdf"
+     THE WRITEUP FOR PROJECT 2 IS IN THE FILE "./report/report.pdf"
+     THE WRITEUP FOR PROJECT 2 IS IN THE FILE "./report/report.pdf"
+     THE WRITEUP FOR PROJECT 2 IS IN THE FILE "./report/report.pdf"
+     THE WRITEUP FOR PROJECT 2 IS IN THE FILE "./report/report.pdf"
+     THE WRITEUP FOR PROJECT 2 IS IN THE FILE "./report/report.pdf"
+     THE WRITEUP FOR PROJECT 2 IS IN THE FILE "./report/report.pdf"
+     THE WRITEUP FOR PROJECT 2 IS IN THE FILE "./report/report.pdf"
+
+     The raw data is in "./report/rawdata" and the tables I created
+     are in the .log files named with their strategy. E.g. ac34.log is
+     the table for for the search strategy AC3 for 4-colorings.
+
+######################## Project 2 ############################################################
+
 To build and run type
 
 
@@ -10,36 +27,50 @@ To build and run type
 
 This will compile a jar and echo the command to run it which is:
 
-       java -jar build/jar/KColor.jar  [OPTION] [FROM] [TO] [ITR_COUNT] [GRAPH_DIR]
+       java -jar build/jar/KColor.jar  color [STRATEGY] [GRAPH_FILE]
+
+- or -
+
+       java -jar build/jar/KColor.jar  create [FROM] [TO] [COPIES] [GRAPH_DIR]
 
 
+KColor color arguments
+
+       KColor color [STRATEGY] [GRAPH_FILE]
+
+              color
+			  reads in the graph file and attempts to find
+                          both three and four k-coloring's using the
+                          strategies outlined in this assignment. If
+                          [STRATEGY] is not given it will run all
+                          strategies. 
 
 
-KColor arguments
+              [STRATEGY] 
+                          Optional. Must be one of MIN_CONFLICTS,
+                          BACKTRACKING, FC, AC3, MAC. Specifies the
+                          backtracking and inference
+                          preferences. 
 
-       KColor [OPTION] [FROM] [TO] [ITR_COUNT] [GRAPH_DIR]
+              [GRAPH_FILE]
+                          Graph file to color
 
-              [OPTION] = create | color
 
-                          create - will create graph files in
-                                   GRAPH_DIR that can be loaded for
-                                   the color option File names have
-                                   the format:
+KColor create arguments
 
-                                     <node_total>_nodes_<itr_count>.txt
+       KColor create [FROM] [TO] [COPIES] [GRAPH_DIR]
 
-                                   Where each file has node_total
-                                   nodes in it's graph file and
-                                   itr_count starts at 0 and ends at
-                                   AVG_COUNT-1.
+              create   
+			  will create graph files in GRAPH_DIR that
+                          can be loaded for the color option. File
+                          names have the format:
 
-                          color - reads in graphs from the GRAPHS_DIR
-                                  and attempts to find k-coloring's
-                                  using the strategies outlined in
-                                  this assignment.  Sends output to
-                                  stdout. File names must be that of
-                                  outputed format using the create
-                                  command.
+                              <node_total>_nodes_<copy_index>.txt
+
+                          where each file has node_total nodes in it's
+                          graph file and copy_index starts at 0 and
+                          ends at [COPIES]-1. 
+
 
               [FROM]
                           node_total start index (inclusive, must be
@@ -48,16 +79,11 @@ KColor arguments
               [TO]
                           node_total end index (inclusive)
 
-              [ITR_COUNT]
-                          Number of iterations (itr_count) to
-                          create. When coloring, the algorith runs a
-                          strategy ITR_COUNT times and takes the
-                          average runtime.
+              [COPIES]
+                          number of copies to create. 
 
               [GRAPH_DIR]
                           where to save or load graphs from
-
-
 
 
 

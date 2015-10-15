@@ -13,6 +13,7 @@ import org.htmlparser.util.ParserException;
 
 import java.awt.*;
 import java.io.File;
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -262,47 +263,58 @@ public class KColor implements EnvironmentView
 
 	public static void printHelpAndDie()
 	{
-		System.out.println("KColor arguments");
+		System.out.println("KColor color arguments");
 		System.out.println("");
-		System.out.println("       KColor [OPTION] [FROM] [TO] [ITR_COUNT] [GRAPH_DIR] ");
+		System.out.println("       KColor color [STRATEGY] [GRAPH_FILE]");
 		System.out.println("");
-		System.out.println("              [OPTION] = create | color");
+		System.out.println("              color");
+		System.out.println("                          reads in the graph file and attempts to find");
+		System.out.println("                          both three and four k-coloring's using the");
+		System.out.println("                          strategies outlined in this assignment. If");
+		System.out.println("                          [STRATEGY] is not given it will run all");
+		System.out.println("                          strategies. ");
 		System.out.println("");
-		System.out.println("                          create - will create graph files in");
-		System.out.println("                                   GRAPH_DIR that can be loaded for");
-		System.out.println("                                   the color option File names have");
-		System.out.println("                                   the format:");
-		System.out.println("                                   ");
-		System.out.println("                                     <node_total>_nodes_<itr_count>.txt");
 		System.out.println("");
-		System.out.println("                                   Where each file has node_total");
-		System.out.println("                                   nodes in it's graph file and");
-		System.out.println("                                   itr_count starts at 0 and ends at");
-		System.out.println("                                   AVG_COUNT-1.");
+		System.out.println("              [STRATEGY] ");
+		System.out.println("                          Optional. Must be one of MIN_CONFLICTS,");
+		System.out.println("                          BACKTRACKING, FC, AC3, MAC. Specifies the");
+		System.out.println("                          backtracking and inference");
+		System.out.println("                          preferences. ");
 		System.out.println("");
-		System.out.println("                          color - reads in graphs from the GRAPHS_DIR");
-		System.out.println("                                  and attempts to find k-coloring's");
-		System.out.println("                                  using the strategies outlined in");
-		System.out.println("                                  this assignment.  Sends output to");
-		System.out.println("                                  stdout. File names must be that of");
-		System.out.println("                                  outputed format using the create");
-		System.out.println("                                  command.");
+		System.out.println("              [GRAPH_FILE]");
+		System.out.println("                          Graph file to color");
 		System.out.println("");
-		System.out.println("              [FROM]  ");
+		System.out.println("");
+		System.out.println("KColor create arguments");
+		System.out.println("");
+		System.out.println("       KColor create [FROM] [TO] [COPIES] [GRAPH_DIR]");
+		System.out.println("");
+		System.out.println("              create   ");
+		System.out.println("                          will create graph files in GRAPH_DIR that");
+		System.out.println("                          can be loaded for the color option. File");
+		System.out.println("                          names have the format:");
+		System.out.println("");
+		System.out.println("                              <node_total>_nodes_<copy_index>.txt");
+		System.out.println("");
+		System.out.println("                          where each file has node_total nodes in it's");
+		System.out.println("                          graph file and copy_index starts at 0 and");
+		System.out.println("                          ends at [COPIES]-1. ");
+		System.out.println("");
+		System.out.println("");
+		System.out.println("              [FROM]");
 		System.out.println("                          node_total start index (inclusive, must be");
 		System.out.println("                          greater than 2)");
 		System.out.println("");
-		System.out.println("              [TO]    ");
+		System.out.println("              [TO]");
 		System.out.println("                          node_total end index (inclusive)");
 		System.out.println("");
-		System.out.println("              [ITR_COUNT] ");
-		System.out.println("                          Number of iterations (itr_count) to");
-		System.out.println("                          create. When coloring, the algorith runs a");
-		System.out.println("                          strategy ITR_COUNT times and takes the");
-		System.out.println("                          average runtime.");
+		System.out.println("              [COPIES]");
+		System.out.println("                          number of copies to create. ");
 		System.out.println("");
-		System.out.println("              [GRAPH_DIR] ");
+		System.out.println("              [GRAPH_DIR]");
 		System.out.println("                          where to save or load graphs from");
+
+
 		System.exit(-1);
 	}
 
@@ -325,53 +337,43 @@ public class KColor implements EnvironmentView
 
 	}
 
-	public static void createGraphs(int from, int to, int averageCount, File graph_location)
+	public static void createGraphs(int from, int to, int copies, File graph_location, MessageLogger logger)
 	{
-
-		validateCommands(from, to, averageCount, graph_location);
+		validateCommands(from, to, copies, graph_location);
 		for (int n = from; n <= to; n++)
 		{
 			Rectangle mapDimensions = new Rectangle(0, 0, 10 * n, 10 * n);
-			for (int a = 0; a < averageCount; a++) //averages
+			for (int a = 0; a < copies; a++) //averages
 			{
 				File f = new File(graph_location, +n + "_nodes_" + a + ".txt");
-				System.out.println("Creating: " + f);
+				logger.log("Creating: " + f);
 				UnitSquareMap usm = new UnitSquareMap(n, true, mapDimensions);
 				usm.storeToFile(f);
 			}
 		}
 	}
 
-	public static void runKColor(int from, int to, int averageCount, File graph_location)
+	public static void old_runKColor(int from, int to, int copies, File graph_location, MessageLogger logger)
 	{
-		validateCommands(from, to, averageCount, graph_location);
+		validateCommands(from, to, copies, graph_location);
 
-
-		MessageLogger logger = new MessageLogger()
-		{
-			@Override
-			public void log(String message)
-			{
-				System.out.print(message);
-			}
-		};
 		KColor main = new KColor(logger);
 
 		SearchStrategy strats[] = {SearchStrategy.MIN_CONFLICTS, SearchStrategy.BACKTRACKING, SearchStrategy.FC, SearchStrategy.AC3, SearchStrategy.MAC};
 
 		for (int n = from; n <= to; n++)
 		{
-			logger.log("\n========= <nodeTotal, k-color, avg completion rate %, Strategy, avg time > =========\n");
+			logger.log("========= <nodeTotal, k-color, avg completion rate %, Strategy, avg time > ========= "+graph_location+" =========");
 
 			double completion[] = new double[strats.length * 2];
 			long time[] = new long[strats.length * 2];
 			for (int i = 0; i < time.length; i++)
 			{
-				completion[i]=0;
+				completion[i] = 0;
 				time[i] = 0;
 			}
 
-			for (int a = 0; a < averageCount; a++) //averages.........created 10 versions of each n-sized map
+			for (int a = 0; a < copies; a++) //averages.........created 10 versions of each n-sized map
 			{
 				File f = new File(graph_location, +n + "_nodes_" + a + ".txt");
 				if (!f.exists())
@@ -396,8 +398,8 @@ public class KColor implements EnvironmentView
 
 			for (int i = 0; i < time.length; i++)
 			{
-				time[i] /= averageCount;
-				completion[i] /= averageCount;
+				time[i] /= copies;
+				completion[i] /= copies;
 
 				boolean threeColor = (i % 2 == 0);
 				Result r = new Result(strats[i / 2], n, threeColor);
@@ -405,63 +407,128 @@ public class KColor implements EnvironmentView
 				r.setAssignmentCompletion(completion[i]);
 				logger.log(r.toString() + " ");
 				//if (!threeColor)
-					logger.log("\n");
+
 			}
+			logger.log("");
 		}
 	}
+
+	public static void runKColor(File graph_location, MessageLogger logger)
+	{
+
+		File f = graph_location;
+		if (!f.exists())
+			throw new IllegalArgumentException("File does not exist: " + f.getAbsolutePath());
+
+		KColor main = new KColor(logger);
+		SearchStrategy strats[] = {SearchStrategy.MIN_CONFLICTS, SearchStrategy.BACKTRACKING, SearchStrategy.FC, SearchStrategy.AC3, SearchStrategy.MAC};
+		logger.log("========= <nodeTotal, k-color, completion %, strategy, time > ========= "+graph_location+" =========");
+
+
+		for (int s = 0; s < strats.length; s++) //after file is open run every strategy on it
+		{
+			SearchStrategy searchStrategy = strats[s];
+
+			for (int threeColor = 0; threeColor <= 1; threeColor++) // run it for both 3-color and 4-color
+			{
+				UnitSquareMap usm = new UnitSquareMap(f, threeColor == 0);
+				main.setup(usm, searchStrategy);
+				long start = System.currentTimeMillis();
+				main.run();
+				long fin = System.currentTimeMillis();
+				Result r = main.getResults();
+				r.setFinishTime(fin - start);
+				logger.log(r.toString());
+			}
+		}
+		logger.log("");
+	}
+
+	public static void runKColor(File graph_location, SearchStrategy searchStrategy, MessageLogger logger)
+	{
+		File f = graph_location;
+		if (!f.exists())
+			throw new IllegalArgumentException("File does not exist: " + f.getAbsolutePath());
+
+		KColor main = new KColor(logger);
+		logger.log("========= <nodeTotal, k-color, completion %, strategy, time > ========= "+graph_location+" =========");
+
+		for (int threeColor = 0; threeColor <= 1; threeColor++) // run it for both 3-color and 4-color
+		{
+			UnitSquareMap usm = new UnitSquareMap(f, threeColor == 0);
+			main.setup(usm, searchStrategy);
+			long start = System.currentTimeMillis();
+			main.run();
+			long fin = System.currentTimeMillis();
+			Result r = main.getResults();
+			r.setFinishTime(fin - start);
+			logger.log(r.toString());
+		}
+		logger.log("");
+
+	}
+
 
 	public static void main(String args[])
 	{
 		String cmds[] = args;
 		//String cmds[] = {"color", "100", "100", "10", "graphs"};
+		//String cmds[] = {"color", "AC3", "graphs/203_nodes_4.txt"};
+		MessageLogger logger = new MessageLogger()
+		{
+			@Override
+			public void log(String message)
+			{
+				System.out.print("\n[" + new Date(System.currentTimeMillis()).toString() +"]\t"+ message);
+			}
+		};
 
 		if (cmds.length < 5)
 		{
-			printHelpAndDie();
-			System.exit(-1);
+
+			if (cmds.length < 2 || !cmds[0].equalsIgnoreCase("color"))
+			{
+				printHelpAndDie();
+				System.exit(-1);
+			}
+
+			if(cmds.length==2)
+			{
+
+				File colorFile = new File(cmds[1]);
+				runKColor(colorFile, logger);
+			}
+			else if(cmds.length==3)
+			{
+				File colorFile = new File(cmds[2]);
+				SearchStrategy searchStrategy = SearchStrategy.valueOf(cmds[1].toUpperCase());
+				runKColor(colorFile,searchStrategy,logger);
+			}
+			System.exit(0);
 		}
 
-
-		boolean create = true;
-		if (cmds[0].equalsIgnoreCase("create"))
-		{
-			create = true;
-
-		} else if (cmds[0].equalsIgnoreCase("color"))
-		{
-			create = false;
-		} else
-		{
+		if (!cmds[0].equalsIgnoreCase("create"))
 			printHelpAndDie();
-		}
 
 		int from = 0;
 		int to = 0;
-		int averageCount = 0;
+		int copies = 0;
 		File graph_location = null;
 
 		try
 		{
 			from = Integer.parseInt(cmds[1]);
 			to = Integer.parseInt(cmds[2]);
-			averageCount = Integer.parseInt(cmds[3]);
+			copies = Integer.parseInt(cmds[3]);
 			graph_location = new File(cmds[4]);
-
-
-			if (create)
-			{
-				createGraphs(from, to, averageCount, graph_location);
-			} else
-			{
-				runKColor(from, to, averageCount, graph_location);
-			}
-
+			createGraphs(from, to, copies, graph_location, logger);
 		}
 		catch (Exception e)
 		{
 			System.out.println("Error Occured: " + e.getMessage());
 			System.exit(-1);
 		}
+		System.out.println();
 
 	}
 

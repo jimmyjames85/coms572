@@ -1,0 +1,1677 @@
+
+[Tue Oct 13 21:22:06 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/225_nodes_0.txt =========
+[Tue Oct 13 21:22:06 CDT 2015]	<225, 3, 100.00%, MIN_CONFLICTS, 55 ms>
+[Tue Oct 13 21:22:06 CDT 2015]	<225, 4, 100.00%, MIN_CONFLICTS, 16 ms>
+[Tue Oct 13 21:22:06 CDT 2015]	
+[Tue Oct 13 21:22:06 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/225_nodes_0.txt =========
+[Tue Oct 13 21:22:07 CDT 2015]	<225, 3, 4.00%, FC, 28 ms>
+[Tue Oct 13 21:22:07 CDT 2015]	<225, 4, 100.00%, FC, 81 ms>
+[Tue Oct 13 21:22:07 CDT 2015]	
+[Tue Oct 13 21:22:07 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/225_nodes_0.txt =========
+[Tue Oct 13 21:22:07 CDT 2015]	<225, 3, 0.89%, AC3, 48 ms>
+[Tue Oct 13 21:22:07 CDT 2015]	<225, 4, 100.00%, AC3, 62 ms>
+[Tue Oct 13 21:22:07 CDT 2015]	
+[Tue Oct 13 21:22:07 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/225_nodes_0.txt =========
+[Tue Oct 13 21:22:07 CDT 2015]	<225, 3, 0.89%, MAC, 102 ms>
+[Tue Oct 13 21:22:07 CDT 2015]	<225, 4, 100.00%, MAC, 238 ms>
+[Tue Oct 13 21:22:07 CDT 2015]	
+[Tue Oct 13 21:22:07 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/225_nodes_1.txt =========
+[Tue Oct 13 21:22:08 CDT 2015]	<225, 3, 100.00%, MIN_CONFLICTS, 73 ms>
+[Tue Oct 13 21:22:08 CDT 2015]	<225, 4, 100.00%, MIN_CONFLICTS, 18 ms>
+[Tue Oct 13 21:22:08 CDT 2015]	
+[Tue Oct 13 21:22:08 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/225_nodes_1.txt =========
+[Tue Oct 13 21:22:08 CDT 2015]	<225, 3, 3.56%, FC, 19 ms>
+[Tue Oct 13 21:22:08 CDT 2015]	<225, 4, 100.00%, FC, 488 ms>
+[Tue Oct 13 21:22:08 CDT 2015]	
+[Tue Oct 13 21:22:08 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/225_nodes_1.txt =========
+[Tue Oct 13 21:22:09 CDT 2015]	<225, 3, 0.89%, AC3, 40 ms>
+[Tue Oct 13 21:22:09 CDT 2015]	<225, 4, 100.00%, AC3, 57 ms>
+[Tue Oct 13 21:22:09 CDT 2015]	
+[Tue Oct 13 21:22:09 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/225_nodes_1.txt =========
+[Tue Oct 13 21:22:09 CDT 2015]	<225, 3, 0.89%, MAC, 62 ms>
+[Tue Oct 13 21:22:09 CDT 2015]	<225, 4, 100.00%, MAC, 247 ms>
+[Tue Oct 13 21:22:09 CDT 2015]	
+[Tue Oct 13 21:22:09 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/225_nodes_2.txt =========
+[Tue Oct 13 21:22:09 CDT 2015]	<225, 3, 100.00%, MIN_CONFLICTS, 72 ms>
+[Tue Oct 13 21:22:09 CDT 2015]	<225, 4, 100.00%, MIN_CONFLICTS, 16 ms>
+[Tue Oct 13 21:22:09 CDT 2015]	
+[Tue Oct 13 21:22:09 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/225_nodes_2.txt =========
+[Tue Oct 13 21:22:10 CDT 2015]	<225, 3, 2.22%, FC, 32 ms>
+[Tue Oct 13 21:22:10 CDT 2015]	<225, 4, 100.00%, FC, 506 ms>
+[Tue Oct 13 21:22:10 CDT 2015]	
+[Tue Oct 13 21:22:10 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/225_nodes_2.txt =========
+[Tue Oct 13 21:22:10 CDT 2015]	<225, 3, 0.89%, AC3, 41 ms>
+[Tue Oct 13 21:22:10 CDT 2015]	<225, 4, 100.00%, AC3, 60 ms>
+[Tue Oct 13 21:22:10 CDT 2015]	
+[Tue Oct 13 21:22:10 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/225_nodes_2.txt =========
+[Tue Oct 13 21:22:11 CDT 2015]	<225, 3, 0.89%, MAC, 60 ms>
+[Tue Oct 13 21:22:11 CDT 2015]	<225, 4, 100.00%, MAC, 256 ms>
+[Tue Oct 13 21:22:11 CDT 2015]	
+[Tue Oct 13 21:22:11 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/225_nodes_3.txt =========
+[Tue Oct 13 21:22:11 CDT 2015]	<225, 3, 100.00%, MIN_CONFLICTS, 71 ms>
+[Tue Oct 13 21:22:11 CDT 2015]	<225, 4, 100.00%, MIN_CONFLICTS, 19 ms>
+[Tue Oct 13 21:22:11 CDT 2015]	
+[Tue Oct 13 21:22:11 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/225_nodes_3.txt =========
+[Tue Oct 13 21:22:11 CDT 2015]	<225, 3, 2.67%, FC, 40 ms>
+[Tue Oct 13 21:22:11 CDT 2015]	<225, 4, 100.00%, FC, 205 ms>
+[Tue Oct 13 21:22:11 CDT 2015]	
+[Tue Oct 13 21:22:12 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/225_nodes_3.txt =========
+[Tue Oct 13 21:22:12 CDT 2015]	<225, 3, 0.89%, AC3, 43 ms>
+[Tue Oct 13 21:22:12 CDT 2015]	<225, 4, 100.00%, AC3, 51 ms>
+[Tue Oct 13 21:22:12 CDT 2015]	
+[Tue Oct 13 21:22:12 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/225_nodes_3.txt =========
+[Tue Oct 13 21:22:12 CDT 2015]	<225, 3, 0.89%, MAC, 64 ms>
+[Tue Oct 13 21:22:12 CDT 2015]	<225, 4, 100.00%, MAC, 250 ms>
+[Tue Oct 13 21:22:12 CDT 2015]	
+[Tue Oct 13 21:22:12 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/225_nodes_4.txt =========
+[Tue Oct 13 21:22:12 CDT 2015]	<225, 3, 100.00%, MIN_CONFLICTS, 72 ms>
+[Tue Oct 13 21:22:13 CDT 2015]	<225, 4, 100.00%, MIN_CONFLICTS, 18 ms>
+[Tue Oct 13 21:22:13 CDT 2015]	
+[Tue Oct 13 21:22:13 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/225_nodes_4.txt =========
+[Tue Oct 13 21:22:13 CDT 2015]	<225, 3, 2.67%, FC, 60 ms>
+[Tue Oct 13 21:22:13 CDT 2015]	<225, 4, 100.00%, FC, 92 ms>
+[Tue Oct 13 21:22:13 CDT 2015]	
+[Tue Oct 13 21:22:13 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/225_nodes_4.txt =========
+[Tue Oct 13 21:22:13 CDT 2015]	<225, 3, 0.89%, AC3, 44 ms>
+[Tue Oct 13 21:22:13 CDT 2015]	<225, 4, 100.00%, AC3, 48 ms>
+[Tue Oct 13 21:22:13 CDT 2015]	
+[Tue Oct 13 21:22:13 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/225_nodes_4.txt =========
+[Tue Oct 13 21:22:13 CDT 2015]	<225, 3, 0.89%, MAC, 66 ms>
+[Tue Oct 13 21:22:14 CDT 2015]	<225, 4, 100.00%, MAC, 240 ms>
+[Tue Oct 13 21:22:14 CDT 2015]	
+[Tue Oct 13 21:22:14 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/225_nodes_5.txt =========
+[Tue Oct 13 21:22:14 CDT 2015]	<225, 3, 100.00%, MIN_CONFLICTS, 69 ms>
+[Tue Oct 13 21:22:14 CDT 2015]	<225, 4, 100.00%, MIN_CONFLICTS, 17 ms>
+[Tue Oct 13 21:22:14 CDT 2015]	
+[Tue Oct 13 21:22:14 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/225_nodes_5.txt =========
+[Tue Oct 13 21:22:14 CDT 2015]	<225, 3, 2.22%, FC, 12 ms>
+[Tue Oct 13 21:22:14 CDT 2015]	<225, 4, 100.00%, FC, 83 ms>
+[Tue Oct 13 21:22:14 CDT 2015]	
+[Tue Oct 13 21:22:14 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/225_nodes_5.txt =========
+[Tue Oct 13 21:22:14 CDT 2015]	<225, 3, 0.89%, AC3, 39 ms>
+[Tue Oct 13 21:22:14 CDT 2015]	<225, 4, 100.00%, AC3, 62 ms>
+[Tue Oct 13 21:22:14 CDT 2015]	
+[Tue Oct 13 21:22:14 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/225_nodes_5.txt =========
+[Tue Oct 13 21:22:15 CDT 2015]	<225, 3, 0.89%, MAC, 58 ms>
+[Tue Oct 13 21:22:15 CDT 2015]	<225, 4, 100.00%, MAC, 270 ms>
+[Tue Oct 13 21:22:15 CDT 2015]	
+[Tue Oct 13 21:22:15 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/225_nodes_6.txt =========
+[Tue Oct 13 21:22:15 CDT 2015]	<225, 3, 100.00%, MIN_CONFLICTS, 57 ms>
+[Tue Oct 13 21:22:15 CDT 2015]	<225, 4, 100.00%, MIN_CONFLICTS, 17 ms>
+[Tue Oct 13 21:22:15 CDT 2015]	
+[Tue Oct 13 21:22:15 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/225_nodes_6.txt =========
+[Tue Oct 13 21:22:15 CDT 2015]	<225, 3, 3.56%, FC, 53 ms>
+[Tue Oct 13 21:22:15 CDT 2015]	<225, 4, 100.00%, FC, 129 ms>
+[Tue Oct 13 21:22:15 CDT 2015]	
+[Tue Oct 13 21:22:16 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/225_nodes_6.txt =========
+[Tue Oct 13 21:22:16 CDT 2015]	<225, 3, 0.89%, AC3, 37 ms>
+[Tue Oct 13 21:22:16 CDT 2015]	<225, 4, 100.00%, AC3, 60 ms>
+[Tue Oct 13 21:22:16 CDT 2015]	
+[Tue Oct 13 21:22:16 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/225_nodes_6.txt =========
+[Tue Oct 13 21:22:16 CDT 2015]	<225, 3, 0.89%, MAC, 59 ms>
+[Tue Oct 13 21:22:16 CDT 2015]	<225, 4, 100.00%, MAC, 252 ms>
+[Tue Oct 13 21:22:16 CDT 2015]	
+[Tue Oct 13 21:22:16 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/225_nodes_7.txt =========
+[Tue Oct 13 21:22:16 CDT 2015]	<225, 3, 100.00%, MIN_CONFLICTS, 65 ms>
+[Tue Oct 13 21:22:16 CDT 2015]	<225, 4, 100.00%, MIN_CONFLICTS, 19 ms>
+[Tue Oct 13 21:22:16 CDT 2015]	
+[Tue Oct 13 21:22:17 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/225_nodes_7.txt =========
+[Tue Oct 13 21:22:17 CDT 2015]	<225, 3, 4.89%, FC, 65 ms>
+[Tue Oct 13 21:22:18 CDT 2015]	<225, 4, 100.00%, FC, 1402 ms>
+[Tue Oct 13 21:22:18 CDT 2015]	
+[Tue Oct 13 21:22:18 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/225_nodes_7.txt =========
+[Tue Oct 13 21:22:18 CDT 2015]	<225, 3, 0.89%, AC3, 37 ms>
+[Tue Oct 13 21:22:18 CDT 2015]	<225, 4, 100.00%, AC3, 65 ms>
+[Tue Oct 13 21:22:18 CDT 2015]	
+[Tue Oct 13 21:22:18 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/225_nodes_7.txt =========
+[Tue Oct 13 21:22:19 CDT 2015]	<225, 3, 0.89%, MAC, 62 ms>
+[Tue Oct 13 21:22:19 CDT 2015]	<225, 4, 100.00%, MAC, 269 ms>
+[Tue Oct 13 21:22:19 CDT 2015]	
+[Tue Oct 13 21:22:19 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/225_nodes_8.txt =========
+[Tue Oct 13 21:22:19 CDT 2015]	<225, 3, 100.00%, MIN_CONFLICTS, 67 ms>
+[Tue Oct 13 21:22:19 CDT 2015]	<225, 4, 100.00%, MIN_CONFLICTS, 18 ms>
+[Tue Oct 13 21:22:19 CDT 2015]	
+[Tue Oct 13 21:22:19 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/225_nodes_8.txt =========
+[Tue Oct 13 21:22:19 CDT 2015]	<225, 3, 2.22%, FC, 14 ms>
+[Tue Oct 13 21:22:28 CDT 2015]	<225, 4, 100.00%, FC, 8874 ms>
+[Tue Oct 13 21:22:28 CDT 2015]	
+[Tue Oct 13 21:22:28 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/225_nodes_8.txt =========
+[Tue Oct 13 21:22:28 CDT 2015]	<225, 3, 0.89%, AC3, 43 ms>
+[Tue Oct 13 21:22:28 CDT 2015]	<225, 4, 100.00%, AC3, 47 ms>
+[Tue Oct 13 21:22:28 CDT 2015]	
+[Tue Oct 13 21:22:29 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/225_nodes_8.txt =========
+[Tue Oct 13 21:22:29 CDT 2015]	<225, 3, 0.89%, MAC, 63 ms>
+[Tue Oct 13 21:22:29 CDT 2015]	<225, 4, 100.00%, MAC, 246 ms>
+[Tue Oct 13 21:22:29 CDT 2015]	
+[Tue Oct 13 21:22:29 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/225_nodes_9.txt =========
+[Tue Oct 13 21:22:29 CDT 2015]	<225, 3, 100.00%, MIN_CONFLICTS, 60 ms>
+[Tue Oct 13 21:22:29 CDT 2015]	<225, 4, 100.00%, MIN_CONFLICTS, 16 ms>
+[Tue Oct 13 21:22:29 CDT 2015]	
+[Tue Oct 13 21:22:29 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/225_nodes_9.txt =========
+[Tue Oct 13 21:22:29 CDT 2015]	<225, 3, 4.44%, FC, 35 ms>
+[Tue Oct 13 21:22:30 CDT 2015]	<225, 4, 100.00%, FC, 317 ms>
+[Tue Oct 13 21:22:30 CDT 2015]	
+[Tue Oct 13 21:22:30 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/225_nodes_9.txt =========
+[Tue Oct 13 21:22:30 CDT 2015]	<225, 3, 0.89%, AC3, 41 ms>
+[Tue Oct 13 21:22:30 CDT 2015]	<225, 4, 100.00%, AC3, 89 ms>
+[Tue Oct 13 21:22:30 CDT 2015]	
+[Tue Oct 13 21:22:30 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/225_nodes_9.txt =========
+[Tue Oct 13 21:22:30 CDT 2015]	<225, 3, 0.89%, MAC, 60 ms>
+[Tue Oct 13 21:22:31 CDT 2015]	<225, 4, 100.00%, MAC, 568 ms>
+[Tue Oct 13 21:22:31 CDT 2015]	
+[Tue Oct 13 21:22:31 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/250_nodes_0.txt =========
+[Tue Oct 13 21:22:31 CDT 2015]	<250, 3, 100.00%, MIN_CONFLICTS, 71 ms>
+[Tue Oct 13 21:22:31 CDT 2015]	<250, 4, 100.00%, MIN_CONFLICTS, 18 ms>
+[Tue Oct 13 21:22:31 CDT 2015]	
+[Tue Oct 13 21:22:31 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/250_nodes_0.txt =========
+[Tue Oct 13 21:22:31 CDT 2015]	<250, 3, 2.00%, FC, 27 ms>
+[Tue Oct 13 21:22:34 CDT 2015]	<250, 4, 100.00%, FC, 2346 ms>
+[Tue Oct 13 21:22:34 CDT 2015]	
+[Tue Oct 13 21:22:34 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/250_nodes_0.txt =========
+[Tue Oct 13 21:22:34 CDT 2015]	<250, 3, 0.80%, AC3, 44 ms>
+[Tue Oct 13 21:22:34 CDT 2015]	<250, 4, 100.00%, AC3, 60 ms>
+[Tue Oct 13 21:22:34 CDT 2015]	
+[Tue Oct 13 21:22:34 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/250_nodes_0.txt =========
+[Tue Oct 13 21:22:34 CDT 2015]	<250, 3, 0.80%, MAC, 75 ms>
+[Tue Oct 13 21:22:34 CDT 2015]	<250, 4, 100.00%, MAC, 323 ms>
+[Tue Oct 13 21:22:34 CDT 2015]	
+[Tue Oct 13 21:22:35 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/250_nodes_1.txt =========
+[Tue Oct 13 21:22:35 CDT 2015]	<250, 3, 100.00%, MIN_CONFLICTS, 61 ms>
+[Tue Oct 13 21:22:35 CDT 2015]	<250, 4, 100.00%, MIN_CONFLICTS, 19 ms>
+[Tue Oct 13 21:22:35 CDT 2015]	
+[Tue Oct 13 21:22:35 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/250_nodes_1.txt =========
+[Tue Oct 13 21:22:35 CDT 2015]	<250, 3, 2.40%, FC, 32 ms>
+[Tue Oct 13 21:22:35 CDT 2015]	<250, 4, 100.00%, FC, 210 ms>
+[Tue Oct 13 21:22:35 CDT 2015]	
+[Tue Oct 13 21:22:35 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/250_nodes_1.txt =========
+[Tue Oct 13 21:22:35 CDT 2015]	<250, 3, 0.80%, AC3, 49 ms>
+[Tue Oct 13 21:22:35 CDT 2015]	<250, 4, 100.00%, AC3, 68 ms>
+[Tue Oct 13 21:22:35 CDT 2015]	
+[Tue Oct 13 21:22:36 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/250_nodes_1.txt =========
+[Tue Oct 13 21:22:36 CDT 2015]	<250, 3, 0.80%, MAC, 70 ms>
+[Tue Oct 13 21:22:36 CDT 2015]	<250, 4, 100.00%, MAC, 335 ms>
+[Tue Oct 13 21:22:36 CDT 2015]	
+[Tue Oct 13 21:22:36 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/250_nodes_2.txt =========
+[Tue Oct 13 21:22:36 CDT 2015]	<250, 3, 100.00%, MIN_CONFLICTS, 70 ms>
+[Tue Oct 13 21:22:36 CDT 2015]	<250, 4, 100.00%, MIN_CONFLICTS, 19 ms>
+[Tue Oct 13 21:22:36 CDT 2015]	
+[Tue Oct 13 21:22:36 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/250_nodes_2.txt =========
+[Tue Oct 13 21:22:36 CDT 2015]	<250, 3, 4.40%, FC, 46 ms>
+[Tue Oct 13 21:22:37 CDT 2015]	<250, 4, 100.00%, FC, 278 ms>
+[Tue Oct 13 21:22:37 CDT 2015]	
+[Tue Oct 13 21:22:37 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/250_nodes_2.txt =========
+[Tue Oct 13 21:22:37 CDT 2015]	<250, 3, 0.80%, AC3, 44 ms>
+[Tue Oct 13 21:22:37 CDT 2015]	<250, 4, 100.00%, AC3, 59 ms>
+[Tue Oct 13 21:22:37 CDT 2015]	
+[Tue Oct 13 21:22:37 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/250_nodes_2.txt =========
+[Tue Oct 13 21:22:37 CDT 2015]	<250, 3, 0.80%, MAC, 125 ms>
+[Tue Oct 13 21:22:38 CDT 2015]	<250, 4, 100.00%, MAC, 272 ms>
+[Tue Oct 13 21:22:38 CDT 2015]	
+[Tue Oct 13 21:22:38 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/250_nodes_3.txt =========
+[Tue Oct 13 21:22:38 CDT 2015]	<250, 3, 100.00%, MIN_CONFLICTS, 61 ms>
+[Tue Oct 13 21:22:38 CDT 2015]	<250, 4, 100.00%, MIN_CONFLICTS, 18 ms>
+[Tue Oct 13 21:22:38 CDT 2015]	
+[Tue Oct 13 21:22:38 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/250_nodes_3.txt =========
+[Tue Oct 13 21:22:38 CDT 2015]	<250, 3, 2.00%, FC, 16 ms>
+[Tue Oct 13 21:22:41 CDT 2015]	<250, 4, 100.00%, FC, 2885 ms>
+[Tue Oct 13 21:22:41 CDT 2015]	
+[Tue Oct 13 21:22:41 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/250_nodes_3.txt =========
+[Tue Oct 13 21:22:41 CDT 2015]	<250, 3, 0.80%, AC3, 42 ms>
+[Tue Oct 13 21:22:41 CDT 2015]	<250, 4, 100.00%, AC3, 62 ms>
+[Tue Oct 13 21:22:41 CDT 2015]	
+[Tue Oct 13 21:22:41 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/250_nodes_3.txt =========
+[Tue Oct 13 21:22:41 CDT 2015]	<250, 3, 0.80%, MAC, 69 ms>
+[Tue Oct 13 21:22:42 CDT 2015]	<250, 4, 100.00%, MAC, 330 ms>
+[Tue Oct 13 21:22:42 CDT 2015]	
+[Tue Oct 13 21:22:42 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/250_nodes_4.txt =========
+[Tue Oct 13 21:22:42 CDT 2015]	<250, 3, 100.00%, MIN_CONFLICTS, 58 ms>
+[Tue Oct 13 21:22:42 CDT 2015]	<250, 4, 100.00%, MIN_CONFLICTS, 17 ms>
+[Tue Oct 13 21:22:42 CDT 2015]	
+[Tue Oct 13 21:22:42 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/250_nodes_4.txt =========
+[Tue Oct 13 21:22:42 CDT 2015]	<250, 3, 2.00%, FC, 14 ms>
+[Tue Oct 13 21:22:42 CDT 2015]	<250, 4, 100.00%, FC, 87 ms>
+[Tue Oct 13 21:22:42 CDT 2015]	
+[Tue Oct 13 21:22:42 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/250_nodes_4.txt =========
+[Tue Oct 13 21:22:43 CDT 2015]	<250, 3, 0.80%, AC3, 46 ms>
+[Tue Oct 13 21:22:43 CDT 2015]	<250, 4, 100.00%, AC3, 61 ms>
+[Tue Oct 13 21:22:43 CDT 2015]	
+[Tue Oct 13 21:22:43 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/250_nodes_4.txt =========
+[Tue Oct 13 21:22:43 CDT 2015]	<250, 3, 0.80%, MAC, 70 ms>
+[Tue Oct 13 21:22:43 CDT 2015]	<250, 4, 100.00%, MAC, 303 ms>
+[Tue Oct 13 21:22:43 CDT 2015]	
+[Tue Oct 13 21:22:43 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/250_nodes_5.txt =========
+[Tue Oct 13 21:22:43 CDT 2015]	<250, 3, 100.00%, MIN_CONFLICTS, 75 ms>
+[Tue Oct 13 21:22:43 CDT 2015]	<250, 4, 100.00%, MIN_CONFLICTS, 19 ms>
+[Tue Oct 13 21:22:43 CDT 2015]	
+[Tue Oct 13 21:22:44 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/250_nodes_5.txt =========
+[Tue Oct 13 21:22:44 CDT 2015]	<250, 3, 2.40%, FC, 25 ms>
+[Tue Oct 13 21:27:32 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/250_nodes_5.txt =========
+[Tue Oct 13 21:27:32 CDT 2015]	<250, 3, 0.80%, AC3, 44 ms>
+[Tue Oct 13 21:27:32 CDT 2015]	<250, 4, 100.00%, AC3, 399 ms>
+[Tue Oct 13 21:27:32 CDT 2015]	
+[Tue Oct 13 21:27:32 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/250_nodes_5.txt =========
+[Tue Oct 13 21:27:32 CDT 2015]	<250, 3, 0.80%, MAC, 68 ms>
+[Tue Oct 13 21:27:37 CDT 2015]	<250, 4, 100.00%, MAC, 4274 ms>
+[Tue Oct 13 21:27:37 CDT 2015]	
+[Tue Oct 13 21:27:37 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/250_nodes_6.txt =========
+[Tue Oct 13 21:27:37 CDT 2015]	<250, 3, 100.00%, MIN_CONFLICTS, 60 ms>
+[Tue Oct 13 21:27:37 CDT 2015]	<250, 4, 100.00%, MIN_CONFLICTS, 18 ms>
+[Tue Oct 13 21:27:37 CDT 2015]	
+[Tue Oct 13 21:27:37 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/250_nodes_6.txt =========
+[Tue Oct 13 21:27:37 CDT 2015]	<250, 3, 2.00%, FC, 30 ms>
+[Tue Oct 13 21:27:39 CDT 2015]	<250, 4, 100.00%, FC, 2092 ms>
+[Tue Oct 13 21:27:39 CDT 2015]	
+[Tue Oct 13 21:27:39 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/250_nodes_6.txt =========
+[Tue Oct 13 21:27:39 CDT 2015]	<250, 3, 0.80%, AC3, 47 ms>
+[Tue Oct 13 21:27:39 CDT 2015]	<250, 4, 100.00%, AC3, 79 ms>
+[Tue Oct 13 21:27:39 CDT 2015]	
+[Tue Oct 13 21:27:40 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/250_nodes_6.txt =========
+[Tue Oct 13 21:27:40 CDT 2015]	<250, 3, 0.80%, MAC, 126 ms>
+[Tue Oct 13 21:27:40 CDT 2015]	<250, 4, 100.00%, MAC, 343 ms>
+[Tue Oct 13 21:27:40 CDT 2015]	
+[Tue Oct 13 21:27:40 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/250_nodes_7.txt =========
+[Tue Oct 13 21:27:40 CDT 2015]	<250, 3, 100.00%, MIN_CONFLICTS, 59 ms>
+[Tue Oct 13 21:27:40 CDT 2015]	<250, 4, 100.00%, MIN_CONFLICTS, 18 ms>
+[Tue Oct 13 21:27:40 CDT 2015]	
+[Tue Oct 13 21:27:40 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/250_nodes_7.txt =========
+[Tue Oct 13 21:27:41 CDT 2015]	<250, 3, 6.40%, FC, 129 ms>
+[Tue Oct 13 21:27:41 CDT 2015]	<250, 4, 100.00%, FC, 224 ms>
+[Tue Oct 13 21:27:41 CDT 2015]	
+[Tue Oct 13 21:27:41 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/250_nodes_7.txt =========
+[Tue Oct 13 21:27:41 CDT 2015]	<250, 3, 0.80%, AC3, 41 ms>
+[Tue Oct 13 21:27:41 CDT 2015]	<250, 4, 100.00%, AC3, 72 ms>
+[Tue Oct 13 21:27:41 CDT 2015]	
+[Tue Oct 13 21:27:41 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/250_nodes_7.txt =========
+[Tue Oct 13 21:27:41 CDT 2015]	<250, 3, 0.80%, MAC, 122 ms>
+[Tue Oct 13 21:27:42 CDT 2015]	<250, 4, 100.00%, MAC, 349 ms>
+[Tue Oct 13 21:27:42 CDT 2015]	
+[Tue Oct 13 21:27:42 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/250_nodes_8.txt =========
+[Tue Oct 13 21:27:42 CDT 2015]	<250, 3, 100.00%, MIN_CONFLICTS, 61 ms>
+[Tue Oct 13 21:27:42 CDT 2015]	<250, 4, 100.00%, MIN_CONFLICTS, 18 ms>
+[Tue Oct 13 21:27:42 CDT 2015]	
+[Tue Oct 13 21:27:42 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/250_nodes_8.txt =========
+[Tue Oct 13 21:27:42 CDT 2015]	<250, 3, 2.00%, FC, 24 ms>
+[Tue Oct 13 21:27:46 CDT 2015]	<250, 4, 100.00%, FC, 3230 ms>
+[Tue Oct 13 21:27:46 CDT 2015]	
+[Tue Oct 13 21:27:46 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/250_nodes_8.txt =========
+[Tue Oct 13 21:27:46 CDT 2015]	<250, 3, 0.80%, AC3, 43 ms>
+[Tue Oct 13 21:27:46 CDT 2015]	<250, 4, 100.00%, AC3, 59 ms>
+[Tue Oct 13 21:27:46 CDT 2015]	
+[Tue Oct 13 21:27:46 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/250_nodes_8.txt =========
+[Tue Oct 13 21:27:46 CDT 2015]	<250, 3, 0.80%, MAC, 71 ms>
+[Tue Oct 13 21:27:46 CDT 2015]	<250, 4, 100.00%, MAC, 320 ms>
+[Tue Oct 13 21:27:46 CDT 2015]	
+[Tue Oct 13 21:27:46 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/250_nodes_9.txt =========
+[Tue Oct 13 21:27:47 CDT 2015]	<250, 3, 100.00%, MIN_CONFLICTS, 74 ms>
+[Tue Oct 13 21:27:47 CDT 2015]	<250, 4, 100.00%, MIN_CONFLICTS, 18 ms>
+[Tue Oct 13 21:27:47 CDT 2015]	
+[Tue Oct 13 21:27:47 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/250_nodes_9.txt =========
+[Tue Oct 13 21:27:47 CDT 2015]	<250, 3, 2.80%, FC, 26 ms>
+[Tue Oct 13 21:27:49 CDT 2015]	<250, 4, 100.00%, FC, 1845 ms>
+[Tue Oct 13 21:27:49 CDT 2015]	
+[Tue Oct 13 21:27:49 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/250_nodes_9.txt =========
+[Tue Oct 13 21:27:49 CDT 2015]	<250, 3, 0.80%, AC3, 44 ms>
+[Tue Oct 13 21:27:49 CDT 2015]	<250, 4, 100.00%, AC3, 51 ms>
+[Tue Oct 13 21:27:49 CDT 2015]	
+[Tue Oct 13 21:27:49 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/250_nodes_9.txt =========
+[Tue Oct 13 21:27:49 CDT 2015]	<250, 3, 0.80%, MAC, 65 ms>
+[Tue Oct 13 21:27:49 CDT 2015]	<250, 4, 100.00%, MAC, 292 ms>
+[Tue Oct 13 21:27:49 CDT 2015]	
+[Tue Oct 13 21:27:50 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/275_nodes_0.txt =========
+[Tue Oct 13 21:27:50 CDT 2015]	<275, 3, 100.00%, MIN_CONFLICTS, 75 ms>
+[Tue Oct 13 21:27:50 CDT 2015]	<275, 4, 100.00%, MIN_CONFLICTS, 23 ms>
+[Tue Oct 13 21:27:50 CDT 2015]	
+[Tue Oct 13 21:27:50 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/275_nodes_0.txt =========
+[Tue Oct 13 21:27:50 CDT 2015]	<275, 3, 2.91%, FC, 23 ms>
+[Tue Oct 13 21:27:54 CDT 2015]	<275, 4, 100.00%, FC, 3783 ms>
+[Tue Oct 13 21:27:54 CDT 2015]	
+[Tue Oct 13 21:27:54 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/275_nodes_0.txt =========
+[Tue Oct 13 21:27:54 CDT 2015]	<275, 3, 0.73%, AC3, 43 ms>
+[Tue Oct 13 21:27:54 CDT 2015]	<275, 4, 100.00%, AC3, 94 ms>
+[Tue Oct 13 21:27:54 CDT 2015]	
+[Tue Oct 13 21:27:54 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/275_nodes_0.txt =========
+[Tue Oct 13 21:27:54 CDT 2015]	<275, 3, 0.73%, MAC, 67 ms>
+[Tue Oct 13 21:27:55 CDT 2015]	<275, 4, 100.00%, MAC, 564 ms>
+[Tue Oct 13 21:27:55 CDT 2015]	
+[Tue Oct 13 21:27:55 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/275_nodes_1.txt =========
+[Tue Oct 13 21:27:55 CDT 2015]	<275, 3, 100.00%, MIN_CONFLICTS, 64 ms>
+[Tue Oct 13 21:27:55 CDT 2015]	<275, 4, 100.00%, MIN_CONFLICTS, 20 ms>
+[Tue Oct 13 21:27:55 CDT 2015]	
+[Tue Oct 13 21:27:55 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/275_nodes_1.txt =========
+[Tue Oct 13 21:27:55 CDT 2015]	<275, 3, 2.18%, FC, 23 ms>
+[Tue Oct 13 21:27:56 CDT 2015]	<275, 4, 100.00%, FC, 333 ms>
+[Tue Oct 13 21:27:56 CDT 2015]	
+[Tue Oct 13 21:27:56 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/275_nodes_1.txt =========
+[Tue Oct 13 21:27:56 CDT 2015]	<275, 3, 0.73%, AC3, 42 ms>
+[Tue Oct 13 21:27:56 CDT 2015]	<275, 4, 100.00%, AC3, 65 ms>
+[Tue Oct 13 21:27:56 CDT 2015]	
+[Tue Oct 13 21:27:56 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/275_nodes_1.txt =========
+[Tue Oct 13 21:27:56 CDT 2015]	<275, 3, 0.73%, MAC, 73 ms>
+[Tue Oct 13 21:27:57 CDT 2015]	<275, 4, 100.00%, MAC, 345 ms>
+[Tue Oct 13 21:27:57 CDT 2015]	
+[Tue Oct 13 21:27:57 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/275_nodes_2.txt =========
+[Tue Oct 13 21:27:57 CDT 2015]	<275, 3, 100.00%, MIN_CONFLICTS, 63 ms>
+[Tue Oct 13 21:27:57 CDT 2015]	<275, 4, 100.00%, MIN_CONFLICTS, 21 ms>
+[Tue Oct 13 21:27:57 CDT 2015]	
+[Tue Oct 13 21:27:57 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/275_nodes_2.txt =========
+[Tue Oct 13 21:27:57 CDT 2015]	<275, 3, 3.27%, FC, 22 ms>
+[Tue Oct 13 21:31:55 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/275_nodes_2.txt =========
+[Tue Oct 13 21:31:55 CDT 2015]	<275, 3, 0.73%, AC3, 43 ms>
+[Tue Oct 13 21:31:56 CDT 2015]	<275, 4, 100.00%, AC3, 288 ms>
+[Tue Oct 13 21:31:56 CDT 2015]	
+[Tue Oct 13 21:31:56 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/275_nodes_2.txt =========
+[Tue Oct 13 21:31:56 CDT 2015]	<275, 3, 0.73%, MAC, 68 ms>
+[Tue Oct 13 21:31:59 CDT 2015]	<275, 4, 100.00%, MAC, 2698 ms>
+[Tue Oct 13 21:31:59 CDT 2015]	
+[Tue Oct 13 21:31:59 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/275_nodes_3.txt =========
+[Tue Oct 13 21:31:59 CDT 2015]	<275, 3, 100.00%, MIN_CONFLICTS, 79 ms>
+[Tue Oct 13 21:31:59 CDT 2015]	<275, 4, 100.00%, MIN_CONFLICTS, 25 ms>
+[Tue Oct 13 21:31:59 CDT 2015]	
+[Tue Oct 13 21:31:59 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/275_nodes_3.txt =========
+[Tue Oct 13 21:31:59 CDT 2015]	<275, 3, 3.27%, FC, 36 ms>
+[Tue Oct 13 21:32:01 CDT 2015]	<275, 4, 100.00%, FC, 2073 ms>
+[Tue Oct 13 21:32:01 CDT 2015]	
+[Tue Oct 13 21:32:01 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/275_nodes_3.txt =========
+[Tue Oct 13 21:32:02 CDT 2015]	<275, 3, 0.73%, AC3, 42 ms>
+[Tue Oct 13 21:32:02 CDT 2015]	<275, 4, 100.00%, AC3, 65 ms>
+[Tue Oct 13 21:32:02 CDT 2015]	
+[Tue Oct 13 21:32:02 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/275_nodes_3.txt =========
+[Tue Oct 13 21:32:02 CDT 2015]	<275, 3, 0.73%, MAC, 75 ms>
+[Tue Oct 13 21:32:02 CDT 2015]	<275, 4, 100.00%, MAC, 374 ms>
+[Tue Oct 13 21:32:02 CDT 2015]	
+[Tue Oct 13 21:32:02 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/275_nodes_4.txt =========
+[Tue Oct 13 21:32:03 CDT 2015]	<275, 3, 100.00%, MIN_CONFLICTS, 76 ms>
+[Tue Oct 13 21:32:03 CDT 2015]	<275, 4, 100.00%, MIN_CONFLICTS, 23 ms>
+[Tue Oct 13 21:32:03 CDT 2015]	
+[Tue Oct 13 21:32:03 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/275_nodes_4.txt =========
+[Tue Oct 13 21:32:03 CDT 2015]	<275, 3, 2.18%, FC, 13 ms>
+[Tue Oct 13 21:32:03 CDT 2015]	<275, 4, 100.00%, FC, 277 ms>
+[Tue Oct 13 21:32:03 CDT 2015]	
+[Tue Oct 13 21:32:03 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/275_nodes_4.txt =========
+[Tue Oct 13 21:32:03 CDT 2015]	<275, 3, 0.73%, AC3, 53 ms>
+[Tue Oct 13 21:32:03 CDT 2015]	<275, 4, 100.00%, AC3, 70 ms>
+[Tue Oct 13 21:32:03 CDT 2015]	
+[Tue Oct 13 21:32:03 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/275_nodes_4.txt =========
+[Tue Oct 13 21:32:04 CDT 2015]	<275, 3, 0.73%, MAC, 74 ms>
+[Tue Oct 13 21:32:04 CDT 2015]	<275, 4, 100.00%, MAC, 381 ms>
+[Tue Oct 13 21:32:04 CDT 2015]	
+[Tue Oct 13 21:32:04 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/275_nodes_5.txt =========
+[Tue Oct 13 21:32:04 CDT 2015]	<275, 3, 100.00%, MIN_CONFLICTS, 79 ms>
+[Tue Oct 13 21:32:04 CDT 2015]	<275, 4, 100.00%, MIN_CONFLICTS, 23 ms>
+[Tue Oct 13 21:32:04 CDT 2015]	
+[Tue Oct 13 21:32:04 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/275_nodes_5.txt =========
+[Tue Oct 13 21:32:05 CDT 2015]	<275, 3, 3.27%, FC, 54 ms>
+[Tue Oct 13 21:32:05 CDT 2015]	<275, 4, 100.00%, FC, 501 ms>
+[Tue Oct 13 21:32:05 CDT 2015]	
+[Tue Oct 13 21:32:05 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/275_nodes_5.txt =========
+[Tue Oct 13 21:32:05 CDT 2015]	<275, 3, 0.73%, AC3, 47 ms>
+[Tue Oct 13 21:32:05 CDT 2015]	<275, 4, 100.00%, AC3, 63 ms>
+[Tue Oct 13 21:32:05 CDT 2015]	
+[Tue Oct 13 21:32:05 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/275_nodes_5.txt =========
+[Tue Oct 13 21:32:06 CDT 2015]	<275, 3, 0.73%, MAC, 71 ms>
+[Tue Oct 13 21:32:06 CDT 2015]	<275, 4, 100.00%, MAC, 404 ms>
+[Tue Oct 13 21:32:06 CDT 2015]	
+[Tue Oct 13 21:32:06 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/275_nodes_6.txt =========
+[Tue Oct 13 21:32:06 CDT 2015]	<275, 3, 100.00%, MIN_CONFLICTS, 63 ms>
+[Tue Oct 13 21:32:06 CDT 2015]	<275, 4, 100.00%, MIN_CONFLICTS, 22 ms>
+[Tue Oct 13 21:32:06 CDT 2015]	
+[Tue Oct 13 21:32:06 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/275_nodes_6.txt =========
+[Tue Oct 13 21:32:06 CDT 2015]	<275, 3, 2.18%, FC, 36 ms>
+[Tue Oct 13 21:32:07 CDT 2015]	<275, 4, 100.00%, FC, 383 ms>
+[Tue Oct 13 21:32:07 CDT 2015]	
+[Tue Oct 13 21:32:07 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/275_nodes_6.txt =========
+[Tue Oct 13 21:32:07 CDT 2015]	<275, 3, 0.73%, AC3, 46 ms>
+[Tue Oct 13 21:32:07 CDT 2015]	<275, 4, 100.00%, AC3, 65 ms>
+[Tue Oct 13 21:32:07 CDT 2015]	
+[Tue Oct 13 21:32:07 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/275_nodes_6.txt =========
+[Tue Oct 13 21:32:07 CDT 2015]	<275, 3, 0.73%, MAC, 73 ms>
+[Tue Oct 13 21:32:08 CDT 2015]	<275, 4, 100.00%, MAC, 375 ms>
+[Tue Oct 13 21:32:08 CDT 2015]	
+[Tue Oct 13 21:32:08 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/275_nodes_7.txt =========
+[Tue Oct 13 21:32:08 CDT 2015]	<275, 3, 100.00%, MIN_CONFLICTS, 63 ms>
+[Tue Oct 13 21:32:08 CDT 2015]	<275, 4, 100.00%, MIN_CONFLICTS, 22 ms>
+[Tue Oct 13 21:32:08 CDT 2015]	
+[Tue Oct 13 21:32:08 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/275_nodes_7.txt =========
+[Tue Oct 13 21:32:08 CDT 2015]	<275, 3, 3.64%, FC, 35 ms>
+[Tue Oct 13 21:32:09 CDT 2015]	<275, 4, 100.00%, FC, 434 ms>
+[Tue Oct 13 21:32:09 CDT 2015]	
+[Tue Oct 13 21:32:09 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/275_nodes_7.txt =========
+[Tue Oct 13 21:32:09 CDT 2015]	<275, 3, 0.73%, AC3, 41 ms>
+[Tue Oct 13 21:32:09 CDT 2015]	<275, 4, 100.00%, AC3, 73 ms>
+[Tue Oct 13 21:32:09 CDT 2015]	
+[Tue Oct 13 21:32:09 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/275_nodes_7.txt =========
+[Tue Oct 13 21:32:09 CDT 2015]	<275, 3, 0.73%, MAC, 76 ms>
+[Tue Oct 13 21:32:10 CDT 2015]	<275, 4, 100.00%, MAC, 360 ms>
+[Tue Oct 13 21:32:10 CDT 2015]	
+[Tue Oct 13 21:32:10 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/275_nodes_8.txt =========
+[Tue Oct 13 21:32:10 CDT 2015]	<275, 3, 100.00%, MIN_CONFLICTS, 78 ms>
+[Tue Oct 13 21:32:10 CDT 2015]	<275, 4, 100.00%, MIN_CONFLICTS, 23 ms>
+[Tue Oct 13 21:32:10 CDT 2015]	
+[Tue Oct 13 21:32:10 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/275_nodes_8.txt =========
+[Tue Oct 13 21:32:10 CDT 2015]	<275, 3, 3.64%, FC, 33 ms>
+[Tue Oct 13 21:32:10 CDT 2015]	<275, 4, 100.00%, FC, 166 ms>
+[Tue Oct 13 21:32:10 CDT 2015]	
+[Tue Oct 13 21:32:10 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/275_nodes_8.txt =========
+[Tue Oct 13 21:32:10 CDT 2015]	<275, 3, 0.73%, AC3, 44 ms>
+[Tue Oct 13 21:32:11 CDT 2015]	<275, 4, 100.00%, AC3, 63 ms>
+[Tue Oct 13 21:32:11 CDT 2015]	
+[Tue Oct 13 21:32:11 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/275_nodes_8.txt =========
+[Tue Oct 13 21:32:11 CDT 2015]	<275, 3, 0.73%, MAC, 78 ms>
+[Tue Oct 13 21:32:11 CDT 2015]	<275, 4, 100.00%, MAC, 357 ms>
+[Tue Oct 13 21:32:11 CDT 2015]	
+[Tue Oct 13 21:32:11 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/275_nodes_9.txt =========
+[Tue Oct 13 21:32:11 CDT 2015]	<275, 3, 100.00%, MIN_CONFLICTS, 64 ms>
+[Tue Oct 13 21:32:11 CDT 2015]	<275, 4, 100.00%, MIN_CONFLICTS, 22 ms>
+[Tue Oct 13 21:32:11 CDT 2015]	
+[Tue Oct 13 21:32:12 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/275_nodes_9.txt =========
+[Tue Oct 13 21:32:12 CDT 2015]	<275, 3, 2.55%, FC, 20 ms>
+[Tue Oct 13 21:32:12 CDT 2015]	<275, 4, 100.00%, FC, 431 ms>
+[Tue Oct 13 21:32:12 CDT 2015]	
+[Tue Oct 13 21:32:12 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/275_nodes_9.txt =========
+[Tue Oct 13 21:32:12 CDT 2015]	<275, 3, 0.73%, AC3, 42 ms>
+[Tue Oct 13 21:32:12 CDT 2015]	<275, 4, 100.00%, AC3, 70 ms>
+[Tue Oct 13 21:32:12 CDT 2015]	
+[Tue Oct 13 21:32:12 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/275_nodes_9.txt =========
+[Tue Oct 13 21:32:13 CDT 2015]	<275, 3, 0.73%, MAC, 73 ms>
+[Tue Oct 13 21:32:13 CDT 2015]	<275, 4, 100.00%, MAC, 356 ms>
+[Tue Oct 13 21:32:13 CDT 2015]	
+[Tue Oct 13 21:32:13 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/325_nodes_0.txt =========
+[Tue Oct 13 21:32:13 CDT 2015]	<325, 3, 100.00%, MIN_CONFLICTS, 88 ms>
+[Tue Oct 13 21:32:13 CDT 2015]	<325, 4, 100.00%, MIN_CONFLICTS, 28 ms>
+[Tue Oct 13 21:32:13 CDT 2015]	
+[Tue Oct 13 21:32:13 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/325_nodes_0.txt =========
+[Tue Oct 13 21:32:14 CDT 2015]	<325, 3, 2.77%, FC, 27 ms>
+[Tue Oct 13 21:32:17 CDT 2015]	<325, 4, 100.00%, FC, 3931 ms>
+[Tue Oct 13 21:32:17 CDT 2015]	
+[Tue Oct 13 21:32:18 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/325_nodes_0.txt =========
+[Tue Oct 13 21:32:18 CDT 2015]	<325, 3, 0.62%, AC3, 50 ms>
+[Tue Oct 13 21:32:18 CDT 2015]	<325, 4, 100.00%, AC3, 75 ms>
+[Tue Oct 13 21:32:18 CDT 2015]	
+[Tue Oct 13 21:32:18 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/325_nodes_0.txt =========
+[Tue Oct 13 21:32:18 CDT 2015]	<325, 3, 0.62%, MAC, 84 ms>
+[Tue Oct 13 21:32:19 CDT 2015]	<325, 4, 100.00%, MAC, 479 ms>
+[Tue Oct 13 21:32:19 CDT 2015]	
+[Tue Oct 13 21:32:19 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/325_nodes_1.txt =========
+[Tue Oct 13 21:32:19 CDT 2015]	<325, 3, 100.00%, MIN_CONFLICTS, 76 ms>
+[Tue Oct 13 21:32:19 CDT 2015]	<325, 4, 100.00%, MIN_CONFLICTS, 28 ms>
+[Tue Oct 13 21:32:19 CDT 2015]	
+[Tue Oct 13 21:32:19 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/325_nodes_1.txt =========
+[Tue Oct 13 21:32:19 CDT 2015]	<325, 3, 3.08%, FC, 25 ms>
+[Tue Oct 13 21:32:19 CDT 2015]	<325, 4, 100.00%, FC, 339 ms>
+[Tue Oct 13 21:32:19 CDT 2015]	
+[Tue Oct 13 21:32:20 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/325_nodes_1.txt =========
+[Tue Oct 13 21:32:20 CDT 2015]	<325, 3, 0.62%, AC3, 49 ms>
+[Tue Oct 13 21:32:20 CDT 2015]	<325, 4, 100.00%, AC3, 73 ms>
+[Tue Oct 13 21:32:20 CDT 2015]	
+[Tue Oct 13 21:32:20 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/325_nodes_1.txt =========
+[Tue Oct 13 21:32:20 CDT 2015]	<325, 3, 0.62%, MAC, 83 ms>
+[Tue Oct 13 21:32:20 CDT 2015]	<325, 4, 100.00%, MAC, 460 ms>
+[Tue Oct 13 21:32:20 CDT 2015]	
+[Tue Oct 13 21:32:21 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/325_nodes_2.txt =========
+[Tue Oct 13 21:32:21 CDT 2015]	<325, 3, 100.00%, MIN_CONFLICTS, 69 ms>
+[Tue Oct 13 21:32:21 CDT 2015]	<325, 4, 100.00%, MIN_CONFLICTS, 29 ms>
+[Tue Oct 13 21:32:21 CDT 2015]	
+[Tue Oct 13 21:32:21 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/325_nodes_2.txt =========
+[Tue Oct 13 21:32:21 CDT 2015]	<325, 3, 4.00%, FC, 48 ms>
+[Tue Oct 13 21:35:34 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/325_nodes_2.txt =========
+[Tue Oct 13 21:35:34 CDT 2015]	<325, 3, 0.62%, AC3, 50 ms>
+[Tue Oct 13 21:35:34 CDT 2015]	<325, 4, 100.00%, AC3, 212 ms>
+[Tue Oct 13 21:35:34 CDT 2015]	
+[Tue Oct 13 21:35:34 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/325_nodes_2.txt =========
+[Tue Oct 13 21:35:35 CDT 2015]	<325, 3, 0.62%, MAC, 114 ms>
+[Tue Oct 13 21:35:37 CDT 2015]	<325, 4, 100.00%, MAC, 2430 ms>
+[Tue Oct 13 21:35:37 CDT 2015]	
+[Tue Oct 13 21:35:37 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/325_nodes_3.txt =========
+[Tue Oct 13 21:35:37 CDT 2015]	<325, 3, 100.00%, MIN_CONFLICTS, 80 ms>
+[Tue Oct 13 21:35:37 CDT 2015]	<325, 4, 100.00%, MIN_CONFLICTS, 27 ms>
+[Tue Oct 13 21:35:37 CDT 2015]	
+[Tue Oct 13 21:35:38 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/325_nodes_3.txt =========
+[Tue Oct 13 21:35:38 CDT 2015]	<325, 3, 2.15%, FC, 74 ms>
+[Tue Oct 13 21:39:16 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/325_nodes_3.txt =========
+[Tue Oct 13 21:39:17 CDT 2015]	<325, 3, 0.62%, AC3, 51 ms>
+[Tue Oct 13 21:39:17 CDT 2015]	<325, 4, 100.00%, AC3, 74 ms>
+[Tue Oct 13 21:39:17 CDT 2015]	
+[Tue Oct 13 21:39:17 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/325_nodes_3.txt =========
+[Tue Oct 13 21:39:17 CDT 2015]	<325, 3, 0.62%, MAC, 86 ms>
+[Tue Oct 13 21:39:17 CDT 2015]	<325, 4, 100.00%, MAC, 456 ms>
+[Tue Oct 13 21:39:17 CDT 2015]	
+[Tue Oct 13 21:39:17 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/325_nodes_4.txt =========
+[Tue Oct 13 21:39:18 CDT 2015]	<325, 3, 100.00%, MIN_CONFLICTS, 72 ms>
+[Tue Oct 13 21:39:18 CDT 2015]	<325, 4, 100.00%, MIN_CONFLICTS, 28 ms>
+[Tue Oct 13 21:39:18 CDT 2015]	
+[Tue Oct 13 21:39:18 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/325_nodes_4.txt =========
+[Tue Oct 13 21:39:18 CDT 2015]	<325, 3, 2.46%, FC, 43 ms>
+[Tue Oct 13 21:39:38 CDT 2015]	<325, 4, 100.00%, FC, 20452 ms>
+[Tue Oct 13 21:39:38 CDT 2015]	
+[Tue Oct 13 21:39:38 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/325_nodes_4.txt =========
+[Tue Oct 13 21:39:39 CDT 2015]	<325, 3, 0.62%, AC3, 46 ms>
+[Tue Oct 13 21:39:39 CDT 2015]	<325, 4, 100.00%, AC3, 85 ms>
+[Tue Oct 13 21:39:39 CDT 2015]	
+[Tue Oct 13 21:39:39 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/325_nodes_4.txt =========
+[Tue Oct 13 21:39:39 CDT 2015]	<325, 3, 0.62%, MAC, 91 ms>
+[Tue Oct 13 21:39:40 CDT 2015]	<325, 4, 100.00%, MAC, 606 ms>
+[Tue Oct 13 21:39:40 CDT 2015]	
+[Tue Oct 13 21:39:40 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/325_nodes_5.txt =========
+[Tue Oct 13 21:39:40 CDT 2015]	<325, 3, 100.00%, MIN_CONFLICTS, 86 ms>
+[Tue Oct 13 21:39:40 CDT 2015]	<325, 4, 100.00%, MIN_CONFLICTS, 29 ms>
+[Tue Oct 13 21:39:40 CDT 2015]	
+[Tue Oct 13 21:39:40 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/325_nodes_5.txt =========
+[Tue Oct 13 21:39:40 CDT 2015]	<325, 3, 3.08%, FC, 31 ms>
+[Tue Oct 13 21:39:40 CDT 2015]	<325, 4, 100.00%, FC, 276 ms>
+[Tue Oct 13 21:39:40 CDT 2015]	
+[Tue Oct 13 21:39:40 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/325_nodes_5.txt =========
+[Tue Oct 13 21:39:41 CDT 2015]	<325, 3, 0.62%, AC3, 48 ms>
+[Tue Oct 13 21:39:41 CDT 2015]	<325, 4, 100.00%, AC3, 101 ms>
+[Tue Oct 13 21:39:41 CDT 2015]	
+[Tue Oct 13 21:39:41 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/325_nodes_5.txt =========
+[Tue Oct 13 21:39:41 CDT 2015]	<325, 3, 0.62%, MAC, 115 ms>
+[Tue Oct 13 21:39:42 CDT 2015]	<325, 4, 100.00%, MAC, 552 ms>
+[Tue Oct 13 21:39:42 CDT 2015]	
+[Tue Oct 13 21:39:42 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/325_nodes_6.txt =========
+[Tue Oct 13 21:39:42 CDT 2015]	<325, 3, 100.00%, MIN_CONFLICTS, 73 ms>
+[Tue Oct 13 21:39:42 CDT 2015]	<325, 4, 100.00%, MIN_CONFLICTS, 27 ms>
+[Tue Oct 13 21:39:42 CDT 2015]	
+[Tue Oct 13 21:39:42 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/325_nodes_6.txt =========
+[Tue Oct 13 21:39:42 CDT 2015]	<325, 3, 4.00%, FC, 31 ms>
+[Tue Oct 13 21:39:44 CDT 2015]	<325, 4, 100.00%, FC, 1787 ms>
+[Tue Oct 13 21:39:44 CDT 2015]	
+[Tue Oct 13 21:39:44 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/325_nodes_6.txt =========
+[Tue Oct 13 21:39:44 CDT 2015]	<325, 3, 0.62%, AC3, 48 ms>
+[Tue Oct 13 21:39:44 CDT 2015]	<325, 4, 100.00%, AC3, 95 ms>
+[Tue Oct 13 21:39:44 CDT 2015]	
+[Tue Oct 13 21:39:44 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/325_nodes_6.txt =========
+[Tue Oct 13 21:39:44 CDT 2015]	<325, 3, 0.62%, MAC, 83 ms>
+[Tue Oct 13 21:39:45 CDT 2015]	<325, 4, 100.00%, MAC, 636 ms>
+[Tue Oct 13 21:39:45 CDT 2015]	
+[Tue Oct 13 21:39:45 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/325_nodes_7.txt =========
+[Tue Oct 13 21:39:45 CDT 2015]	<325, 3, 100.00%, MIN_CONFLICTS, 77 ms>
+[Tue Oct 13 21:39:45 CDT 2015]	<325, 4, 100.00%, MIN_CONFLICTS, 28 ms>
+[Tue Oct 13 21:39:45 CDT 2015]	
+[Tue Oct 13 21:39:45 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/325_nodes_7.txt =========
+[Tue Oct 13 21:39:46 CDT 2015]	<325, 3, 2.15%, FC, 40 ms>
+[Tue Oct 13 21:39:59 CDT 2015]	<325, 4, 100.00%, FC, 13395 ms>
+[Tue Oct 13 21:39:59 CDT 2015]	
+[Tue Oct 13 21:39:59 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/325_nodes_7.txt =========
+[Tue Oct 13 21:39:59 CDT 2015]	<325, 3, 0.62%, AC3, 47 ms>
+[Tue Oct 13 21:39:59 CDT 2015]	<325, 4, 100.00%, AC3, 122 ms>
+[Tue Oct 13 21:39:59 CDT 2015]	
+[Tue Oct 13 21:39:59 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/325_nodes_7.txt =========
+[Tue Oct 13 21:40:00 CDT 2015]	<325, 3, 0.62%, MAC, 86 ms>
+[Tue Oct 13 21:40:01 CDT 2015]	<325, 4, 100.00%, MAC, 1007 ms>
+[Tue Oct 13 21:40:01 CDT 2015]	
+[Tue Oct 13 21:40:01 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/325_nodes_8.txt =========
+[Tue Oct 13 21:40:01 CDT 2015]	<325, 3, 100.00%, MIN_CONFLICTS, 83 ms>
+[Tue Oct 13 21:40:01 CDT 2015]	<325, 4, 100.00%, MIN_CONFLICTS, 29 ms>
+[Tue Oct 13 21:40:01 CDT 2015]	
+[Tue Oct 13 21:40:01 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/325_nodes_8.txt =========
+[Tue Oct 13 21:40:01 CDT 2015]	<325, 3, 1.85%, FC, 16 ms>
+[Tue Oct 13 21:44:17 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/325_nodes_8.txt =========
+[Tue Oct 13 21:44:17 CDT 2015]	<325, 3, 0.62%, AC3, 47 ms>
+[Tue Oct 13 21:44:18 CDT 2015]	<325, 4, 100.00%, AC3, 92 ms>
+[Tue Oct 13 21:44:18 CDT 2015]	
+[Tue Oct 13 21:44:18 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/325_nodes_8.txt =========
+[Tue Oct 13 21:44:18 CDT 2015]	<325, 3, 0.62%, MAC, 83 ms>
+[Tue Oct 13 21:44:18 CDT 2015]	<325, 4, 100.00%, MAC, 625 ms>
+[Tue Oct 13 21:44:18 CDT 2015]	
+[Tue Oct 13 21:44:19 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/325_nodes_9.txt =========
+[Tue Oct 13 21:44:19 CDT 2015]	<325, 3, 100.00%, MIN_CONFLICTS, 71 ms>
+[Tue Oct 13 21:44:19 CDT 2015]	<325, 4, 100.00%, MIN_CONFLICTS, 26 ms>
+[Tue Oct 13 21:44:19 CDT 2015]	
+[Tue Oct 13 21:44:19 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/325_nodes_9.txt =========
+[Tue Oct 13 21:44:19 CDT 2015]	<325, 3, 3.38%, FC, 37 ms>
+[Tue Oct 13 21:44:23 CDT 2015]	<325, 4, 100.00%, FC, 3602 ms>
+[Tue Oct 13 21:44:23 CDT 2015]	
+[Tue Oct 13 21:44:23 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/325_nodes_9.txt =========
+[Tue Oct 13 21:44:23 CDT 2015]	<325, 3, 0.62%, AC3, 47 ms>
+[Tue Oct 13 21:44:23 CDT 2015]	<325, 4, 100.00%, AC3, 130 ms>
+[Tue Oct 13 21:44:23 CDT 2015]	
+[Tue Oct 13 21:44:23 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/325_nodes_9.txt =========
+[Tue Oct 13 21:44:23 CDT 2015]	<325, 3, 0.62%, MAC, 104 ms>
+[Tue Oct 13 21:44:25 CDT 2015]	<325, 4, 100.00%, MAC, 1495 ms>
+[Tue Oct 13 21:44:25 CDT 2015]	
+[Tue Oct 13 21:44:25 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/350_nodes_0.txt =========
+[Tue Oct 13 21:44:25 CDT 2015]	<350, 3, 100.00%, MIN_CONFLICTS, 76 ms>
+[Tue Oct 13 21:44:25 CDT 2015]	<350, 4, 100.00%, MIN_CONFLICTS, 29 ms>
+[Tue Oct 13 21:44:25 CDT 2015]	
+[Tue Oct 13 21:44:25 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/350_nodes_0.txt =========
+[Tue Oct 13 21:44:25 CDT 2015]	<350, 3, 2.57%, FC, 24 ms>
+[Tue Oct 13 21:44:27 CDT 2015]	<350, 4, 100.00%, FC, 2210 ms>
+[Tue Oct 13 21:44:27 CDT 2015]	
+[Tue Oct 13 21:44:28 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/350_nodes_0.txt =========
+[Tue Oct 13 21:44:28 CDT 2015]	<350, 3, 0.57%, AC3, 49 ms>
+[Tue Oct 13 21:44:28 CDT 2015]	<350, 4, 100.00%, AC3, 74 ms>
+[Tue Oct 13 21:44:28 CDT 2015]	
+[Tue Oct 13 21:44:28 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/350_nodes_0.txt =========
+[Tue Oct 13 21:44:28 CDT 2015]	<350, 3, 0.57%, MAC, 83 ms>
+[Tue Oct 13 21:44:29 CDT 2015]	<350, 4, 100.00%, MAC, 675 ms>
+[Tue Oct 13 21:44:29 CDT 2015]	
+[Tue Oct 13 21:44:29 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/350_nodes_1.txt =========
+[Tue Oct 13 21:44:29 CDT 2015]	<350, 3, 100.00%, MIN_CONFLICTS, 77 ms>
+[Tue Oct 13 21:44:29 CDT 2015]	<350, 4, 100.00%, MIN_CONFLICTS, 28 ms>
+[Tue Oct 13 21:44:29 CDT 2015]	
+[Tue Oct 13 21:44:29 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/350_nodes_1.txt =========
+[Tue Oct 13 21:44:29 CDT 2015]	<350, 3, 2.29%, FC, 37 ms>
+[Tue Oct 13 21:44:50 CDT 2015]	<350, 4, 100.00%, FC, 20243 ms>
+[Tue Oct 13 21:44:50 CDT 2015]	
+[Tue Oct 13 21:44:50 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/350_nodes_1.txt =========
+[Tue Oct 13 21:44:50 CDT 2015]	<350, 3, 0.57%, AC3, 49 ms>
+[Tue Oct 13 21:44:50 CDT 2015]	<350, 4, 100.00%, AC3, 294 ms>
+[Tue Oct 13 21:44:50 CDT 2015]	
+[Tue Oct 13 21:44:50 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/350_nodes_1.txt =========
+[Tue Oct 13 21:44:50 CDT 2015]	<350, 3, 0.57%, MAC, 82 ms>
+[Tue Oct 13 21:44:54 CDT 2015]	<350, 4, 100.00%, MAC, 3945 ms>
+[Tue Oct 13 21:44:54 CDT 2015]	
+[Tue Oct 13 21:44:54 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/350_nodes_2.txt =========
+[Tue Oct 13 21:44:55 CDT 2015]	<350, 3, 100.00%, MIN_CONFLICTS, 91 ms>
+[Tue Oct 13 21:44:55 CDT 2015]	<350, 4, 100.00%, MIN_CONFLICTS, 33 ms>
+[Tue Oct 13 21:44:55 CDT 2015]	
+[Tue Oct 13 21:44:55 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/350_nodes_2.txt =========
+[Tue Oct 13 21:44:55 CDT 2015]	<350, 3, 2.86%, FC, 29 ms>
+[Tue Oct 13 21:44:57 CDT 2015]	<350, 4, 100.00%, FC, 2515 ms>
+[Tue Oct 13 21:44:57 CDT 2015]	
+[Tue Oct 13 21:44:58 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/350_nodes_2.txt =========
+[Tue Oct 13 21:44:58 CDT 2015]	<350, 3, 0.57%, AC3, 52 ms>
+[Tue Oct 13 21:44:58 CDT 2015]	<350, 4, 100.00%, AC3, 80 ms>
+[Tue Oct 13 21:44:58 CDT 2015]	
+[Tue Oct 13 21:44:58 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/350_nodes_2.txt =========
+[Tue Oct 13 21:44:58 CDT 2015]	<350, 3, 0.57%, MAC, 91 ms>
+[Tue Oct 13 21:44:59 CDT 2015]	<350, 4, 100.00%, MAC, 668 ms>
+[Tue Oct 13 21:44:59 CDT 2015]	
+[Tue Oct 13 21:44:59 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/350_nodes_3.txt =========
+[Tue Oct 13 21:44:59 CDT 2015]	<350, 3, 100.00%, MIN_CONFLICTS, 78 ms>
+[Tue Oct 13 21:44:59 CDT 2015]	<350, 4, 100.00%, MIN_CONFLICTS, 34 ms>
+[Tue Oct 13 21:44:59 CDT 2015]	
+[Tue Oct 13 21:44:59 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/350_nodes_3.txt =========
+[Tue Oct 13 21:44:59 CDT 2015]	<350, 3, 3.14%, FC, 52 ms>
+[Tue Oct 13 21:45:01 CDT 2015]	<350, 4, 100.00%, FC, 2029 ms>
+[Tue Oct 13 21:45:01 CDT 2015]	
+[Tue Oct 13 21:45:01 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/350_nodes_3.txt =========
+[Tue Oct 13 21:45:01 CDT 2015]	<350, 3, 0.57%, AC3, 50 ms>
+[Tue Oct 13 21:45:02 CDT 2015]	<350, 4, 100.00%, AC3, 67 ms>
+[Tue Oct 13 21:45:02 CDT 2015]	
+[Tue Oct 13 21:45:02 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/350_nodes_3.txt =========
+[Tue Oct 13 21:45:02 CDT 2015]	<350, 3, 0.57%, MAC, 64 ms>
+[Tue Oct 13 21:45:02 CDT 2015]	<350, 4, 100.00%, MAC, 574 ms>
+[Tue Oct 13 21:45:02 CDT 2015]	
+[Tue Oct 13 21:45:02 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/350_nodes_4.txt =========
+[Tue Oct 13 21:45:03 CDT 2015]	<350, 3, 100.00%, MIN_CONFLICTS, 87 ms>
+[Tue Oct 13 21:45:03 CDT 2015]	<350, 4, 100.00%, MIN_CONFLICTS, 31 ms>
+[Tue Oct 13 21:45:03 CDT 2015]	
+[Tue Oct 13 21:45:03 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/350_nodes_4.txt =========
+[Tue Oct 13 21:45:03 CDT 2015]	<350, 3, 1.43%, FC, 20 ms>
+[Tue Oct 13 21:45:05 CDT 2015]	<350, 4, 100.00%, FC, 1638 ms>
+[Tue Oct 13 21:45:05 CDT 2015]	
+[Tue Oct 13 21:45:05 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/350_nodes_4.txt =========
+[Tue Oct 13 21:45:05 CDT 2015]	<350, 3, 0.57%, AC3, 48 ms>
+[Tue Oct 13 21:45:05 CDT 2015]	<350, 4, 100.00%, AC3, 109 ms>
+[Tue Oct 13 21:45:05 CDT 2015]	
+[Tue Oct 13 21:45:05 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/350_nodes_4.txt =========
+[Tue Oct 13 21:45:05 CDT 2015]	<350, 3, 0.57%, MAC, 83 ms>
+[Tue Oct 13 21:45:06 CDT 2015]	<350, 4, 100.00%, MAC, 935 ms>
+[Tue Oct 13 21:45:06 CDT 2015]	
+[Tue Oct 13 21:45:06 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/350_nodes_5.txt =========
+[Tue Oct 13 21:45:06 CDT 2015]	<350, 3, 100.00%, MIN_CONFLICTS, 92 ms>
+[Tue Oct 13 21:45:06 CDT 2015]	<350, 4, 100.00%, MIN_CONFLICTS, 32 ms>
+[Tue Oct 13 21:45:06 CDT 2015]	
+[Tue Oct 13 21:45:07 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/350_nodes_5.txt =========
+[Tue Oct 13 21:45:07 CDT 2015]	<350, 3, 2.00%, FC, 53 ms>
+[Tue Oct 13 21:47:22 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/350_nodes_5.txt =========
+[Tue Oct 13 21:47:22 CDT 2015]	<350, 3, 0.57%, AC3, 50 ms>
+[Tue Oct 13 21:47:22 CDT 2015]	<350, 4, 100.00%, AC3, 78 ms>
+[Tue Oct 13 21:47:22 CDT 2015]	
+[Tue Oct 13 21:47:23 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/350_nodes_5.txt =========
+[Tue Oct 13 21:47:23 CDT 2015]	<350, 3, 0.57%, MAC, 106 ms>
+[Tue Oct 13 21:47:23 CDT 2015]	<350, 4, 100.00%, MAC, 646 ms>
+[Tue Oct 13 21:47:23 CDT 2015]	
+[Tue Oct 13 21:47:24 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/350_nodes_6.txt =========
+[Tue Oct 13 21:47:24 CDT 2015]	<350, 3, 100.00%, MIN_CONFLICTS, 95 ms>
+[Tue Oct 13 21:47:24 CDT 2015]	<350, 4, 100.00%, MIN_CONFLICTS, 31 ms>
+[Tue Oct 13 21:47:24 CDT 2015]	
+[Tue Oct 13 21:47:24 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/350_nodes_6.txt =========
+[Tue Oct 13 21:47:24 CDT 2015]	<350, 3, 2.57%, FC, 40 ms>
+[Tue Oct 13 21:47:26 CDT 2015]	<350, 4, 100.00%, FC, 1789 ms>
+[Tue Oct 13 21:47:26 CDT 2015]	
+[Tue Oct 13 21:47:26 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/350_nodes_6.txt =========
+[Tue Oct 13 21:47:26 CDT 2015]	<350, 3, 0.57%, AC3, 46 ms>
+[Tue Oct 13 21:47:26 CDT 2015]	<350, 4, 100.00%, AC3, 76 ms>
+[Tue Oct 13 21:47:26 CDT 2015]	
+[Tue Oct 13 21:47:26 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/350_nodes_6.txt =========
+[Tue Oct 13 21:47:26 CDT 2015]	<350, 3, 0.57%, MAC, 88 ms>
+[Tue Oct 13 21:47:27 CDT 2015]	<350, 4, 100.00%, MAC, 598 ms>
+[Tue Oct 13 21:47:27 CDT 2015]	
+[Tue Oct 13 21:47:27 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/350_nodes_7.txt =========
+[Tue Oct 13 21:47:27 CDT 2015]	<350, 3, 100.00%, MIN_CONFLICTS, 78 ms>
+[Tue Oct 13 21:47:27 CDT 2015]	<350, 4, 100.00%, MIN_CONFLICTS, 32 ms>
+[Tue Oct 13 21:47:27 CDT 2015]	
+[Tue Oct 13 21:47:27 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/350_nodes_7.txt =========
+[Tue Oct 13 21:47:27 CDT 2015]	<350, 3, 1.14%, FC, 41 ms>
+[Tue Oct 13 21:50:59 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/350_nodes_7.txt =========
+[Tue Oct 13 21:50:59 CDT 2015]	<350, 3, 0.57%, AC3, 49 ms>
+[Tue Oct 13 21:51:00 CDT 2015]	<350, 4, 100.00%, AC3, 183 ms>
+[Tue Oct 13 21:51:00 CDT 2015]	
+[Tue Oct 13 21:51:00 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/350_nodes_7.txt =========
+[Tue Oct 13 21:51:00 CDT 2015]	<350, 3, 0.57%, MAC, 63 ms>
+[Tue Oct 13 21:51:01 CDT 2015]	<350, 4, 100.00%, MAC, 1301 ms>
+[Tue Oct 13 21:51:01 CDT 2015]	
+[Tue Oct 13 21:51:01 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/350_nodes_8.txt =========
+[Tue Oct 13 21:51:02 CDT 2015]	<350, 3, 100.00%, MIN_CONFLICTS, 93 ms>
+[Tue Oct 13 21:51:02 CDT 2015]	<350, 4, 100.00%, MIN_CONFLICTS, 38 ms>
+[Tue Oct 13 21:51:02 CDT 2015]	
+[Tue Oct 13 21:51:02 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/350_nodes_8.txt =========
+[Tue Oct 13 21:51:02 CDT 2015]	<350, 3, 2.29%, FC, 37 ms>
+[Tue Oct 13 21:53:31 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/350_nodes_8.txt =========
+[Tue Oct 13 21:53:31 CDT 2015]	<350, 3, 0.57%, AC3, 49 ms>
+[Tue Oct 13 21:53:31 CDT 2015]	<350, 4, 100.00%, AC3, 70 ms>
+[Tue Oct 13 21:53:31 CDT 2015]	
+[Tue Oct 13 21:53:31 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/350_nodes_8.txt =========
+[Tue Oct 13 21:53:31 CDT 2015]	<350, 3, 0.57%, MAC, 106 ms>
+[Tue Oct 13 21:53:32 CDT 2015]	<350, 4, 100.00%, MAC, 583 ms>
+[Tue Oct 13 21:53:32 CDT 2015]	
+[Tue Oct 13 21:53:32 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/350_nodes_9.txt =========
+[Tue Oct 13 21:53:32 CDT 2015]	<350, 3, 100.00%, MIN_CONFLICTS, 92 ms>
+[Tue Oct 13 21:53:32 CDT 2015]	<350, 4, 100.00%, MIN_CONFLICTS, 33 ms>
+[Tue Oct 13 21:53:32 CDT 2015]	
+[Tue Oct 13 21:53:32 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/350_nodes_9.txt =========
+[Tue Oct 13 21:53:33 CDT 2015]	<350, 3, 3.14%, FC, 37 ms>
+[Tue Oct 13 21:57:17 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/350_nodes_9.txt =========
+[Tue Oct 13 21:57:17 CDT 2015]	<350, 3, 0.57%, AC3, 50 ms>
+[Tue Oct 13 21:57:17 CDT 2015]	<350, 4, 100.00%, AC3, 83 ms>
+[Tue Oct 13 21:57:17 CDT 2015]	
+[Tue Oct 13 21:57:17 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/350_nodes_9.txt =========
+[Tue Oct 13 21:57:17 CDT 2015]	<350, 3, 0.57%, MAC, 86 ms>
+[Tue Oct 13 21:57:18 CDT 2015]	<350, 4, 100.00%, MAC, 651 ms>
+[Tue Oct 13 21:57:18 CDT 2015]	
+[Tue Oct 13 21:57:18 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/375_nodes_0.txt =========
+[Tue Oct 13 21:57:18 CDT 2015]	<375, 3, 100.00%, MIN_CONFLICTS, 82 ms>
+[Tue Oct 13 21:57:18 CDT 2015]	<375, 4, 100.00%, MIN_CONFLICTS, 37 ms>
+[Tue Oct 13 21:57:18 CDT 2015]	
+[Tue Oct 13 21:57:18 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/375_nodes_0.txt =========
+[Tue Oct 13 21:57:19 CDT 2015]	<375, 3, 3.47%, FC, 57 ms>
+[Tue Oct 13 21:57:24 CDT 2015]	<375, 4, 100.00%, FC, 4943 ms>
+[Tue Oct 13 21:57:24 CDT 2015]	
+[Tue Oct 13 21:57:24 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/375_nodes_0.txt =========
+[Tue Oct 13 21:57:24 CDT 2015]	<375, 3, 0.53%, AC3, 49 ms>
+[Tue Oct 13 21:57:24 CDT 2015]	<375, 4, 100.00%, AC3, 131 ms>
+[Tue Oct 13 21:57:24 CDT 2015]	
+[Tue Oct 13 21:57:24 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/375_nodes_0.txt =========
+[Tue Oct 13 21:57:24 CDT 2015]	<375, 3, 0.53%, MAC, 65 ms>
+[Tue Oct 13 21:57:26 CDT 2015]	<375, 4, 100.00%, MAC, 2238 ms>
+[Tue Oct 13 21:57:26 CDT 2015]	
+[Tue Oct 13 21:57:27 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/375_nodes_1.txt =========
+[Tue Oct 13 21:57:27 CDT 2015]	<375, 3, 100.00%, MIN_CONFLICTS, 85 ms>
+[Tue Oct 13 21:57:27 CDT 2015]	<375, 4, 100.00%, MIN_CONFLICTS, 36 ms>
+[Tue Oct 13 21:57:27 CDT 2015]	
+[Tue Oct 13 21:57:27 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/375_nodes_1.txt =========
+[Tue Oct 13 21:57:27 CDT 2015]	<375, 3, 4.00%, FC, 28 ms>
+[Tue Oct 13 21:57:29 CDT 2015]	<375, 4, 100.00%, FC, 1969 ms>
+[Tue Oct 13 21:57:29 CDT 2015]	
+[Tue Oct 13 21:57:29 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/375_nodes_1.txt =========
+[Tue Oct 13 21:57:29 CDT 2015]	<375, 3, 0.53%, AC3, 50 ms>
+[Tue Oct 13 21:57:29 CDT 2015]	<375, 4, 100.00%, AC3, 92 ms>
+[Tue Oct 13 21:57:29 CDT 2015]	
+[Tue Oct 13 21:57:29 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/375_nodes_1.txt =========
+[Tue Oct 13 21:57:30 CDT 2015]	<375, 3, 0.53%, MAC, 66 ms>
+[Tue Oct 13 21:57:31 CDT 2015]	<375, 4, 100.00%, MAC, 960 ms>
+[Tue Oct 13 21:57:31 CDT 2015]	
+[Tue Oct 13 21:57:31 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/375_nodes_2.txt =========
+[Tue Oct 13 21:57:31 CDT 2015]	<375, 3, 100.00%, MIN_CONFLICTS, 80 ms>
+[Tue Oct 13 21:57:31 CDT 2015]	<375, 4, 100.00%, MIN_CONFLICTS, 37 ms>
+[Tue Oct 13 21:57:31 CDT 2015]	
+[Tue Oct 13 21:57:31 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/375_nodes_2.txt =========
+[Tue Oct 13 21:57:31 CDT 2015]	<375, 3, 1.33%, FC, 41 ms>
+[Tue Oct 13 21:59:54 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/375_nodes_2.txt =========
+[Tue Oct 13 21:59:54 CDT 2015]	<375, 3, 0.53%, AC3, 51 ms>
+[Tue Oct 13 22:00:03 CDT 2015]	<375, 4, 100.00%, AC3, 9275 ms>
+[Tue Oct 13 22:00:03 CDT 2015]	
+[Tue Oct 13 22:00:03 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/375_nodes_2.txt =========
+[Tue Oct 13 22:00:03 CDT 2015]	<375, 3, 0.53%, MAC, 66 ms>
+[Tue Oct 13 22:01:16 CDT 2015]	<375, 4, 100.00%, MAC, 72919 ms>
+[Tue Oct 13 22:01:16 CDT 2015]	
+[Tue Oct 13 22:01:16 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/375_nodes_3.txt =========
+[Tue Oct 13 22:01:17 CDT 2015]	<375, 3, 100.00%, MIN_CONFLICTS, 96 ms>
+[Tue Oct 13 22:01:17 CDT 2015]	<375, 4, 100.00%, MIN_CONFLICTS, 39 ms>
+[Tue Oct 13 22:01:17 CDT 2015]	
+[Tue Oct 13 22:01:17 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/375_nodes_3.txt =========
+[Tue Oct 13 22:01:17 CDT 2015]	<375, 3, 2.13%, FC, 19 ms>
+[Tue Oct 13 22:01:26 CDT 2015]	<375, 4, 100.00%, FC, 8566 ms>
+[Tue Oct 13 22:01:26 CDT 2015]	
+[Tue Oct 13 22:01:26 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/375_nodes_3.txt =========
+[Tue Oct 13 22:01:26 CDT 2015]	<375, 3, 0.53%, AC3, 48 ms>
+[Tue Oct 13 22:01:26 CDT 2015]	<375, 4, 100.00%, AC3, 84 ms>
+[Tue Oct 13 22:01:26 CDT 2015]	
+[Tue Oct 13 22:01:26 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/375_nodes_3.txt =========
+[Tue Oct 13 22:01:26 CDT 2015]	<375, 3, 0.53%, MAC, 64 ms>
+[Tue Oct 13 22:01:27 CDT 2015]	<375, 4, 100.00%, MAC, 702 ms>
+[Tue Oct 13 22:01:27 CDT 2015]	
+[Tue Oct 13 22:01:27 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/375_nodes_4.txt =========
+[Tue Oct 13 22:01:27 CDT 2015]	<375, 3, 100.00%, MIN_CONFLICTS, 99 ms>
+[Tue Oct 13 22:01:27 CDT 2015]	<375, 4, 100.00%, MIN_CONFLICTS, 37 ms>
+[Tue Oct 13 22:01:27 CDT 2015]	
+[Tue Oct 13 22:01:27 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/375_nodes_4.txt =========
+[Tue Oct 13 22:01:27 CDT 2015]	<375, 3, 1.33%, FC, 30 ms>
+[Tue Oct 13 22:01:37 CDT 2015]	<375, 4, 100.00%, FC, 9569 ms>
+[Tue Oct 13 22:01:37 CDT 2015]	
+[Tue Oct 13 22:01:37 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/375_nodes_4.txt =========
+[Tue Oct 13 22:01:37 CDT 2015]	<375, 3, 0.53%, AC3, 50 ms>
+[Tue Oct 13 22:01:37 CDT 2015]	<375, 4, 100.00%, AC3, 82 ms>
+[Tue Oct 13 22:01:37 CDT 2015]	
+[Tue Oct 13 22:01:37 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/375_nodes_4.txt =========
+[Tue Oct 13 22:01:38 CDT 2015]	<375, 3, 0.53%, MAC, 67 ms>
+[Tue Oct 13 22:01:38 CDT 2015]	<375, 4, 100.00%, MAC, 665 ms>
+[Tue Oct 13 22:01:38 CDT 2015]	
+[Tue Oct 13 22:01:38 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/375_nodes_5.txt =========
+[Tue Oct 13 22:01:38 CDT 2015]	<375, 3, 100.00%, MIN_CONFLICTS, 84 ms>
+[Tue Oct 13 22:01:39 CDT 2015]	<375, 4, 100.00%, MIN_CONFLICTS, 37 ms>
+[Tue Oct 13 22:01:39 CDT 2015]	
+[Tue Oct 13 22:01:39 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/375_nodes_5.txt =========
+[Tue Oct 13 22:01:39 CDT 2015]	<375, 3, 4.00%, FC, 58 ms>
+[Tue Oct 13 22:05:10 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/375_nodes_5.txt =========
+[Tue Oct 13 22:05:10 CDT 2015]	<375, 3, 0.53%, AC3, 50 ms>
+[Tue Oct 13 22:05:10 CDT 2015]	<375, 4, 100.00%, AC3, 146 ms>
+[Tue Oct 13 22:05:10 CDT 2015]	
+[Tue Oct 13 22:05:11 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/375_nodes_5.txt =========
+[Tue Oct 13 22:05:11 CDT 2015]	<375, 3, 0.53%, MAC, 66 ms>
+[Tue Oct 13 22:05:12 CDT 2015]	<375, 4, 100.00%, MAC, 1700 ms>
+[Tue Oct 13 22:05:12 CDT 2015]	
+[Tue Oct 13 22:05:12 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/375_nodes_6.txt =========
+[Tue Oct 13 22:05:13 CDT 2015]	<375, 3, 100.00%, MIN_CONFLICTS, 80 ms>
+[Tue Oct 13 22:05:13 CDT 2015]	<375, 4, 100.00%, MIN_CONFLICTS, 32 ms>
+[Tue Oct 13 22:05:13 CDT 2015]	
+[Tue Oct 13 22:05:13 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/375_nodes_6.txt =========
+[Tue Oct 13 22:05:13 CDT 2015]	<375, 3, 2.40%, FC, 24 ms>
+[Tue Oct 13 22:05:16 CDT 2015]	<375, 4, 100.00%, FC, 2950 ms>
+[Tue Oct 13 22:05:16 CDT 2015]	
+[Tue Oct 13 22:05:16 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/375_nodes_6.txt =========
+[Tue Oct 13 22:05:16 CDT 2015]	<375, 3, 0.53%, AC3, 49 ms>
+[Tue Oct 13 22:05:16 CDT 2015]	<375, 4, 100.00%, AC3, 62 ms>
+[Tue Oct 13 22:05:16 CDT 2015]	
+[Tue Oct 13 22:05:16 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/375_nodes_6.txt =========
+[Tue Oct 13 22:05:16 CDT 2015]	<375, 3, 0.53%, MAC, 68 ms>
+[Tue Oct 13 22:05:17 CDT 2015]	<375, 4, 100.00%, MAC, 630 ms>
+[Tue Oct 13 22:05:17 CDT 2015]	
+[Tue Oct 13 22:05:17 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/375_nodes_7.txt =========
+[Tue Oct 13 22:05:17 CDT 2015]	<375, 3, 100.00%, MIN_CONFLICTS, 96 ms>
+[Tue Oct 13 22:05:18 CDT 2015]	<375, 4, 100.00%, MIN_CONFLICTS, 36 ms>
+[Tue Oct 13 22:05:18 CDT 2015]	
+[Tue Oct 13 22:05:18 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/375_nodes_7.txt =========
+[Tue Oct 13 22:05:18 CDT 2015]	<375, 3, 1.60%, FC, 37 ms>
+[Tue Oct 13 22:05:20 CDT 2015]	<375, 4, 100.00%, FC, 2119 ms>
+[Tue Oct 13 22:05:20 CDT 2015]	
+[Tue Oct 13 22:05:20 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/375_nodes_7.txt =========
+[Tue Oct 13 22:05:20 CDT 2015]	<375, 3, 0.53%, AC3, 50 ms>
+[Tue Oct 13 22:05:20 CDT 2015]	<375, 4, 100.00%, AC3, 84 ms>
+[Tue Oct 13 22:05:20 CDT 2015]	
+[Tue Oct 13 22:05:20 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/375_nodes_7.txt =========
+[Tue Oct 13 22:05:20 CDT 2015]	<375, 3, 0.53%, MAC, 65 ms>
+[Tue Oct 13 22:05:21 CDT 2015]	<375, 4, 100.00%, MAC, 683 ms>
+[Tue Oct 13 22:05:21 CDT 2015]	
+[Tue Oct 13 22:05:21 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/375_nodes_8.txt =========
+[Tue Oct 13 22:05:21 CDT 2015]	<375, 3, 100.00%, MIN_CONFLICTS, 83 ms>
+[Tue Oct 13 22:05:21 CDT 2015]	<375, 4, 100.00%, MIN_CONFLICTS, 35 ms>
+[Tue Oct 13 22:05:21 CDT 2015]	
+[Tue Oct 13 22:05:22 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/375_nodes_8.txt =========
+[Tue Oct 13 22:05:22 CDT 2015]	<375, 3, 1.07%, FC, 26 ms>
+[Tue Oct 13 22:06:58 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/375_nodes_8.txt =========
+[Tue Oct 13 22:06:58 CDT 2015]	<375, 3, 0.53%, AC3, 48 ms>
+[Tue Oct 13 22:06:58 CDT 2015]	<375, 4, 100.00%, AC3, 105 ms>
+[Tue Oct 13 22:06:58 CDT 2015]	
+[Tue Oct 13 22:06:58 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/375_nodes_8.txt =========
+[Tue Oct 13 22:06:59 CDT 2015]	<375, 3, 0.53%, MAC, 66 ms>
+[Tue Oct 13 22:07:00 CDT 2015]	<375, 4, 100.00%, MAC, 1260 ms>
+[Tue Oct 13 22:07:00 CDT 2015]	
+[Tue Oct 13 22:07:00 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/375_nodes_9.txt =========
+[Tue Oct 13 22:07:00 CDT 2015]	<375, 3, 100.00%, MIN_CONFLICTS, 82 ms>
+[Tue Oct 13 22:07:00 CDT 2015]	<375, 4, 100.00%, MIN_CONFLICTS, 36 ms>
+[Tue Oct 13 22:07:00 CDT 2015]	
+[Tue Oct 13 22:07:00 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/375_nodes_9.txt =========
+[Tue Oct 13 22:07:00 CDT 2015]	<375, 3, 2.13%, FC, 53 ms>
+[Tue Oct 13 22:07:05 CDT 2015]	<375, 4, 100.00%, FC, 4550 ms>
+[Tue Oct 13 22:07:05 CDT 2015]	
+[Tue Oct 13 22:07:05 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/375_nodes_9.txt =========
+[Tue Oct 13 22:07:05 CDT 2015]	<375, 3, 0.53%, AC3, 46 ms>
+[Tue Oct 13 22:07:05 CDT 2015]	<375, 4, 100.00%, AC3, 70 ms>
+[Tue Oct 13 22:07:05 CDT 2015]	
+[Tue Oct 13 22:07:05 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/375_nodes_9.txt =========
+[Tue Oct 13 22:07:05 CDT 2015]	<375, 3, 0.53%, MAC, 65 ms>
+[Tue Oct 13 22:07:06 CDT 2015]	<375, 4, 100.00%, MAC, 695 ms>
+[Tue Oct 13 22:07:06 CDT 2015]	
+[Tue Oct 13 22:07:06 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/400_nodes_0.txt =========
+[Tue Oct 13 22:07:06 CDT 2015]	<400, 3, 100.00%, MIN_CONFLICTS, 88 ms>
+[Tue Oct 13 22:07:07 CDT 2015]	<400, 4, 100.00%, MIN_CONFLICTS, 37 ms>
+[Tue Oct 13 22:07:07 CDT 2015]	
+[Tue Oct 13 22:07:07 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/400_nodes_0.txt =========
+[Tue Oct 13 22:07:07 CDT 2015]	<400, 3, 1.50%, FC, 55 ms>
+[Tue Oct 13 22:07:41 CDT 2015]	<400, 4, 100.00%, FC, 33775 ms>
+[Tue Oct 13 22:07:41 CDT 2015]	
+[Tue Oct 13 22:07:41 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/400_nodes_0.txt =========
+[Tue Oct 13 22:07:41 CDT 2015]	<400, 3, 0.50%, AC3, 48 ms>
+[Tue Oct 13 22:07:41 CDT 2015]	<400, 4, 100.00%, AC3, 204 ms>
+[Tue Oct 13 22:07:41 CDT 2015]	
+[Tue Oct 13 22:07:41 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/400_nodes_0.txt =========
+[Tue Oct 13 22:07:41 CDT 2015]	<400, 3, 0.50%, MAC, 66 ms>
+[Tue Oct 13 22:07:43 CDT 2015]	<400, 4, 100.00%, MAC, 1675 ms>
+[Tue Oct 13 22:07:43 CDT 2015]	
+[Tue Oct 13 22:07:43 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/400_nodes_1.txt =========
+[Tue Oct 13 22:07:43 CDT 2015]	<400, 3, 100.00%, MIN_CONFLICTS, 88 ms>
+[Tue Oct 13 22:07:43 CDT 2015]	<400, 4, 100.00%, MIN_CONFLICTS, 40 ms>
+[Tue Oct 13 22:07:43 CDT 2015]	
+[Tue Oct 13 22:07:43 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/400_nodes_1.txt =========
+[Tue Oct 13 22:07:43 CDT 2015]	<400, 3, 1.75%, FC, 26 ms>
+[Tue Oct 13 22:10:50 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/400_nodes_1.txt =========
+[Tue Oct 13 22:10:51 CDT 2015]	<400, 3, 0.50%, AC3, 50 ms>
+[Tue Oct 13 22:10:55 CDT 2015]	<400, 4, 100.00%, AC3, 4097 ms>
+[Tue Oct 13 22:10:55 CDT 2015]	
+[Tue Oct 13 22:10:55 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/400_nodes_1.txt =========
+[Tue Oct 13 22:10:55 CDT 2015]	<400, 3, 0.50%, MAC, 66 ms>
+[Tue Oct 13 22:11:26 CDT 2015]	<400, 4, 100.00%, MAC, 31352 ms>
+[Tue Oct 13 22:11:26 CDT 2015]	
+[Tue Oct 13 22:11:26 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/400_nodes_2.txt =========
+[Tue Oct 13 22:11:27 CDT 2015]	<400, 3, 100.00%, MIN_CONFLICTS, 87 ms>
+[Tue Oct 13 22:11:27 CDT 2015]	<400, 4, 100.00%, MIN_CONFLICTS, 38 ms>
+[Tue Oct 13 22:11:27 CDT 2015]	
+[Tue Oct 13 22:11:27 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/400_nodes_2.txt =========
+[Tue Oct 13 22:11:27 CDT 2015]	<400, 3, 1.75%, FC, 30 ms>
+[Tue Oct 13 22:15:14 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/400_nodes_2.txt =========
+[Tue Oct 13 22:15:14 CDT 2015]	<400, 3, 0.50%, AC3, 49 ms>
+[Tue Oct 13 22:15:14 CDT 2015]	<400, 4, 100.00%, AC3, 60 ms>
+[Tue Oct 13 22:15:14 CDT 2015]	
+[Tue Oct 13 22:15:15 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/400_nodes_2.txt =========
+[Tue Oct 13 22:15:15 CDT 2015]	<400, 3, 0.50%, MAC, 66 ms>
+[Tue Oct 13 22:15:15 CDT 2015]	<400, 4, 100.00%, MAC, 746 ms>
+[Tue Oct 13 22:15:15 CDT 2015]	
+[Tue Oct 13 22:15:16 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/400_nodes_3.txt =========
+[Tue Oct 13 22:15:16 CDT 2015]	<400, 3, 100.00%, MIN_CONFLICTS, 90 ms>
+[Tue Oct 13 22:15:16 CDT 2015]	<400, 4, 100.00%, MIN_CONFLICTS, 38 ms>
+[Tue Oct 13 22:15:16 CDT 2015]	
+[Tue Oct 13 22:15:16 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/400_nodes_3.txt =========
+[Tue Oct 13 22:15:16 CDT 2015]	<400, 3, 2.50%, FC, 33 ms>
+[Tue Oct 13 22:15:18 CDT 2015]	<400, 4, 100.00%, FC, 1922 ms>
+[Tue Oct 13 22:15:18 CDT 2015]	
+[Tue Oct 13 22:15:18 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/400_nodes_3.txt =========
+[Tue Oct 13 22:15:18 CDT 2015]	<400, 3, 0.50%, AC3, 47 ms>
+[Tue Oct 13 22:15:18 CDT 2015]	<400, 4, 100.00%, AC3, 90 ms>
+[Tue Oct 13 22:15:18 CDT 2015]	
+[Tue Oct 13 22:15:18 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/400_nodes_3.txt =========
+[Tue Oct 13 22:15:19 CDT 2015]	<400, 3, 0.50%, MAC, 65 ms>
+[Tue Oct 13 22:15:20 CDT 2015]	<400, 4, 100.00%, MAC, 1005 ms>
+[Tue Oct 13 22:15:20 CDT 2015]	
+[Tue Oct 13 22:15:20 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/400_nodes_4.txt =========
+[Tue Oct 13 22:15:20 CDT 2015]	<400, 3, 100.00%, MIN_CONFLICTS, 88 ms>
+[Tue Oct 13 22:15:20 CDT 2015]	<400, 4, 100.00%, MIN_CONFLICTS, 43 ms>
+[Tue Oct 13 22:15:20 CDT 2015]	
+[Tue Oct 13 22:15:20 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/400_nodes_4.txt =========
+[Tue Oct 13 22:15:20 CDT 2015]	<400, 3, 1.00%, FC, 50 ms>
+[Tue Oct 13 22:15:49 CDT 2015]	<400, 4, 100.00%, FC, 28601 ms>
+[Tue Oct 13 22:15:49 CDT 2015]	
+[Tue Oct 13 22:15:49 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/400_nodes_4.txt =========
+[Tue Oct 13 22:15:49 CDT 2015]	<400, 3, 0.50%, AC3, 55 ms>
+[Tue Oct 13 22:15:49 CDT 2015]	<400, 4, 100.00%, AC3, 86 ms>
+[Tue Oct 13 22:15:49 CDT 2015]	
+[Tue Oct 13 22:15:49 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/400_nodes_4.txt =========
+[Tue Oct 13 22:15:49 CDT 2015]	<400, 3, 0.50%, MAC, 65 ms>
+[Tue Oct 13 22:15:50 CDT 2015]	<400, 4, 100.00%, MAC, 977 ms>
+[Tue Oct 13 22:15:50 CDT 2015]	
+[Tue Oct 13 22:15:50 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/400_nodes_5.txt =========
+[Tue Oct 13 22:15:51 CDT 2015]	<400, 3, 100.00%, MIN_CONFLICTS, 101 ms>
+[Tue Oct 13 22:15:51 CDT 2015]	<400, 4, 100.00%, MIN_CONFLICTS, 39 ms>
+[Tue Oct 13 22:15:51 CDT 2015]	
+[Tue Oct 13 22:15:51 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/400_nodes_5.txt =========
+[Tue Oct 13 22:15:51 CDT 2015]	<400, 3, 3.50%, FC, 63 ms>
+[Tue Oct 13 22:19:00 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/400_nodes_5.txt =========
+[Tue Oct 13 22:19:00 CDT 2015]	<400, 3, 0.50%, AC3, 51 ms>
+[Tue Oct 13 22:19:01 CDT 2015]	<400, 4, 100.00%, AC3, 213 ms>
+[Tue Oct 13 22:19:01 CDT 2015]	
+[Tue Oct 13 22:19:01 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/400_nodes_5.txt =========
+[Tue Oct 13 22:19:01 CDT 2015]	<400, 3, 0.50%, MAC, 71 ms>
+[Tue Oct 13 22:19:03 CDT 2015]	<400, 4, 100.00%, MAC, 2520 ms>
+[Tue Oct 13 22:19:03 CDT 2015]	
+[Tue Oct 13 22:19:03 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/400_nodes_6.txt =========
+[Tue Oct 13 22:19:04 CDT 2015]	<400, 3, 100.00%, MIN_CONFLICTS, 100 ms>
+[Tue Oct 13 22:19:04 CDT 2015]	<400, 4, 100.00%, MIN_CONFLICTS, 44 ms>
+[Tue Oct 13 22:19:04 CDT 2015]	
+[Tue Oct 13 22:19:04 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/400_nodes_6.txt =========
+[Tue Oct 13 22:19:04 CDT 2015]	<400, 3, 1.75%, FC, 31 ms>
+[Tue Oct 13 22:19:08 CDT 2015]	<400, 4, 100.00%, FC, 4111 ms>
+[Tue Oct 13 22:19:08 CDT 2015]	
+[Tue Oct 13 22:19:08 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/400_nodes_6.txt =========
+[Tue Oct 13 22:19:08 CDT 2015]	<400, 3, 0.50%, AC3, 52 ms>
+[Tue Oct 13 22:19:08 CDT 2015]	<400, 4, 100.00%, AC3, 103 ms>
+[Tue Oct 13 22:19:08 CDT 2015]	
+[Tue Oct 13 22:19:08 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/400_nodes_6.txt =========
+[Tue Oct 13 22:19:09 CDT 2015]	<400, 3, 0.50%, MAC, 67 ms>
+[Tue Oct 13 22:19:10 CDT 2015]	<400, 4, 100.00%, MAC, 1215 ms>
+[Tue Oct 13 22:19:10 CDT 2015]	
+[Tue Oct 13 22:19:10 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/400_nodes_7.txt =========
+[Tue Oct 13 22:19:10 CDT 2015]	<400, 3, 100.00%, MIN_CONFLICTS, 90 ms>
+[Tue Oct 13 22:19:10 CDT 2015]	<400, 4, 100.00%, MIN_CONFLICTS, 43 ms>
+[Tue Oct 13 22:19:10 CDT 2015]	
+[Tue Oct 13 22:19:10 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/400_nodes_7.txt =========
+[Tue Oct 13 22:19:10 CDT 2015]	<400, 3, 1.50%, FC, 16 ms>
+[Tue Oct 13 22:22:43 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/400_nodes_7.txt =========
+[Tue Oct 13 22:22:43 CDT 2015]	<400, 3, 0.50%, AC3, 49 ms>
+[Tue Oct 13 22:22:43 CDT 2015]	<400, 4, 100.00%, AC3, 151 ms>
+[Tue Oct 13 22:22:43 CDT 2015]	
+[Tue Oct 13 22:22:43 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/400_nodes_7.txt =========
+[Tue Oct 13 22:22:43 CDT 2015]	<400, 3, 0.50%, MAC, 65 ms>
+[Tue Oct 13 22:22:45 CDT 2015]	<400, 4, 100.00%, MAC, 1409 ms>
+[Tue Oct 13 22:22:45 CDT 2015]	
+[Tue Oct 13 22:22:45 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/400_nodes_8.txt =========
+[Tue Oct 13 22:22:45 CDT 2015]	<400, 3, 100.00%, MIN_CONFLICTS, 105 ms>
+[Tue Oct 13 22:22:45 CDT 2015]	<400, 4, 100.00%, MIN_CONFLICTS, 40 ms>
+[Tue Oct 13 22:22:45 CDT 2015]	
+[Tue Oct 13 22:22:45 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/400_nodes_8.txt =========
+[Tue Oct 13 22:22:45 CDT 2015]	<400, 3, 3.25%, FC, 36 ms>
+[Tue Oct 13 22:22:47 CDT 2015]	<400, 4, 100.00%, FC, 2203 ms>
+[Tue Oct 13 22:22:47 CDT 2015]	
+[Tue Oct 13 22:22:47 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/400_nodes_8.txt =========
+[Tue Oct 13 22:22:48 CDT 2015]	<400, 3, 0.50%, AC3, 49 ms>
+[Tue Oct 13 22:22:48 CDT 2015]	<400, 4, 100.00%, AC3, 97 ms>
+[Tue Oct 13 22:22:48 CDT 2015]	
+[Tue Oct 13 22:22:48 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/400_nodes_8.txt =========
+[Tue Oct 13 22:22:48 CDT 2015]	<400, 3, 0.50%, MAC, 66 ms>
+[Tue Oct 13 22:22:49 CDT 2015]	<400, 4, 100.00%, MAC, 1073 ms>
+[Tue Oct 13 22:22:49 CDT 2015]	
+[Tue Oct 13 22:22:49 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/400_nodes_9.txt =========
+[Tue Oct 13 22:22:49 CDT 2015]	<400, 3, 100.00%, MIN_CONFLICTS, 87 ms>
+[Tue Oct 13 22:22:49 CDT 2015]	<400, 4, 100.00%, MIN_CONFLICTS, 39 ms>
+[Tue Oct 13 22:22:49 CDT 2015]	
+[Tue Oct 13 22:22:49 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/400_nodes_9.txt =========
+[Tue Oct 13 22:22:50 CDT 2015]	<400, 3, 2.00%, FC, 20 ms>
+[Tue Oct 13 22:26:48 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/400_nodes_9.txt =========
+[Tue Oct 13 22:26:48 CDT 2015]	<400, 3, 0.50%, AC3, 53 ms>
+[Tue Oct 13 22:26:52 CDT 2015]	<400, 4, 100.00%, AC3, 4060 ms>
+[Tue Oct 13 22:26:52 CDT 2015]	
+[Tue Oct 13 22:26:52 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/400_nodes_9.txt =========
+[Tue Oct 13 22:26:53 CDT 2015]	<400, 3, 0.50%, MAC, 65 ms>
+[Tue Oct 13 22:27:26 CDT 2015]	<400, 4, 100.00%, MAC, 33563 ms>
+[Tue Oct 13 22:27:26 CDT 2015]	
+[Tue Oct 13 22:27:26 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/425_nodes_0.txt =========
+[Tue Oct 13 22:27:26 CDT 2015]	<425, 3, 100.00%, MIN_CONFLICTS, 115 ms>
+[Tue Oct 13 22:27:27 CDT 2015]	<425, 4, 100.00%, MIN_CONFLICTS, 44 ms>
+[Tue Oct 13 22:27:27 CDT 2015]	
+[Tue Oct 13 22:27:27 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/425_nodes_0.txt =========
+[Tue Oct 13 22:27:27 CDT 2015]	<425, 3, 1.18%, FC, 43 ms>
+[Tue Oct 13 22:27:27 CDT 2015]	<425, 4, 100.00%, FC, 232 ms>
+[Tue Oct 13 22:27:27 CDT 2015]	
+[Tue Oct 13 22:27:27 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/425_nodes_0.txt =========
+[Tue Oct 13 22:27:27 CDT 2015]	<425, 3, 0.47%, AC3, 50 ms>
+[Tue Oct 13 22:27:27 CDT 2015]	<425, 4, 100.00%, AC3, 60 ms>
+[Tue Oct 13 22:27:27 CDT 2015]	
+[Tue Oct 13 22:27:27 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/425_nodes_0.txt =========
+[Tue Oct 13 22:27:28 CDT 2015]	<425, 3, 0.47%, MAC, 72 ms>
+[Tue Oct 13 22:27:28 CDT 2015]	<425, 4, 100.00%, MAC, 776 ms>
+[Tue Oct 13 22:27:28 CDT 2015]	
+[Tue Oct 13 22:27:28 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/425_nodes_1.txt =========
+[Tue Oct 13 22:27:29 CDT 2015]	<425, 3, 100.00%, MIN_CONFLICTS, 98 ms>
+[Tue Oct 13 22:27:29 CDT 2015]	<425, 4, 100.00%, MIN_CONFLICTS, 42 ms>
+[Tue Oct 13 22:27:29 CDT 2015]	
+[Tue Oct 13 22:27:29 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/425_nodes_1.txt =========
+[Tue Oct 13 22:27:29 CDT 2015]	<425, 3, 3.06%, FC, 46 ms>
+[Tue Oct 13 22:27:35 CDT 2015]	<425, 4, 100.00%, FC, 5828 ms>
+[Tue Oct 13 22:27:35 CDT 2015]	
+[Tue Oct 13 22:27:35 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/425_nodes_1.txt =========
+[Tue Oct 13 22:27:35 CDT 2015]	<425, 3, 0.47%, AC3, 53 ms>
+[Tue Oct 13 22:27:35 CDT 2015]	<425, 4, 100.00%, AC3, 62 ms>
+[Tue Oct 13 22:27:35 CDT 2015]	
+[Tue Oct 13 22:27:35 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/425_nodes_1.txt =========
+[Tue Oct 13 22:27:35 CDT 2015]	<425, 3, 0.47%, MAC, 71 ms>
+[Tue Oct 13 22:27:36 CDT 2015]	<425, 4, 100.00%, MAC, 785 ms>
+[Tue Oct 13 22:27:36 CDT 2015]	
+[Tue Oct 13 22:27:36 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/425_nodes_2.txt =========
+[Tue Oct 13 22:27:36 CDT 2015]	<425, 3, 100.00%, MIN_CONFLICTS, 95 ms>
+[Tue Oct 13 22:27:37 CDT 2015]	<425, 4, 100.00%, MIN_CONFLICTS, 47 ms>
+[Tue Oct 13 22:27:37 CDT 2015]	
+[Tue Oct 13 22:27:37 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/425_nodes_2.txt =========
+[Tue Oct 13 22:27:37 CDT 2015]	<425, 3, 1.18%, FC, 15 ms>
+[Tue Oct 13 22:27:54 CDT 2015]	<425, 4, 100.00%, FC, 17017 ms>
+[Tue Oct 13 22:27:54 CDT 2015]	
+[Tue Oct 13 22:27:54 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/425_nodes_2.txt =========
+[Tue Oct 13 22:27:54 CDT 2015]	<425, 3, 0.47%, AC3, 48 ms>
+[Tue Oct 13 22:27:54 CDT 2015]	<425, 4, 100.00%, AC3, 64 ms>
+[Tue Oct 13 22:27:54 CDT 2015]	
+[Tue Oct 13 22:27:54 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/425_nodes_2.txt =========
+[Tue Oct 13 22:27:54 CDT 2015]	<425, 3, 0.47%, MAC, 71 ms>
+[Tue Oct 13 22:27:55 CDT 2015]	<425, 4, 100.00%, MAC, 819 ms>
+[Tue Oct 13 22:27:55 CDT 2015]	
+[Tue Oct 13 22:27:55 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/425_nodes_3.txt =========
+[Tue Oct 13 22:27:55 CDT 2015]	<425, 3, 100.00%, MIN_CONFLICTS, 95 ms>
+[Tue Oct 13 22:27:56 CDT 2015]	<425, 4, 100.00%, MIN_CONFLICTS, 46 ms>
+[Tue Oct 13 22:27:56 CDT 2015]	
+[Tue Oct 13 22:27:56 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/425_nodes_3.txt =========
+[Tue Oct 13 22:27:56 CDT 2015]	<425, 3, 1.18%, FC, 31 ms>
+[Tue Oct 13 22:28:06 CDT 2015]	<425, 4, 100.00%, FC, 9924 ms>
+[Tue Oct 13 22:28:06 CDT 2015]	
+[Tue Oct 13 22:28:06 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/425_nodes_3.txt =========
+[Tue Oct 13 22:28:06 CDT 2015]	<425, 3, 0.47%, AC3, 49 ms>
+[Tue Oct 13 22:28:06 CDT 2015]	<425, 4, 100.00%, AC3, 82 ms>
+[Tue Oct 13 22:28:06 CDT 2015]	
+[Tue Oct 13 22:28:06 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/425_nodes_3.txt =========
+[Tue Oct 13 22:28:06 CDT 2015]	<425, 3, 0.47%, MAC, 73 ms>
+[Tue Oct 13 22:28:07 CDT 2015]	<425, 4, 100.00%, MAC, 945 ms>
+[Tue Oct 13 22:28:07 CDT 2015]	
+[Tue Oct 13 22:28:07 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/425_nodes_4.txt =========
+[Tue Oct 13 22:28:07 CDT 2015]	<425, 3, 100.00%, MIN_CONFLICTS, 98 ms>
+[Tue Oct 13 22:28:08 CDT 2015]	<425, 4, 100.00%, MIN_CONFLICTS, 46 ms>
+[Tue Oct 13 22:28:08 CDT 2015]	
+[Tue Oct 13 22:28:08 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/425_nodes_4.txt =========
+[Tue Oct 13 22:28:08 CDT 2015]	<425, 3, 2.12%, FC, 59 ms>
+[Tue Oct 13 22:33:06 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/425_nodes_4.txt =========
+[Tue Oct 13 22:33:06 CDT 2015]	<425, 3, 0.47%, AC3, 53 ms>
+[Tue Oct 13 22:37:24 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/425_nodes_4.txt =========
+[Tue Oct 13 22:37:24 CDT 2015]	<425, 3, 0.47%, MAC, 74 ms>
+[Tue Oct 13 22:47:26 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/425_nodes_5.txt =========
+[Tue Oct 13 22:47:26 CDT 2015]	<425, 3, 100.00%, MIN_CONFLICTS, 97 ms>
+[Tue Oct 13 22:47:26 CDT 2015]	<425, 4, 100.00%, MIN_CONFLICTS, 46 ms>
+[Tue Oct 13 22:47:26 CDT 2015]	
+[Tue Oct 13 22:47:26 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/425_nodes_5.txt =========
+[Tue Oct 13 22:47:26 CDT 2015]	<425, 3, 0.94%, FC, 60 ms>
+[Tue Oct 13 22:47:46 CDT 2015]	<425, 4, 100.00%, FC, 19460 ms>
+[Tue Oct 13 22:47:46 CDT 2015]	
+[Tue Oct 13 22:47:46 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/425_nodes_5.txt =========
+[Tue Oct 13 22:47:46 CDT 2015]	<425, 3, 0.47%, AC3, 54 ms>
+[Tue Oct 13 22:47:46 CDT 2015]	<425, 4, 100.00%, AC3, 121 ms>
+[Tue Oct 13 22:47:46 CDT 2015]	
+[Tue Oct 13 22:47:46 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/425_nodes_5.txt =========
+[Tue Oct 13 22:47:47 CDT 2015]	<425, 3, 0.47%, MAC, 76 ms>
+[Tue Oct 13 22:47:48 CDT 2015]	<425, 4, 100.00%, MAC, 1413 ms>
+[Tue Oct 13 22:47:48 CDT 2015]	
+[Tue Oct 13 22:47:48 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/425_nodes_6.txt =========
+[Tue Oct 13 22:47:48 CDT 2015]	<425, 3, 100.00%, MIN_CONFLICTS, 97 ms>
+[Tue Oct 13 22:47:48 CDT 2015]	<425, 4, 100.00%, MIN_CONFLICTS, 45 ms>
+[Tue Oct 13 22:47:48 CDT 2015]	
+[Tue Oct 13 22:47:48 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/425_nodes_6.txt =========
+[Tue Oct 13 22:47:49 CDT 2015]	<425, 3, 2.35%, FC, 40 ms>
+[Tue Oct 13 22:47:49 CDT 2015]	<425, 4, 100.00%, FC, 578 ms>
+[Tue Oct 13 22:47:49 CDT 2015]	
+[Tue Oct 13 22:47:49 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/425_nodes_6.txt =========
+[Tue Oct 13 22:47:49 CDT 2015]	<425, 3, 0.47%, AC3, 52 ms>
+[Tue Oct 13 22:47:49 CDT 2015]	<425, 4, 100.00%, AC3, 83 ms>
+[Tue Oct 13 22:47:49 CDT 2015]	
+[Tue Oct 13 22:47:50 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/425_nodes_6.txt =========
+[Tue Oct 13 22:47:50 CDT 2015]	<425, 3, 0.47%, MAC, 79 ms>
+[Tue Oct 13 22:47:51 CDT 2015]	<425, 4, 100.00%, MAC, 1006 ms>
+[Tue Oct 13 22:47:51 CDT 2015]	
+[Tue Oct 13 22:47:51 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/425_nodes_7.txt =========
+[Tue Oct 13 22:47:51 CDT 2015]	<425, 3, 100.00%, MIN_CONFLICTS, 98 ms>
+[Tue Oct 13 22:47:51 CDT 2015]	<425, 4, 100.00%, MIN_CONFLICTS, 47 ms>
+[Tue Oct 13 22:47:51 CDT 2015]	
+[Tue Oct 13 22:47:51 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/425_nodes_7.txt =========
+[Tue Oct 13 22:47:51 CDT 2015]	<425, 3, 0.94%, FC, 30 ms>
+[Tue Oct 13 22:47:53 CDT 2015]	<425, 4, 100.00%, FC, 1595 ms>
+[Tue Oct 13 22:47:53 CDT 2015]	
+[Tue Oct 13 22:47:53 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/425_nodes_7.txt =========
+[Tue Oct 13 22:47:53 CDT 2015]	<425, 3, 0.47%, AC3, 57 ms>
+[Tue Oct 13 22:47:53 CDT 2015]	<425, 4, 100.00%, AC3, 89 ms>
+[Tue Oct 13 22:47:53 CDT 2015]	
+[Tue Oct 13 22:47:53 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/425_nodes_7.txt =========
+[Tue Oct 13 22:47:54 CDT 2015]	<425, 3, 0.47%, MAC, 74 ms>
+[Tue Oct 13 22:47:55 CDT 2015]	<425, 4, 100.00%, MAC, 1178 ms>
+[Tue Oct 13 22:47:55 CDT 2015]	
+[Tue Oct 13 22:47:55 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/425_nodes_8.txt =========
+[Tue Oct 13 22:47:55 CDT 2015]	<425, 3, 100.00%, MIN_CONFLICTS, 114 ms>
+[Tue Oct 13 22:47:55 CDT 2015]	<425, 4, 100.00%, MIN_CONFLICTS, 45 ms>
+[Tue Oct 13 22:47:55 CDT 2015]	
+[Tue Oct 13 22:47:55 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/425_nodes_8.txt =========
+[Tue Oct 13 22:47:55 CDT 2015]	<425, 3, 1.65%, FC, 63 ms>
+[Tue Oct 13 22:48:08 CDT 2015]	<425, 4, 100.00%, FC, 12946 ms>
+[Tue Oct 13 22:48:08 CDT 2015]	
+[Tue Oct 13 22:48:08 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/425_nodes_8.txt =========
+[Tue Oct 13 22:48:09 CDT 2015]	<425, 3, 0.47%, AC3, 49 ms>
+[Tue Oct 13 22:48:09 CDT 2015]	<425, 4, 100.00%, AC3, 110 ms>
+[Tue Oct 13 22:48:09 CDT 2015]	
+[Tue Oct 13 22:48:09 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/425_nodes_8.txt =========
+[Tue Oct 13 22:48:09 CDT 2015]	<425, 3, 0.47%, MAC, 76 ms>
+[Tue Oct 13 22:48:10 CDT 2015]	<425, 4, 100.00%, MAC, 1234 ms>
+[Tue Oct 13 22:48:10 CDT 2015]	
+[Tue Oct 13 22:48:10 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/425_nodes_9.txt =========
+[Tue Oct 13 22:48:11 CDT 2015]	<425, 3, 100.00%, MIN_CONFLICTS, 98 ms>
+[Tue Oct 13 22:48:11 CDT 2015]	<425, 4, 100.00%, MIN_CONFLICTS, 40 ms>
+[Tue Oct 13 22:48:11 CDT 2015]	
+[Tue Oct 13 22:48:11 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/425_nodes_9.txt =========
+[Tue Oct 13 22:48:11 CDT 2015]	<425, 3, 1.88%, FC, 31 ms>
+[Tue Oct 13 22:48:13 CDT 2015]	<425, 4, 100.00%, FC, 1879 ms>
+[Tue Oct 13 22:48:13 CDT 2015]	
+[Tue Oct 13 22:48:13 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/425_nodes_9.txt =========
+[Tue Oct 13 22:48:13 CDT 2015]	<425, 3, 0.47%, AC3, 60 ms>
+[Tue Oct 13 22:48:13 CDT 2015]	<425, 4, 100.00%, AC3, 69 ms>
+[Tue Oct 13 22:48:13 CDT 2015]	
+[Tue Oct 13 22:48:13 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/425_nodes_9.txt =========
+[Tue Oct 13 22:48:13 CDT 2015]	<425, 3, 0.47%, MAC, 67 ms>
+[Tue Oct 13 22:48:14 CDT 2015]	<425, 4, 100.00%, MAC, 855 ms>
+[Tue Oct 13 22:48:14 CDT 2015]	
+[Tue Oct 13 22:48:14 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/450_nodes_0.txt =========
+[Tue Oct 13 22:48:15 CDT 2015]	<450, 3, 100.00%, MIN_CONFLICTS, 102 ms>
+[Tue Oct 13 22:48:15 CDT 2015]	<450, 4, 100.00%, MIN_CONFLICTS, 53 ms>
+[Tue Oct 13 22:48:15 CDT 2015]	
+[Tue Oct 13 22:48:15 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/450_nodes_0.txt =========
+[Tue Oct 13 22:48:15 CDT 2015]	<450, 3, 1.78%, FC, 31 ms>
+[Tue Oct 13 22:51:00 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/450_nodes_0.txt =========
+[Tue Oct 13 22:51:00 CDT 2015]	<450, 3, 0.44%, AC3, 53 ms>
+[Tue Oct 13 22:51:01 CDT 2015]	<450, 4, 100.00%, AC3, 113 ms>
+[Tue Oct 13 22:51:01 CDT 2015]	
+[Tue Oct 13 22:51:01 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/450_nodes_0.txt =========
+[Tue Oct 13 22:51:01 CDT 2015]	<450, 3, 0.44%, MAC, 67 ms>
+[Tue Oct 13 22:51:03 CDT 2015]	<450, 4, 100.00%, MAC, 2040 ms>
+[Tue Oct 13 22:51:03 CDT 2015]	
+[Tue Oct 13 22:51:03 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/450_nodes_1.txt =========
+[Tue Oct 13 22:51:03 CDT 2015]	<450, 3, 100.00%, MIN_CONFLICTS, 102 ms>
+[Tue Oct 13 22:51:03 CDT 2015]	<450, 4, 100.00%, MIN_CONFLICTS, 47 ms>
+[Tue Oct 13 22:51:03 CDT 2015]	
+[Tue Oct 13 22:51:03 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/450_nodes_1.txt =========
+[Tue Oct 13 22:51:04 CDT 2015]	<450, 3, 1.56%, FC, 27 ms>
+[Tue Oct 13 22:51:09 CDT 2015]	<450, 4, 100.00%, FC, 5762 ms>
+[Tue Oct 13 22:51:09 CDT 2015]	
+[Tue Oct 13 22:51:09 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/450_nodes_1.txt =========
+[Tue Oct 13 22:51:10 CDT 2015]	<450, 3, 0.44%, AC3, 56 ms>
+[Tue Oct 13 22:51:10 CDT 2015]	<450, 4, 100.00%, AC3, 83 ms>
+[Tue Oct 13 22:51:10 CDT 2015]	
+[Tue Oct 13 22:51:10 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/450_nodes_1.txt =========
+[Tue Oct 13 22:51:10 CDT 2015]	<450, 3, 0.44%, MAC, 88 ms>
+[Tue Oct 13 22:51:11 CDT 2015]	<450, 4, 100.00%, MAC, 1152 ms>
+[Tue Oct 13 22:51:11 CDT 2015]	
+[Tue Oct 13 22:51:11 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/450_nodes_2.txt =========
+[Tue Oct 13 22:51:11 CDT 2015]	<450, 3, 100.00%, MIN_CONFLICTS, 99 ms>
+[Tue Oct 13 22:51:11 CDT 2015]	<450, 4, 100.00%, MIN_CONFLICTS, 49 ms>
+[Tue Oct 13 22:51:11 CDT 2015]	
+[Tue Oct 13 22:51:11 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/450_nodes_2.txt =========
+[Tue Oct 13 22:51:12 CDT 2015]	<450, 3, 2.00%, FC, 40 ms>
+[Tue Oct 13 22:56:05 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/450_nodes_2.txt =========
+[Tue Oct 13 22:56:05 CDT 2015]	<450, 3, 0.44%, AC3, 49 ms>
+[Tue Oct 13 22:56:05 CDT 2015]	<450, 4, 100.00%, AC3, 87 ms>
+[Tue Oct 13 22:56:05 CDT 2015]	
+[Tue Oct 13 22:56:05 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/450_nodes_2.txt =========
+[Tue Oct 13 22:56:06 CDT 2015]	<450, 3, 0.44%, MAC, 67 ms>
+[Tue Oct 13 22:56:07 CDT 2015]	<450, 4, 100.00%, MAC, 1170 ms>
+[Tue Oct 13 22:56:07 CDT 2015]	
+[Tue Oct 13 22:56:07 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/450_nodes_3.txt =========
+[Tue Oct 13 22:56:07 CDT 2015]	<450, 3, 100.00%, MIN_CONFLICTS, 102 ms>
+[Tue Oct 13 22:56:07 CDT 2015]	<450, 4, 100.00%, MIN_CONFLICTS, 46 ms>
+[Tue Oct 13 22:56:07 CDT 2015]	
+[Tue Oct 13 22:56:07 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/450_nodes_3.txt =========
+[Tue Oct 13 22:56:07 CDT 2015]	<450, 3, 1.11%, FC, 13 ms>
+[Tue Oct 13 22:56:10 CDT 2015]	<450, 4, 100.00%, FC, 3068 ms>
+[Tue Oct 13 22:56:10 CDT 2015]	
+[Tue Oct 13 22:56:11 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/450_nodes_3.txt =========
+[Tue Oct 13 22:56:11 CDT 2015]	<450, 3, 0.44%, AC3, 48 ms>
+[Tue Oct 13 22:56:11 CDT 2015]	<450, 4, 100.00%, AC3, 75 ms>
+[Tue Oct 13 22:56:11 CDT 2015]	
+[Tue Oct 13 22:56:11 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/450_nodes_3.txt =========
+[Tue Oct 13 22:56:11 CDT 2015]	<450, 3, 0.44%, MAC, 65 ms>
+[Tue Oct 13 22:56:12 CDT 2015]	<450, 4, 100.00%, MAC, 989 ms>
+[Tue Oct 13 22:56:12 CDT 2015]	
+[Tue Oct 13 22:56:12 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/450_nodes_4.txt =========
+[Tue Oct 13 22:56:12 CDT 2015]	<450, 3, 100.00%, MIN_CONFLICTS, 101 ms>
+[Tue Oct 13 22:56:12 CDT 2015]	<450, 4, 100.00%, MIN_CONFLICTS, 56 ms>
+[Tue Oct 13 22:56:12 CDT 2015]	
+[Tue Oct 13 22:56:12 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/450_nodes_4.txt =========
+[Tue Oct 13 22:56:13 CDT 2015]	<450, 3, 2.22%, FC, 22 ms>
+[Tue Oct 13 22:56:16 CDT 2015]	<450, 4, 100.00%, FC, 3678 ms>
+[Tue Oct 13 22:56:16 CDT 2015]	
+[Tue Oct 13 22:56:16 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/450_nodes_4.txt =========
+[Tue Oct 13 22:56:17 CDT 2015]	<450, 3, 0.44%, AC3, 51 ms>
+[Tue Oct 13 22:56:17 CDT 2015]	<450, 4, 100.00%, AC3, 65 ms>
+[Tue Oct 13 22:56:17 CDT 2015]	
+[Tue Oct 13 22:56:17 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/450_nodes_4.txt =========
+[Tue Oct 13 22:56:17 CDT 2015]	<450, 3, 0.44%, MAC, 66 ms>
+[Tue Oct 13 22:56:18 CDT 2015]	<450, 4, 100.00%, MAC, 897 ms>
+[Tue Oct 13 22:56:18 CDT 2015]	
+[Tue Oct 13 22:56:18 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/450_nodes_5.txt =========
+[Tue Oct 13 22:56:18 CDT 2015]	<450, 3, 100.00%, MIN_CONFLICTS, 124 ms>
+[Tue Oct 13 22:56:18 CDT 2015]	<450, 4, 100.00%, MIN_CONFLICTS, 48 ms>
+[Tue Oct 13 22:56:18 CDT 2015]	
+[Tue Oct 13 22:56:18 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/450_nodes_5.txt =========
+[Tue Oct 13 22:56:18 CDT 2015]	<450, 3, 1.56%, FC, 24 ms>
+[Tue Oct 13 23:00:05 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/450_nodes_5.txt =========
+[Tue Oct 13 23:00:05 CDT 2015]	<450, 3, 0.44%, AC3, 54 ms>
+[Tue Oct 13 23:00:05 CDT 2015]	<450, 4, 100.00%, AC3, 96 ms>
+[Tue Oct 13 23:00:05 CDT 2015]	
+[Tue Oct 13 23:00:05 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/450_nodes_5.txt =========
+[Tue Oct 13 23:00:05 CDT 2015]	<450, 3, 0.44%, MAC, 67 ms>
+[Tue Oct 13 23:00:07 CDT 2015]	<450, 4, 100.00%, MAC, 1147 ms>
+[Tue Oct 13 23:00:07 CDT 2015]	
+[Tue Oct 13 23:00:07 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/450_nodes_6.txt =========
+[Tue Oct 13 23:00:07 CDT 2015]	<450, 3, 100.00%, MIN_CONFLICTS, 102 ms>
+[Tue Oct 13 23:00:07 CDT 2015]	<450, 4, 100.00%, MIN_CONFLICTS, 47 ms>
+[Tue Oct 13 23:00:07 CDT 2015]	
+[Tue Oct 13 23:00:07 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/450_nodes_6.txt =========
+[Tue Oct 13 23:00:07 CDT 2015]	<450, 3, 0.89%, FC, 29 ms>
+[Tue Oct 13 23:00:12 CDT 2015]	<450, 4, 100.00%, FC, 4378 ms>
+[Tue Oct 13 23:00:12 CDT 2015]	
+[Tue Oct 13 23:00:12 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/450_nodes_6.txt =========
+[Tue Oct 13 23:00:12 CDT 2015]	<450, 3, 0.44%, AC3, 57 ms>
+[Tue Oct 13 23:00:12 CDT 2015]	<450, 4, 100.00%, AC3, 74 ms>
+[Tue Oct 13 23:00:12 CDT 2015]	
+[Tue Oct 13 23:00:12 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/450_nodes_6.txt =========
+[Tue Oct 13 23:00:12 CDT 2015]	<450, 3, 0.44%, MAC, 70 ms>
+[Tue Oct 13 23:00:13 CDT 2015]	<450, 4, 100.00%, MAC, 945 ms>
+[Tue Oct 13 23:00:13 CDT 2015]	
+[Tue Oct 13 23:00:13 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/450_nodes_7.txt =========
+[Tue Oct 13 23:00:14 CDT 2015]	<450, 3, 100.00%, MIN_CONFLICTS, 129 ms>
+[Tue Oct 13 23:00:14 CDT 2015]	<450, 4, 100.00%, MIN_CONFLICTS, 48 ms>
+[Tue Oct 13 23:00:14 CDT 2015]	
+[Tue Oct 13 23:00:14 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/450_nodes_7.txt =========
+[Tue Oct 13 23:00:14 CDT 2015]	<450, 3, 2.89%, FC, 34 ms>
+[Tue Oct 13 23:00:18 CDT 2015]	<450, 4, 100.00%, FC, 3660 ms>
+[Tue Oct 13 23:00:18 CDT 2015]	
+[Tue Oct 13 23:00:18 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/450_nodes_7.txt =========
+[Tue Oct 13 23:00:18 CDT 2015]	<450, 3, 0.44%, AC3, 54 ms>
+[Tue Oct 13 23:00:18 CDT 2015]	<450, 4, 100.00%, AC3, 240 ms>
+[Tue Oct 13 23:00:18 CDT 2015]	
+[Tue Oct 13 23:00:18 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/450_nodes_7.txt =========
+[Tue Oct 13 23:00:18 CDT 2015]	<450, 3, 0.44%, MAC, 67 ms>
+[Tue Oct 13 23:00:21 CDT 2015]	<450, 4, 100.00%, MAC, 2420 ms>
+[Tue Oct 13 23:00:21 CDT 2015]	
+[Tue Oct 13 23:00:21 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/450_nodes_8.txt =========
+[Tue Oct 13 23:00:21 CDT 2015]	<450, 3, 100.00%, MIN_CONFLICTS, 111 ms>
+[Tue Oct 13 23:00:21 CDT 2015]	<450, 4, 100.00%, MIN_CONFLICTS, 58 ms>
+[Tue Oct 13 23:00:21 CDT 2015]	
+[Tue Oct 13 23:00:21 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/450_nodes_8.txt =========
+[Tue Oct 13 23:00:21 CDT 2015]	<450, 3, 3.56%, FC, 133 ms>
+[Tue Oct 13 23:00:22 CDT 2015]	<450, 4, 100.00%, FC, 303 ms>
+[Tue Oct 13 23:00:22 CDT 2015]	
+[Tue Oct 13 23:00:22 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/450_nodes_8.txt =========
+[Tue Oct 13 23:00:22 CDT 2015]	<450, 3, 0.44%, AC3, 51 ms>
+[Tue Oct 13 23:00:22 CDT 2015]	<450, 4, 100.00%, AC3, 66 ms>
+[Tue Oct 13 23:00:22 CDT 2015]	
+[Tue Oct 13 23:00:22 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/450_nodes_8.txt =========
+[Tue Oct 13 23:00:22 CDT 2015]	<450, 3, 0.44%, MAC, 68 ms>
+[Tue Oct 13 23:00:23 CDT 2015]	<450, 4, 100.00%, MAC, 944 ms>
+[Tue Oct 13 23:00:23 CDT 2015]	
+[Tue Oct 13 23:00:23 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/450_nodes_9.txt =========
+[Tue Oct 13 23:00:24 CDT 2015]	<450, 3, 100.00%, MIN_CONFLICTS, 119 ms>
+[Tue Oct 13 23:00:24 CDT 2015]	<450, 4, 100.00%, MIN_CONFLICTS, 51 ms>
+[Tue Oct 13 23:00:24 CDT 2015]	
+[Tue Oct 13 23:00:24 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/450_nodes_9.txt =========
+[Tue Oct 13 23:00:24 CDT 2015]	<450, 3, 2.44%, FC, 35 ms>
+[Tue Oct 13 23:02:41 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/450_nodes_9.txt =========
+[Tue Oct 13 23:02:42 CDT 2015]	<450, 3, 0.44%, AC3, 51 ms>
+[Tue Oct 13 23:02:42 CDT 2015]	<450, 4, 100.00%, AC3, 575 ms>
+[Tue Oct 13 23:02:42 CDT 2015]	
+[Tue Oct 13 23:02:42 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/450_nodes_9.txt =========
+[Tue Oct 13 23:02:42 CDT 2015]	<450, 3, 0.44%, MAC, 66 ms>
+[Tue Oct 13 23:03:04 CDT 2015]	<450, 4, 100.00%, MAC, 20999 ms>
+[Tue Oct 13 23:03:04 CDT 2015]	
+[Tue Oct 13 23:03:04 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/475_nodes_0.txt =========
+[Tue Oct 13 23:03:04 CDT 2015]	<475, 3, 100.00%, MIN_CONFLICTS, 118 ms>
+[Tue Oct 13 23:03:04 CDT 2015]	<475, 4, 100.00%, MIN_CONFLICTS, 54 ms>
+[Tue Oct 13 23:03:04 CDT 2015]	
+[Tue Oct 13 23:03:04 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/475_nodes_0.txt =========
+[Tue Oct 13 23:03:04 CDT 2015]	<475, 3, 1.26%, FC, 46 ms>
+[Tue Oct 13 23:07:00 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/475_nodes_0.txt =========
+[Tue Oct 13 23:07:00 CDT 2015]	<475, 3, 0.42%, AC3, 55 ms>
+[Tue Oct 13 23:07:00 CDT 2015]	<475, 4, 100.00%, AC3, 135 ms>
+[Tue Oct 13 23:07:00 CDT 2015]	
+[Tue Oct 13 23:07:00 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/475_nodes_0.txt =========
+[Tue Oct 13 23:07:00 CDT 2015]	<475, 3, 0.42%, MAC, 78 ms>
+[Tue Oct 13 23:07:02 CDT 2015]	<475, 4, 100.00%, MAC, 1857 ms>
+[Tue Oct 13 23:07:02 CDT 2015]	
+[Tue Oct 13 23:07:02 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/475_nodes_1.txt =========
+[Tue Oct 13 23:07:03 CDT 2015]	<475, 3, 100.00%, MIN_CONFLICTS, 108 ms>
+[Tue Oct 13 23:07:03 CDT 2015]	<475, 4, 100.00%, MIN_CONFLICTS, 55 ms>
+[Tue Oct 13 23:07:03 CDT 2015]	
+[Tue Oct 13 23:07:03 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/475_nodes_1.txt =========
+[Tue Oct 13 23:07:03 CDT 2015]	<475, 3, 3.58%, FC, 65 ms>
+[Tue Oct 13 23:08:27 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/475_nodes_1.txt =========
+[Tue Oct 13 23:08:27 CDT 2015]	<475, 3, 0.42%, AC3, 51 ms>
+[Tue Oct 13 23:08:27 CDT 2015]	<475, 4, 100.00%, AC3, 71 ms>
+[Tue Oct 13 23:08:27 CDT 2015]	
+[Tue Oct 13 23:08:27 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/475_nodes_1.txt =========
+[Tue Oct 13 23:08:27 CDT 2015]	<475, 3, 0.42%, MAC, 77 ms>
+[Tue Oct 13 23:08:28 CDT 2015]	<475, 4, 100.00%, MAC, 1030 ms>
+[Tue Oct 13 23:08:28 CDT 2015]	
+[Tue Oct 13 23:08:28 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/475_nodes_2.txt =========
+[Tue Oct 13 23:08:29 CDT 2015]	<475, 3, 100.00%, MIN_CONFLICTS, 111 ms>
+[Tue Oct 13 23:08:29 CDT 2015]	<475, 4, 100.00%, MIN_CONFLICTS, 57 ms>
+[Tue Oct 13 23:08:29 CDT 2015]	
+[Tue Oct 13 23:08:29 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/475_nodes_2.txt =========
+[Tue Oct 13 23:08:29 CDT 2015]	<475, 3, 1.68%, FC, 22 ms>
+[Tue Oct 13 23:09:56 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/475_nodes_2.txt =========
+[Tue Oct 13 23:09:56 CDT 2015]	<475, 3, 0.42%, AC3, 49 ms>
+[Tue Oct 13 23:09:58 CDT 2015]	<475, 4, 100.00%, AC3, 1412 ms>
+[Tue Oct 13 23:09:58 CDT 2015]	
+[Tue Oct 13 23:09:58 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/475_nodes_2.txt =========
+[Tue Oct 13 23:09:58 CDT 2015]	<475, 3, 0.42%, MAC, 68 ms>
+[Tue Oct 13 23:10:22 CDT 2015]	<475, 4, 100.00%, MAC, 24055 ms>
+[Tue Oct 13 23:10:22 CDT 2015]	
+[Tue Oct 13 23:10:22 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/475_nodes_3.txt =========
+[Tue Oct 13 23:10:23 CDT 2015]	<475, 3, 100.00%, MIN_CONFLICTS, 107 ms>
+[Tue Oct 13 23:10:23 CDT 2015]	<475, 4, 100.00%, MIN_CONFLICTS, 52 ms>
+[Tue Oct 13 23:10:23 CDT 2015]	
+[Tue Oct 13 23:10:23 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/475_nodes_3.txt =========
+[Tue Oct 13 23:10:23 CDT 2015]	<475, 3, 1.68%, FC, 28 ms>
+[Tue Oct 13 23:11:47 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/475_nodes_3.txt =========
+[Tue Oct 13 23:11:47 CDT 2015]	<475, 3, 0.42%, AC3, 50 ms>
+[Tue Oct 13 23:11:47 CDT 2015]	<475, 4, 100.00%, AC3, 68 ms>
+[Tue Oct 13 23:11:47 CDT 2015]	
+[Tue Oct 13 23:11:47 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/475_nodes_3.txt =========
+[Tue Oct 13 23:11:47 CDT 2015]	<475, 3, 0.42%, MAC, 68 ms>
+[Tue Oct 13 23:11:48 CDT 2015]	<475, 4, 100.00%, MAC, 1045 ms>
+[Tue Oct 13 23:11:48 CDT 2015]	
+[Tue Oct 13 23:11:48 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/475_nodes_4.txt =========
+[Tue Oct 13 23:11:49 CDT 2015]	<475, 3, 100.00%, MIN_CONFLICTS, 104 ms>
+[Tue Oct 13 23:11:49 CDT 2015]	<475, 4, 100.00%, MIN_CONFLICTS, 59 ms>
+[Tue Oct 13 23:11:49 CDT 2015]	
+[Tue Oct 13 23:11:49 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/475_nodes_4.txt =========
+[Tue Oct 13 23:11:49 CDT 2015]	<475, 3, 1.26%, FC, 32 ms>
+[Tue Oct 13 23:14:33 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/475_nodes_4.txt =========
+[Tue Oct 13 23:14:33 CDT 2015]	<475, 3, 0.42%, AC3, 56 ms>
+[Tue Oct 13 23:14:34 CDT 2015]	<475, 4, 100.00%, AC3, 186 ms>
+[Tue Oct 13 23:14:34 CDT 2015]	
+[Tue Oct 13 23:14:34 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/475_nodes_4.txt =========
+[Tue Oct 13 23:14:34 CDT 2015]	<475, 3, 0.42%, MAC, 67 ms>
+[Tue Oct 13 23:14:36 CDT 2015]	<475, 4, 100.00%, MAC, 1934 ms>
+[Tue Oct 13 23:14:36 CDT 2015]	
+[Tue Oct 13 23:14:36 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/475_nodes_5.txt =========
+[Tue Oct 13 23:14:36 CDT 2015]	<475, 3, 100.00%, MIN_CONFLICTS, 118 ms>
+[Tue Oct 13 23:14:36 CDT 2015]	<475, 4, 100.00%, MIN_CONFLICTS, 55 ms>
+[Tue Oct 13 23:14:36 CDT 2015]	
+[Tue Oct 13 23:14:36 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/475_nodes_5.txt =========
+[Tue Oct 13 23:14:36 CDT 2015]	<475, 3, 2.11%, FC, 54 ms>
+[Tue Oct 13 23:16:43 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/475_nodes_5.txt =========
+[Tue Oct 13 23:16:43 CDT 2015]	<475, 3, 0.42%, AC3, 52 ms>
+[Tue Oct 13 23:16:43 CDT 2015]	<475, 4, 100.00%, AC3, 271 ms>
+[Tue Oct 13 23:16:43 CDT 2015]	
+[Tue Oct 13 23:16:43 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/475_nodes_5.txt =========
+[Tue Oct 13 23:16:43 CDT 2015]	<475, 3, 0.42%, MAC, 66 ms>
+[Tue Oct 13 23:16:46 CDT 2015]	<475, 4, 100.00%, MAC, 3133 ms>
+[Tue Oct 13 23:16:46 CDT 2015]	
+[Tue Oct 13 23:16:47 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/475_nodes_6.txt =========
+[Tue Oct 13 23:16:47 CDT 2015]	<475, 3, 100.00%, MIN_CONFLICTS, 122 ms>
+[Tue Oct 13 23:16:47 CDT 2015]	<475, 4, 100.00%, MIN_CONFLICTS, 59 ms>
+[Tue Oct 13 23:16:47 CDT 2015]	
+[Tue Oct 13 23:16:47 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/475_nodes_6.txt =========
+[Tue Oct 13 23:16:47 CDT 2015]	<475, 3, 1.47%, FC, 41 ms>
+[Tue Oct 13 23:18:49 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/475_nodes_6.txt =========
+[Tue Oct 13 23:18:49 CDT 2015]	<475, 3, 0.42%, AC3, 54 ms>
+[Tue Oct 13 23:18:49 CDT 2015]	<475, 4, 100.00%, AC3, 105 ms>
+[Tue Oct 13 23:18:49 CDT 2015]	
+[Tue Oct 13 23:18:49 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/475_nodes_6.txt =========
+[Tue Oct 13 23:18:50 CDT 2015]	<475, 3, 0.42%, MAC, 69 ms>
+[Tue Oct 13 23:18:51 CDT 2015]	<475, 4, 100.00%, MAC, 1423 ms>
+[Tue Oct 13 23:18:51 CDT 2015]	
+[Tue Oct 13 23:18:51 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/475_nodes_7.txt =========
+[Tue Oct 13 23:18:51 CDT 2015]	<475, 3, 100.00%, MIN_CONFLICTS, 110 ms>
+[Tue Oct 13 23:18:51 CDT 2015]	<475, 4, 100.00%, MIN_CONFLICTS, 56 ms>
+[Tue Oct 13 23:18:51 CDT 2015]	
+[Tue Oct 13 23:18:51 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/475_nodes_7.txt =========
+[Tue Oct 13 23:18:52 CDT 2015]	<475, 3, 1.89%, FC, 27 ms>
+[Tue Oct 13 23:20:50 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/475_nodes_7.txt =========
+[Tue Oct 13 23:20:51 CDT 2015]	<475, 3, 0.42%, AC3, 53 ms>
+[Tue Oct 13 23:20:52 CDT 2015]	<475, 4, 100.00%, AC3, 1644 ms>
+[Tue Oct 13 23:20:52 CDT 2015]	
+[Tue Oct 13 23:20:52 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/475_nodes_7.txt =========
+[Tue Oct 13 23:20:52 CDT 2015]	<475, 3, 0.42%, MAC, 66 ms>
+[Tue Oct 13 23:21:01 CDT 2015]	<475, 4, 100.00%, MAC, 9006 ms>
+[Tue Oct 13 23:21:01 CDT 2015]	
+[Tue Oct 13 23:21:02 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/475_nodes_8.txt =========
+[Tue Oct 13 23:21:02 CDT 2015]	<475, 3, 100.00%, MIN_CONFLICTS, 105 ms>
+[Tue Oct 13 23:21:02 CDT 2015]	<475, 4, 100.00%, MIN_CONFLICTS, 48 ms>
+[Tue Oct 13 23:21:02 CDT 2015]	
+[Tue Oct 13 23:21:02 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/475_nodes_8.txt =========
+[Tue Oct 13 23:21:02 CDT 2015]	<475, 3, 3.37%, FC, 42 ms>
+[Tue Oct 13 23:24:06 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/475_nodes_8.txt =========
+[Tue Oct 13 23:24:06 CDT 2015]	<475, 3, 0.42%, AC3, 49 ms>
+[Tue Oct 13 23:24:06 CDT 2015]	<475, 4, 100.00%, AC3, 94 ms>
+[Tue Oct 13 23:24:06 CDT 2015]	
+[Tue Oct 13 23:24:06 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/475_nodes_8.txt =========
+[Tue Oct 13 23:24:06 CDT 2015]	<475, 3, 0.42%, MAC, 67 ms>
+[Tue Oct 13 23:24:08 CDT 2015]	<475, 4, 100.00%, MAC, 1174 ms>
+[Tue Oct 13 23:24:08 CDT 2015]	
+[Tue Oct 13 23:24:08 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/475_nodes_9.txt =========
+[Tue Oct 13 23:24:08 CDT 2015]	<475, 3, 100.00%, MIN_CONFLICTS, 115 ms>
+[Tue Oct 13 23:24:08 CDT 2015]	<475, 4, 100.00%, MIN_CONFLICTS, 56 ms>
+[Tue Oct 13 23:24:08 CDT 2015]	
+[Tue Oct 13 23:24:08 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/475_nodes_9.txt =========
+[Tue Oct 13 23:24:08 CDT 2015]	<475, 3, 2.32%, FC, 52 ms>
+[Tue Oct 13 23:25:29 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/475_nodes_9.txt =========
+[Tue Oct 13 23:25:29 CDT 2015]	<475, 3, 0.42%, AC3, 48 ms>
+[Tue Oct 13 23:25:29 CDT 2015]	<475, 4, 100.00%, AC3, 85 ms>
+[Tue Oct 13 23:25:29 CDT 2015]	
+[Tue Oct 13 23:25:29 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/475_nodes_9.txt =========
+[Tue Oct 13 23:25:29 CDT 2015]	<475, 3, 0.42%, MAC, 65 ms>
+[Tue Oct 13 23:25:30 CDT 2015]	<475, 4, 100.00%, MAC, 1118 ms>
+[Tue Oct 13 23:25:30 CDT 2015]	
+[Tue Oct 13 23:25:30 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/500_nodes_0.txt =========
+[Tue Oct 13 23:25:31 CDT 2015]	<500, 3, 100.00%, MIN_CONFLICTS, 115 ms>
+[Tue Oct 13 23:25:31 CDT 2015]	<500, 4, 100.00%, MIN_CONFLICTS, 61 ms>
+[Tue Oct 13 23:25:31 CDT 2015]	
+[Tue Oct 13 23:25:31 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/500_nodes_0.txt =========
+[Tue Oct 13 23:25:31 CDT 2015]	<500, 3, 2.80%, FC, 56 ms>
+[Tue Oct 13 23:27:50 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/500_nodes_0.txt =========
+[Tue Oct 13 23:27:50 CDT 2015]	<500, 3, 0.40%, AC3, 50 ms>
+[Tue Oct 13 23:27:51 CDT 2015]	<500, 4, 100.00%, AC3, 119 ms>
+[Tue Oct 13 23:27:51 CDT 2015]	
+[Tue Oct 13 23:27:51 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/500_nodes_0.txt =========
+[Tue Oct 13 23:27:51 CDT 2015]	<500, 3, 0.40%, MAC, 66 ms>
+[Tue Oct 13 23:27:53 CDT 2015]	<500, 4, 100.00%, MAC, 2063 ms>
+[Tue Oct 13 23:27:53 CDT 2015]	
+[Tue Oct 13 23:27:53 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/500_nodes_1.txt =========
+[Tue Oct 13 23:27:53 CDT 2015]	<500, 3, 100.00%, MIN_CONFLICTS, 110 ms>
+[Tue Oct 13 23:27:53 CDT 2015]	<500, 4, 100.00%, MIN_CONFLICTS, 65 ms>
+[Tue Oct 13 23:27:53 CDT 2015]	
+[Tue Oct 13 23:27:53 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/500_nodes_1.txt =========
+[Tue Oct 13 23:27:53 CDT 2015]	<500, 3, 2.80%, FC, 48 ms>
+[Tue Oct 13 23:28:06 CDT 2015]	<500, 4, 100.00%, FC, 12598 ms>
+[Tue Oct 13 23:28:06 CDT 2015]	
+[Tue Oct 13 23:28:06 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/500_nodes_1.txt =========
+[Tue Oct 13 23:28:06 CDT 2015]	<500, 3, 0.40%, AC3, 50 ms>
+[Tue Oct 13 23:28:06 CDT 2015]	<500, 4, 100.00%, AC3, 71 ms>
+[Tue Oct 13 23:28:06 CDT 2015]	
+[Tue Oct 13 23:28:07 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/500_nodes_1.txt =========
+[Tue Oct 13 23:28:07 CDT 2015]	<500, 3, 0.40%, MAC, 76 ms>
+[Tue Oct 13 23:28:08 CDT 2015]	<500, 4, 100.00%, MAC, 1076 ms>
+[Tue Oct 13 23:28:08 CDT 2015]	
+[Tue Oct 13 23:28:08 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/500_nodes_2.txt =========
+[Tue Oct 13 23:28:08 CDT 2015]	<500, 3, 100.00%, MIN_CONFLICTS, 117 ms>
+[Tue Oct 13 23:28:08 CDT 2015]	<500, 4, 100.00%, MIN_CONFLICTS, 62 ms>
+[Tue Oct 13 23:28:08 CDT 2015]	
+[Tue Oct 13 23:28:08 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/500_nodes_2.txt =========
+[Tue Oct 13 23:28:08 CDT 2015]	<500, 3, 1.80%, FC, 28 ms>
+[Tue Oct 13 23:30:54 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/500_nodes_2.txt =========
+[Tue Oct 13 23:30:54 CDT 2015]	<500, 3, 0.40%, AC3, 47 ms>
+[Tue Oct 13 23:30:55 CDT 2015]	<500, 4, 100.00%, AC3, 440 ms>
+[Tue Oct 13 23:30:55 CDT 2015]	
+[Tue Oct 13 23:30:55 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/500_nodes_2.txt =========
+[Tue Oct 13 23:30:55 CDT 2015]	<500, 3, 0.40%, MAC, 87 ms>
+[Tue Oct 13 23:31:00 CDT 2015]	<500, 4, 100.00%, MAC, 4348 ms>
+[Tue Oct 13 23:31:00 CDT 2015]	
+[Tue Oct 13 23:31:00 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/500_nodes_3.txt =========
+[Tue Oct 13 23:31:00 CDT 2015]	<500, 3, 100.00%, MIN_CONFLICTS, 115 ms>
+[Tue Oct 13 23:31:00 CDT 2015]	<500, 4, 100.00%, MIN_CONFLICTS, 62 ms>
+[Tue Oct 13 23:31:00 CDT 2015]	
+[Tue Oct 13 23:31:00 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/500_nodes_3.txt =========
+[Tue Oct 13 23:31:00 CDT 2015]	<500, 3, 1.40%, FC, 35 ms>
+[Tue Oct 13 23:31:02 CDT 2015]	<500, 4, 100.00%, FC, 1365 ms>
+[Tue Oct 13 23:31:02 CDT 2015]	
+[Tue Oct 13 23:31:02 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/500_nodes_3.txt =========
+[Tue Oct 13 23:31:02 CDT 2015]	<500, 3, 0.40%, AC3, 49 ms>
+[Tue Oct 13 23:31:02 CDT 2015]	<500, 4, 100.00%, AC3, 76 ms>
+[Tue Oct 13 23:31:02 CDT 2015]	
+[Tue Oct 13 23:31:02 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/500_nodes_3.txt =========
+[Tue Oct 13 23:31:02 CDT 2015]	<500, 3, 0.40%, MAC, 67 ms>
+[Tue Oct 13 23:31:03 CDT 2015]	<500, 4, 100.00%, MAC, 1171 ms>
+[Tue Oct 13 23:31:03 CDT 2015]	
+[Tue Oct 13 23:31:03 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/500_nodes_4.txt =========
+[Tue Oct 13 23:31:04 CDT 2015]	<500, 3, 100.00%, MIN_CONFLICTS, 125 ms>
+[Tue Oct 13 23:31:04 CDT 2015]	<500, 4, 100.00%, MIN_CONFLICTS, 63 ms>
+[Tue Oct 13 23:31:04 CDT 2015]	
+[Tue Oct 13 23:31:04 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/500_nodes_4.txt =========
+[Tue Oct 13 23:31:04 CDT 2015]	<500, 3, 1.40%, FC, 15 ms>
+[Tue Oct 13 23:32:22 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/500_nodes_4.txt =========
+[Tue Oct 13 23:32:22 CDT 2015]	<500, 3, 0.40%, AC3, 54 ms>
+[Tue Oct 13 23:32:49 CDT 2015]	<500, 4, 100.00%, AC3, 27474 ms>
+[Tue Oct 13 23:32:49 CDT 2015]	
+[Tue Oct 13 23:32:49 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/500_nodes_4.txt =========
+[Tue Oct 13 23:32:50 CDT 2015]	<500, 3, 0.40%, MAC, 67 ms>
+[Tue Oct 13 23:35:04 CDT 2015]	<500, 4, 100.00%, MAC, 134262 ms>
+[Tue Oct 13 23:35:04 CDT 2015]	
+[Tue Oct 13 23:35:04 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/500_nodes_5.txt =========
+[Tue Oct 13 23:35:04 CDT 2015]	<500, 3, 100.00%, MIN_CONFLICTS, 119 ms>
+[Tue Oct 13 23:35:04 CDT 2015]	<500, 4, 100.00%, MIN_CONFLICTS, 57 ms>
+[Tue Oct 13 23:35:04 CDT 2015]	
+[Tue Oct 13 23:35:04 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/500_nodes_5.txt =========
+[Tue Oct 13 23:35:04 CDT 2015]	<500, 3, 2.20%, FC, 22 ms>
+[Tue Oct 13 23:37:11 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/500_nodes_5.txt =========
+[Tue Oct 13 23:37:11 CDT 2015]	<500, 3, 0.40%, AC3, 51 ms>
+[Tue Oct 13 23:37:11 CDT 2015]	<500, 4, 100.00%, AC3, 128 ms>
+[Tue Oct 13 23:37:11 CDT 2015]	
+[Tue Oct 13 23:37:11 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/500_nodes_5.txt =========
+[Tue Oct 13 23:37:11 CDT 2015]	<500, 3, 0.40%, MAC, 66 ms>
+[Tue Oct 13 23:37:13 CDT 2015]	<500, 4, 100.00%, MAC, 1615 ms>
+[Tue Oct 13 23:37:13 CDT 2015]	
+[Tue Oct 13 23:37:13 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/500_nodes_6.txt =========
+[Tue Oct 13 23:37:13 CDT 2015]	<500, 3, 100.00%, MIN_CONFLICTS, 113 ms>
+[Tue Oct 13 23:37:13 CDT 2015]	<500, 4, 100.00%, MIN_CONFLICTS, 58 ms>
+[Tue Oct 13 23:37:13 CDT 2015]	
+[Tue Oct 13 23:37:14 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/500_nodes_6.txt =========
+[Tue Oct 13 23:37:14 CDT 2015]	<500, 3, 0.80%, FC, 62 ms>
+[Tue Oct 13 23:39:36 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/500_nodes_6.txt =========
+[Tue Oct 13 23:39:36 CDT 2015]	<500, 3, 0.40%, AC3, 53 ms>
+[Tue Oct 13 23:39:51 CDT 2015]	<500, 4, 100.00%, AC3, 15167 ms>
+[Tue Oct 13 23:39:51 CDT 2015]	
+[Tue Oct 13 23:39:52 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/500_nodes_6.txt =========
+[Tue Oct 13 23:39:52 CDT 2015]	<500, 3, 0.40%, MAC, 89 ms>
+[Tue Oct 13 23:41:31 CDT 2015]	<500, 4, 100.00%, MAC, 99586 ms>
+[Tue Oct 13 23:41:31 CDT 2015]	
+[Tue Oct 13 23:41:31 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/500_nodes_7.txt =========
+[Tue Oct 13 23:41:32 CDT 2015]	<500, 3, 100.00%, MIN_CONFLICTS, 128 ms>
+[Tue Oct 13 23:41:32 CDT 2015]	<500, 4, 100.00%, MIN_CONFLICTS, 65 ms>
+[Tue Oct 13 23:41:32 CDT 2015]	
+[Tue Oct 13 23:41:32 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/500_nodes_7.txt =========
+[Tue Oct 13 23:41:32 CDT 2015]	<500, 3, 1.40%, FC, 21 ms>
+[Tue Oct 13 23:44:13 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/500_nodes_7.txt =========
+[Tue Oct 13 23:44:13 CDT 2015]	<500, 3, 0.40%, AC3, 47 ms>
+[Tue Oct 13 23:44:13 CDT 2015]	<500, 4, 100.00%, AC3, 240 ms>
+[Tue Oct 13 23:44:13 CDT 2015]	
+[Tue Oct 13 23:44:13 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/500_nodes_7.txt =========
+[Tue Oct 13 23:44:14 CDT 2015]	<500, 3, 0.40%, MAC, 65 ms>
+[Tue Oct 13 23:44:16 CDT 2015]	<500, 4, 100.00%, MAC, 2393 ms>
+[Tue Oct 13 23:44:16 CDT 2015]	
+[Tue Oct 13 23:44:16 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/500_nodes_8.txt =========
+[Tue Oct 13 23:44:16 CDT 2015]	<500, 3, 100.00%, MIN_CONFLICTS, 119 ms>
+[Tue Oct 13 23:44:16 CDT 2015]	<500, 4, 100.00%, MIN_CONFLICTS, 56 ms>
+[Tue Oct 13 23:44:16 CDT 2015]	
+[Tue Oct 13 23:44:16 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/500_nodes_8.txt =========
+[Tue Oct 13 23:44:17 CDT 2015]	<500, 3, 1.80%, FC, 29 ms>
+[Tue Oct 13 23:48:59 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/500_nodes_8.txt =========
+[Tue Oct 13 23:48:59 CDT 2015]	<500, 3, 0.40%, AC3, 55 ms>
+[Tue Oct 13 23:49:00 CDT 2015]	<500, 4, 100.00%, AC3, 277 ms>
+[Tue Oct 13 23:49:00 CDT 2015]	
+[Tue Oct 13 23:49:00 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/500_nodes_8.txt =========
+[Tue Oct 13 23:49:00 CDT 2015]	<500, 3, 0.40%, MAC, 90 ms>
+[Tue Oct 13 23:49:03 CDT 2015]	<500, 4, 100.00%, MAC, 2982 ms>
+[Tue Oct 13 23:49:03 CDT 2015]	
+[Tue Oct 13 23:49:03 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/500_nodes_9.txt =========
+[Tue Oct 13 23:49:03 CDT 2015]	<500, 3, 100.00%, MIN_CONFLICTS, 114 ms>
+[Tue Oct 13 23:49:03 CDT 2015]	<500, 4, 100.00%, MIN_CONFLICTS, 58 ms>
+[Tue Oct 13 23:49:03 CDT 2015]	
+[Tue Oct 13 23:49:04 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/500_nodes_9.txt =========
+[Tue Oct 13 23:49:04 CDT 2015]	<500, 3, 1.40%, FC, 15 ms>
+[Tue Oct 13 23:50:51 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/500_nodes_9.txt =========
+[Tue Oct 13 23:50:51 CDT 2015]	<500, 3, 0.40%, AC3, 52 ms>
+[Tue Oct 13 23:50:51 CDT 2015]	<500, 4, 100.00%, AC3, 96 ms>
+[Tue Oct 13 23:50:51 CDT 2015]	
+[Tue Oct 13 23:50:51 CDT 2015]	========= <nodeTotal, k-color, completion %, strategy, time > ========= ./graphs/500_nodes_9.txt =========
+[Tue Oct 13 23:50:51 CDT 2015]	<500, 3, 0.40%, MAC, 68 ms>
+[Tue Oct 13 23:50:53 CDT 2015]	<500, 4, 100.00%, MAC, 1350 ms>
+[Tue Oct 13 23:50:53 CDT 2015]	
